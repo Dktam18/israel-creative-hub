@@ -1,5 +1,5 @@
 import React from "react";
-import { courses } from "../components/assets/data/dummydata";
+// import { courses } from "../components/assets/data/dummydata";
 import { AiTwotoneCalendar } from "react-icons/ai";
 import { NavLink } from "react-router-dom";
 

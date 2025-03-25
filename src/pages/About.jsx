@@ -1,8 +1,8 @@
 import React from "react"
 import aboutImg from "../components/assets/images/about.jpg"
-import aboutImgBanner from "../components/assets/images/about-banner.jpg"
-import imgs from "../components/assets/images/join1.png"
-import { FaBookReader, FaBrain, FaChalkboardTeacher, FaHackerNews, FaLayerGroup, FaRegNewspaper, FaSwatchbook } from "react-icons/fa"
+// import aboutImgBanner from "../components/assets/images/about-banner.jpg"
+// import imgs from "../components/assets/images/join1.png"
+import { FaBookReader, FaBrain, FaChalkboardTeacher,FaRegNewspaper } from "react-icons/fa"
 import { AiOutlineCheck } from "react-icons/ai"
 
 export const About = () => {
@@ -54,22 +54,23 @@ export const AboutContent = () => {
         </div>
         <div className='right w-2/3 md:w-full md:mt-16'>
           <div className='heading w-4/5 md:w-full'>
-            <h1 className='text-3xl font-semibold text-black'>Achieve Your Goals With Educal</h1>
+            <h1 className='text-3xl font-semibold text-black'>Ace your exams with Israel Creative Hub</h1>
             <span className='text-sm mt-2 block leading-6'> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam officia, reiciendis sapiente adipisci nulla non consequuntur eos repellendus laborum veritatis obcaecati neque est id porro voluptatum. Fuga iure nulla cum. Lost the plot bobby such a fibber bleeding bits and bobs don't get shirty with me bugger all mate chinwag super pukka william barney, horse play buggered.</span>
             <ul className='my-5'>
               <li className='text-sm flex items-center gap-5'>
-                <AiOutlineCheck className='text-green-500' /> Upskill your organization.
+                <AiOutlineCheck className='text-green-500' />Access to past questions and relevant materials
               </li>
               <li className='text-sm flex items-center gap-5 my-2'>
                 <AiOutlineCheck className='text-green-500' />
-                Access more then 100K online courses
+                Daily intensive classes
               </li>
               <li className='text-sm flex items-center gap-5'>
                 <AiOutlineCheck className='text-green-500' />
-                Learn the latest skills
+                Acess to question and answer sessions
               </li>
             </ul>
-            <button className='px-5 py-2 border border-gray-300 rounded-md text-sm'>Apply Now</button>
+            <button className='px-5 py-2 border border-gray-300 rounded-md text-sm success'>JAMB CLASS</button>
+            <button className='px-5 py-2 border border-gray-300 rounded-md text-sm'>WAEC CLASS</button>
           </div>
         </div>
       </div>

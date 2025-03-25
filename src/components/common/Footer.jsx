@@ -2,7 +2,7 @@ import React from "react";
 import logImg from "../assets/images/logo-black.jpg";
 // import { BsApple, BsGooglePlay } from "react-icons/bs";
 import { NavLink } from "react-router-dom";
-import { SocialIcon } from 'react-social-icons'
+import { SocialIcon } from 'react-social-icons' 
 
 
 export const Footer = () => {
@@ -15,11 +15,12 @@ export const Footer = () => {
             Continue learning by <br /> joining us on all social media platforms.
           </h1>
           <div class="social-icons" style={{}} >
-          <SocialIcon url="" network="facebook" style={{ height: 50, width: 50,}} class='social-icons' />
-          <SocialIcon url="" network="x" style={{ height: 50, width: 50, }} class='social-icons'/>
-          <SocialIcon url="" network="youtube" style={{ height: 50, width: 50, }} class='social-icons'/>
-          <SocialIcon url="" network="whatsapp" style={{ height: 50, width: 50, }} class='social-icons'/>
-          <SocialIcon url="" network="telegram" style={{ height: 50, width: 50, }} class='social-icons'/>
+          <SocialIcon url="https://www.facebook.com/profile.php?id=61571040717545&mibextid=ZbWKwL" network="facebook" style={{ height: 50, width: 50,}} target="blank" class='social-icons' />
+          <SocialIcon url="https://x.com/IsraelHub71817" network="x" style={{ height: 50, width: 50, }} target="blank" class='social-icons'/>
+          <SocialIcon url="https://youtube.com/@israelcreativehub?si=qoL4mVNnimQDftTj" network="youtube" style={{ height: 50, width: 50, }} target="blank" class='social-icons'/>
+          <SocialIcon url="https://whatsapp.com/channel/0029VajOfp62UPBOfXpold3b" network="whatsapp" style={{ height: 50, width: 50, }} target="blank" class='social-icons'/>
+          <SocialIcon url="https://t.me/icreativeh" network="telegram" style={{ height: 50, width: 50, }} target="blank" class='social-icons'/>
+          {/* <SocialIcon url="israelcreativehub@gmail.com" network="share" style={{ height: 50, width: 50, }} class='social-icons'/> */}
           </div>
           </div>
         <div className="right w-[40%] md:w-full flex items-center px-5 rounded-r-lg rounded-bl-[500px] gap-8 bg-[#FF7C54] md:bg-transparent md:p-8">
