@@ -82,7 +82,7 @@ export const HomeContent = () => {
                   <img
                     src={heroImg}
                     alt=""
-                    className="h-full w-full object-contain z-20 relative hero-img m-top=10"
+                    className="h-full w-full object-contain z-20 relative hero-img m-top=8"
                   />
                 </div>
               </div>

@@ -55,7 +55,7 @@ export const AboutContent = () => {
         <div className='right w-2/3 md:w-full md:mt-16'>
           <div className='heading w-4/5 md:w-full'>
             <h1 className='text-3xl font-semibold text-black'>Ace your exams with Israel Creative Hub</h1>
-            <span className='text-sm mt-2 block leading-6'> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam officia, reiciendis sapiente adipisci nulla non consequuntur eos repellendus laborum veritatis obcaecati neque est id porro voluptatum. Fuga iure nulla cum. Lost the plot bobby such a fibber bleeding bits and bobs don't get shirty with me bugger all mate chinwag super pukka william barney, horse play buggered.</span>
+            <span className='text-sm mt-2 block leading-6'> We are dedicated to helping thousands of students become top-scorers in various exams. We are able to achieve this as a result of the following: </span>
             <ul className='my-5'>
               <li className='text-sm flex items-center gap-5'>
                 <AiOutlineCheck className='text-green-500' />Access to past questions and relevant materials
@@ -64,9 +64,13 @@ export const AboutContent = () => {
                 <AiOutlineCheck className='text-green-500' />
                 Daily intensive classes
               </li>
+              <li className='text-sm flex items-center gap-5 my-2'>
+                <AiOutlineCheck className='text-green-500' />
+                Syllabus based tutorials
+              </li>
               <li className='text-sm flex items-center gap-5'>
                 <AiOutlineCheck className='text-green-500' />
-                Acess to question and answer sessions
+                Access to question and answer sessions
               </li>
             </ul>
             <button className='px-5 py-2 border border-gray-300 rounded-md text-sm success'>JAMB CLASS</button>
