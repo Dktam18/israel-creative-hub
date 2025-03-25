@@ -78,7 +78,7 @@ export const HomeContent = () => {
                   // alt=""
                   // className=" absolute top-32 left-10 w-96 md:left-10 hero"
                 />
-                <div className="heroImg h-[70vh] w-full hero-responsive ">
+                <div className="heroImg h-[90vh] w-full hero-responsive ">
                   <img
                     src={heroImg}
                     alt=""
