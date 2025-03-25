@@ -33,7 +33,7 @@ const AuthForm = () => {
       <h2>{isSignup ? "Sign Up" : "Login"}</h2>
       {error && <p style={styles.error}>{error}</p>}
       <form onSubmit={handleSubmit} style={styles.form}>
-        {isSignup && (
+        {isSignup && ( 
           <input
             type="text"
             name="username"
