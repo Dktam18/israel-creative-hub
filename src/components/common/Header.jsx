@@ -4,6 +4,7 @@ import { LinkData } from "../assets/data/dummydata"
 import { NavLink } from "react-router-dom"
 import { BiShoppingBag } from "react-icons/bi"
 import { HiOutlineMenuAlt1, HiViewGrid } from "react-icons/hi"
+import { Login } from "../pages/Login"
 
 export const Header = () => {
   const [open, setOpen] = useState(false)
@@ -30,10 +31,14 @@ export const Header = () => {
             </ul>
           </nav>
           <div className='account flex items-center gap-5'>
+            <a href="login">
             <button>
               <BiShoppingBag size={25} />
             </button>
+            </a>
+            <a href="login">
             <button>Login</button>{" "}
+            </a>
             <button className='open-menu' onClick={() => setOpen(!open)}>
               <HiOutlineMenuAlt1 size={25} />
             </button>

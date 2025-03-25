@@ -73,8 +73,12 @@ export const AboutContent = () => {
                 Access to question and answer sessions
               </li>
             </ul>
+            <a href="https://chat.whatsapp.com/GMZrceHJFws1q4SFny4Adb">
             <button className='px-5 py-2 border border-gray-300 rounded-md text-sm success'>JAMB CLASS</button>
+            </a>
+            <a href="https://chat.whatsapp.com/JHHt038MmXkDMZUuDf8z8I">
             <button className='px-5 py-2 border border-gray-300 rounded-md text-sm'>WAEC CLASS</button>
+            </a>
           </div>
         </div>
       </div>
