@@ -68,7 +68,7 @@ export const HomeContent = () => {
                 </span>
               </div>
               <span className="text-[14px]">
-                You`re guaranteed to find something that`s right for you.
+                With us, your 9'As in WAEC and JAMB and 300+ JAMB score is guaranteed
               </span>
             </div>
             <div className="right w-1/2 md:w-full relative">

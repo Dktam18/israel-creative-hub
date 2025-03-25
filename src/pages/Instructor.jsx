@@ -7,8 +7,8 @@ export const Instructor = () => (
     <section className='instructor mb-16'>
       <div className='container'>
         <div className='heading py-12 text-center w-2/3 m-auto md:w-full'>
-          <h1 className='text-3xl font-semibold text-black'>What Is Skilline?</h1>
-          <span className='text-[14px] mt-2 block'>Sloshed faff about me old mucker blatant bubble and squeak hanky panky some dodgy chav bevvy arse chimney pot I, ruddy plastered buggered smashing blow off I'm telling up the kyver he legged it bleeder jolly good,</span>
+          <h1 className='text-3xl font-semibold text-black'>Some of our Academic services</h1>
+          {/* <span className='text-[14px] mt-2 block'>Sloshed faff about me old mucker blatant bubble and squeak hanky panky some dodgy chav bevvy arse chimney pot I, ruddy plastered buggered smashing blow off I'm telling up the kyver he legged it bleeder jolly good,</span> */}
         </div>
         <div className='content grid grid-cols-2 gap-5 md:grid-cols-1'>
           <div className='images rounded-lg relative overflow-hidden h-72 w-ful before:bg-backbg before:h-72 before:w-full before:absolute before:top-0 before:left-0 before:content before:z-10'>
