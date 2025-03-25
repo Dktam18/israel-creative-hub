@@ -37,6 +37,9 @@ export const HomeContent = () => {
     <style>
       
     </style>
+    <head>
+    <script defer src="https://cloud.umami.is/script.js" data-website-id="1a12b620-2baf-4935-8e21-defc1f7f8ce7"></script>
+    </head>
       <section className="bg-secondary py-10 h-[92vh] md:h-full">
         <div className="container">
           <div className="flex items-center justify-center md:flex-col">
