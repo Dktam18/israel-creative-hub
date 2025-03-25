@@ -1,9 +1,9 @@
 import React from "react";
 import heroImg from "../components/assets/images/hero.png";
 import heroImgback from "../components/assets/images/hero-shape-purple.png";
-import waec from "../components/assets/images/waec.jpg";
-import neco from "../components/assets/images/neco.jpg";
-import jamb from "../components/assets/images/jamb.jpg";
+// import waec from "../components/assets/images/waec.jpg";
+// import neco from "../components/assets/images/neco.jpg";
+// import jamb from "../components/assets/images/jamb.jpg";
 
 import { FiSearch } from "react-icons/fi";
 // import { BsFillLightningChargeFill } from "react-icons/bs";

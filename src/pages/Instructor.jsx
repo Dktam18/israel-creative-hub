@@ -1,7 +1,6 @@
 import React from "react"
 import { FaGraduationCap, FaUsers } from "react-icons/fa"
 import {  GiCalendar, GiEvilBook  } from "react-icons/gi"
-import resultchecker from '../components/assets/images/result-checker.jpg'
 
 export const Instructor = () => (
   <>
