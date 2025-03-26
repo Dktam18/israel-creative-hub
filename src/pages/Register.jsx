@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export const Login = () => {
+export const Register = () => {
   const [formData, setFormData] = useState({ email: "", password: "" });
   const [error, setError] = useState("");
 
@@ -31,6 +31,28 @@ export const Login = () => {
         {error && <p className="text-red-500 text-sm text-center mt-2">{error}</p>}
 
         <form onSubmit={handleSubmit} className="mt-6">
+          <div className="mb-4">
+            <label className="block text-gray-700 font-medium">Firstname</label>
+            <input
+              name="text"
+              type="text"
+              placeholder="Enter your firstname"
+              value={formData.name}
+              onChange={handleChange}
+              className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+            />
+          </div>
+          <div className="mb-4">
+            <label className="block text-gray-700 font-medium">Lastname</label>
+            <input
+              name="text"
+              type="text"
+              placeholder="Enter your Lastname"
+              value={formData.name}
+              onChange={handleChange}
+              className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+            />
+          </div>
           <div className="mb-4">
             <label className="block text-gray-700 font-medium">Email</label>
             <input
@@ -63,12 +85,12 @@ export const Login = () => {
             type="submit"
             className="w-full bg-blue-600 text-white py-2 rounded-lg font-bold hover:bg-blue-700 transition"
           >
-            Log In
+           Signup
           </button>
         </form>
 
         <p className="text-center text-sm text-gray-600 mt-4">
-          Don't have an account? <a href="google.com" className="text-blue-500 hover:underline">Sign up</a>
+          Already have an account? <a href="Login.jsx" className="text-blue-500 hover:underline">Sign in</a>
         </p>
       </div>
     </div>

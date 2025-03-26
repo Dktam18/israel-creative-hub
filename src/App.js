@@ -7,6 +7,7 @@ import { Courses } from "./pages/Courses"
 import { Blog } from "./pages/Blog"
 import { Instructor } from "./pages/Instructor"
 import { Login } from "./pages/Login"
+import { Register } from "./pages/Register"
 
 function App() {
   return (
@@ -66,6 +67,14 @@ function App() {
             element={
              
                 <Login />
+             
+            }
+          />
+          <Route
+            path='/register'
+            element={
+             
+                <Register />
              
             }
           />
