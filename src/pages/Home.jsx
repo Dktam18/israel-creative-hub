@@ -1,6 +1,6 @@
 import React from "react";
 import heroImg from "../components/assets/images/hero.png";
-import heroImgback from "../components/assets/images/hero-shape-purple.png";
+// import heroImgback from "../components/assets/images/hero-shape-purple.png";
 // import waec from "../components/assets/images/waec.jpg";
 // import neco from "../components/assets/images/neco.jpg";
 // import jamb from "../components/assets/images/jamb.jpg";
@@ -76,11 +76,7 @@ export const HomeContent = () => {
             </div>
             <div className="right w-1/2 md:w-full relative">
               <div className="images relative heroImgblack">
-                <img
-                  // src={heroImgback}
-                  // alt=""
-                  // className=" absolute top-32 left-10 w-96 md:left-10 hero"
-                />
+               
                 <div className="heroImg h-[90vh] w-full hero-responsive ">
                   <img
                     src={heroImg}
