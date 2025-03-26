@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 export const Register = () => {
-  const [formData, setFormData] = useState({ email: "", password: "" });
+  const [formData, setFormData] = useState({ firstname: "", lastname: "", email: "", password: "" });
   const [error, setError] = useState("");
 
   const handleChange = (e) => {
@@ -26,20 +26,22 @@ export const Register = () => {
         <div>
         <img src="https://i.postimg.cc/rmwmDmWy/favicon.png" alt="" style={{width:'7rem', alignItems : 'centre', textAlign: 'centre', marginLeft:'6rem', position:'relative'}}/>
          </div>
-        <h2 className="text-2xl font-bold text-center text-blue-600">Login</h2>
+        <h2 className="text-2xl font-bold text-center text-blue-600">Register</h2>
 
         {error && <p className="text-red-500 text-sm text-center mt-2">{error}</p>}
 
         <form onSubmit={handleSubmit} className="mt-6">
+        <div id="signInMessage" class="messageDiv" style="display:none;"></div>
           <div className="mb-4">
             <label className="block text-gray-700 font-medium">Firstname</label>
             <input
-              name="text"
+              name="firstname"
               type="text"
               placeholder="Enter your firstname"
               value={formData.name}
               onChange={handleChange}
               className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+              id="fName"
             />
           </div>
           <div className="mb-4">
@@ -51,6 +53,7 @@ export const Register = () => {
               value={formData.name}
               onChange={handleChange}
               className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+              id="lName"
             />
           </div>
           <div className="mb-4">
@@ -62,6 +65,7 @@ export const Register = () => {
               value={formData.email}
               onChange={handleChange}
               className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+              id="rEmail"
             />
           </div>
 
@@ -74,6 +78,7 @@ export const Register = () => {
               value={formData.password}
               onChange={handleChange}
               className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+              id="rPassword"
             />
           </div>
 
@@ -90,7 +95,7 @@ export const Register = () => {
         </form>
 
         <p className="text-center text-sm text-gray-600 mt-4">
-          Already have an account? <a href="Login.jsx" className="text-blue-500 hover:underline">Sign in</a>
+          Already have an account? <a href="login" className="text-blue-500 hover:underline">Sign in</a>
         </p>
       </div>
     </div>
