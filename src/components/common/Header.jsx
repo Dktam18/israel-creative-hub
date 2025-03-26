@@ -15,7 +15,7 @@ export const Header = () => {
           <div className='logo flex items-center gap-6'>
             <img src={LogoImg} alt='logo' className='h-10' />
             <div className='category flex items-center text-sm gap-3'>
-              <HiViewGrid size={20} />
+              {/* <HiViewGrid size={20} /> */}
               <span>Israel Creative Hub</span>
             </div>
           </div>
