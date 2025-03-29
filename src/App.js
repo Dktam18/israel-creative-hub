@@ -9,10 +9,12 @@ import { Instructor } from "./pages/Instructor"
 import { Login } from "./pages/Login"
 import { Register } from "./pages/Register"
 import Practice from "./pages/Practice"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 function App() {
   return (
     <>
+    <SpeedInsights/>
       <BrowserRouter>
         <Routes>
           <Route
