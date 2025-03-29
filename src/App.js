@@ -8,6 +8,7 @@ import { Blog } from "./pages/Blog"
 import { Instructor } from "./pages/Instructor"
 import { Login } from "./pages/Login"
 import { Register } from "./pages/Register"
+import Practice from "./pages/Practice"
 
 function App() {
   return (
@@ -68,6 +69,14 @@ function App() {
              
                 <Login />
              
+            }
+          />
+          <Route
+            path='/practice'
+            element={
+             <Layout>
+                <Practice />
+                </Layout>
             }
           />
           <Route

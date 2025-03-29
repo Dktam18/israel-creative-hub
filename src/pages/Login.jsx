@@ -17,10 +17,11 @@ export const Login = () => {
     }
     console.log("Logging in with:", formData);
   };
-
+<script type="module" src="Firebaseauth.js"></script>
   return (
     <>
-    <script type="module" src="Firebaseauth.js"></script>
+    <link rel="stylesheet" href="Ref.css" />
+    
     <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-blue-100 to-blue-300">
       <div className="bg-white shadow-lg rounded-xl p-8 w-96">
         <div>

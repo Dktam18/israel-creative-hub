@@ -18,9 +18,10 @@ export const Register = () => {
     console.log("Logging in with:", formData);
   };
 
+  <script type="module" src="Firebaseauth.js"></script>
   return (
     <>
-    <script type="module" src="Firebaseauth.js"></script>
+    <link rel="stylesheet" href="Ref.css" />
     <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-blue-100 to-blue-300">
       <div className="bg-white shadow-lg rounded-xl p-8 w-96">
         <div>
@@ -30,8 +31,10 @@ export const Register = () => {
 
         {error && <p className="text-red-500 text-sm text-center mt-2">{error}</p>}
 
-        <form onSubmit={handleSubmit} className="mt-6">
-        <div id="signInMessage" class="messageDiv" style="display:none;"></div>
+        <form onSubmit={{handleSubmit}} method="POST" className="mt-6">
+
+        <div id="signInMessage" class="messageDiv" style={{display:'none'}}></div>
+
           <div className="mb-4">
             <label className="block text-gray-700 font-medium">Firstname</label>
             <input
