@@ -8,6 +8,28 @@ import { HiOutlineMenuAlt1 } from "react-icons/hi"
 
 export const Header = () => {
   const [open, setOpen] = useState(false)
+
+  // const btnRef = React.useRef(null);
+
+  const handleClick = () => {
+    alert("Not available yet!")
+  }
+  // React.useEffect(() => {
+  //   const handleClick = () => {
+  //     alert("Not available yet!");
+  //   };
+
+  //   const btnnn = btnRef.current;
+  //   if (btnnn) {
+  //     btnnn.addEventListener("click", handleClick);
+  //   }
+
+  //   return () => {
+  //     if (btnnn) {
+  //       btnnn.removeEventListener("click", handleClick);
+  //     }
+  //   };
+  // }, []);
   return (
     <>
       <header className='bg-white py-4 text-black sticky z-50 shadow-md top-0 left-0 w-full'>
@@ -31,13 +53,15 @@ export const Header = () => {
             </ul>
           </nav>
           <div className='account flex items-center gap-5'>
-            <NavLink href="../../pages/Login.jsx">
+            <NavLink href="#">   
+
+              {/* ../../pages/Login.jsx  */}
             <button>
               <BiShoppingBag size={25} />
             </button>
             </NavLink>
-            <NavLink to="/Login">
-            <button>Login</button>{" "}
+            <NavLink to="Login">
+            <button id="btnnn" onClick={handleClick}>Login</button>{" "}
             </NavLink>
             <button className='open-menu' onClick={() => setOpen(!open)}>
               <HiOutlineMenuAlt1 size={25} />

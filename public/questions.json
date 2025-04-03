@@ -1,0 +1,3368 @@
+{
+  "WAEC": {
+      "Mathematics": [
+          {
+              "question": "Sample question 1 for Mathematics in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 1 in Mathematics for WAEC."
+          },
+          {
+              "question": "Sample question 2 for Mathematics in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 2 in Mathematics for WAEC."
+          },
+          {
+              "question": "Sample question 3 for Mathematics in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 3 in Mathematics for WAEC."
+          },
+          {
+              "question": "Sample question 4 for Mathematics in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 4 in Mathematics for WAEC."
+          },
+          {
+              "question": "Sample question 5 for Mathematics in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 5 in Mathematics for WAEC."
+          },
+          {
+              "question": "Sample question 6 for Mathematics in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 6 in Mathematics for WAEC."
+          },
+          {
+              "question": "Sample question 7 for Mathematics in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 7 in Mathematics for WAEC."
+          },
+          {
+              "question": "Sample question 8 for Mathematics in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 8 in Mathematics for WAEC."
+          },
+          {
+              "question": "Sample question 9 for Mathematics in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 9 in Mathematics for WAEC."
+          },
+          {
+              "question": "Sample question 10 for Mathematics in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 10 in Mathematics for WAEC."
+          }
+      ],
+      "English": [
+          {
+              "question": "Sample question 1 for English in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 1 in English for WAEC."
+          },
+          {
+              "question": "Sample question 2 for English in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 2 in English for WAEC."
+          },
+          {
+              "question": "Sample question 3 for English in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 3 in English for WAEC."
+          },
+          {
+              "question": "Sample question 4 for English in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 4 in English for WAEC."
+          },
+          {
+              "question": "Sample question 5 for English in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 5 in English for WAEC."
+          },
+          {
+              "question": "Sample question 6 for English in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 6 in English for WAEC."
+          },
+          {
+              "question": "Sample question 7 for English in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 7 in English for WAEC."
+          },
+          {
+              "question": "Sample question 8 for English in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 8 in English for WAEC."
+          },
+          {
+              "question": "Sample question 9 for English in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 9 in English for WAEC."
+          },
+          {
+              "question": "Sample question 10 for English in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 10 in English for WAEC."
+          }
+      ],
+      "Physics": [
+          {
+              "question": "Sample question 1 for Physics in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 1 in Physics for WAEC."
+          },
+          {
+              "question": "Sample question 2 for Physics in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 2 in Physics for WAEC."
+          },
+          {
+              "question": "Sample question 3 for Physics in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 3 in Physics for WAEC."
+          },
+          {
+              "question": "Sample question 4 for Physics in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 4 in Physics for WAEC."
+          },
+          {
+              "question": "Sample question 5 for Physics in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 5 in Physics for WAEC."
+          },
+          {
+              "question": "Sample question 6 for Physics in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 6 in Physics for WAEC."
+          },
+          {
+              "question": "Sample question 7 for Physics in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 7 in Physics for WAEC."
+          },
+          {
+              "question": "Sample question 8 for Physics in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 8 in Physics for WAEC."
+          },
+          {
+              "question": "Sample question 9 for Physics in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 9 in Physics for WAEC."
+          },
+          {
+              "question": "Sample question 10 for Physics in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 10 in Physics for WAEC."
+          }
+      ],
+      "Chemistry": [
+          {
+              "question": "Sample question 1 for Chemistry in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 1 in Chemistry for WAEC."
+          },
+          {
+              "question": "Sample question 2 for Chemistry in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 2 in Chemistry for WAEC."
+          },
+          {
+              "question": "Sample question 3 for Chemistry in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 3 in Chemistry for WAEC."
+          },
+          {
+              "question": "Sample question 4 for Chemistry in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 4 in Chemistry for WAEC."
+          },
+          {
+              "question": "Sample question 5 for Chemistry in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 5 in Chemistry for WAEC."
+          },
+          {
+              "question": "Sample question 6 for Chemistry in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 6 in Chemistry for WAEC."
+          },
+          {
+              "question": "Sample question 7 for Chemistry in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 7 in Chemistry for WAEC."
+          },
+          {
+              "question": "Sample question 8 for Chemistry in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 8 in Chemistry for WAEC."
+          },
+          {
+              "question": "Sample question 9 for Chemistry in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 9 in Chemistry for WAEC."
+          },
+          {
+              "question": "Sample question 10 for Chemistry in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 10 in Chemistry for WAEC."
+          }
+      ],
+      "Biology": [
+          {
+              "question": "Sample question 1 for Biology in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 1 in Biology for WAEC."
+          },
+          {
+              "question": "Sample question 2 for Biology in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 2 in Biology for WAEC."
+          },
+          {
+              "question": "Sample question 3 for Biology in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 3 in Biology for WAEC."
+          },
+          {
+              "question": "Sample question 4 for Biology in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 4 in Biology for WAEC."
+          },
+          {
+              "question": "Sample question 5 for Biology in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 5 in Biology for WAEC."
+          },
+          {
+              "question": "Sample question 6 for Biology in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 6 in Biology for WAEC."
+          },
+          {
+              "question": "Sample question 7 for Biology in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 7 in Biology for WAEC."
+          },
+          {
+              "question": "Sample question 8 for Biology in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 8 in Biology for WAEC."
+          },
+          {
+              "question": "Sample question 9 for Biology in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 9 in Biology for WAEC."
+          },
+          {
+              "question": "Sample question 10 for Biology in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 10 in Biology for WAEC."
+          }
+      ],
+      "Government": [
+          {
+              "question": "Sample question 1 for Government in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 1 in Government for WAEC."
+          },
+          {
+              "question": "Sample question 2 for Government in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 2 in Government for WAEC."
+          },
+          {
+              "question": "Sample question 3 for Government in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 3 in Government for WAEC."
+          },
+          {
+              "question": "Sample question 4 for Government in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 4 in Government for WAEC."
+          },
+          {
+              "question": "Sample question 5 for Government in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 5 in Government for WAEC."
+          },
+          {
+              "question": "Sample question 6 for Government in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 6 in Government for WAEC."
+          },
+          {
+              "question": "Sample question 7 for Government in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 7 in Government for WAEC."
+          },
+          {
+              "question": "Sample question 8 for Government in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 8 in Government for WAEC."
+          },
+          {
+              "question": "Sample question 9 for Government in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 9 in Government for WAEC."
+          },
+          {
+              "question": "Sample question 10 for Government in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 10 in Government for WAEC."
+          }
+      ],
+      "Economics": [
+          {
+              "question": "Sample question 1 for Economics in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 1 in Economics for WAEC."
+          },
+          {
+              "question": "Sample question 2 for Economics in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 2 in Economics for WAEC."
+          },
+          {
+              "question": "Sample question 3 for Economics in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 3 in Economics for WAEC."
+          },
+          {
+              "question": "Sample question 4 for Economics in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 4 in Economics for WAEC."
+          },
+          {
+              "question": "Sample question 5 for Economics in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 5 in Economics for WAEC."
+          },
+          {
+              "question": "Sample question 6 for Economics in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 6 in Economics for WAEC."
+          },
+          {
+              "question": "Sample question 7 for Economics in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 7 in Economics for WAEC."
+          },
+          {
+              "question": "Sample question 8 for Economics in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 8 in Economics for WAEC."
+          },
+          {
+              "question": "Sample question 9 for Economics in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 9 in Economics for WAEC."
+          },
+          {
+              "question": "Sample question 10 for Economics in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 10 in Economics for WAEC."
+          }
+      ],
+      "Literature": [
+          {
+              "question": "Sample question 1 for Literature in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 1 in Literature for WAEC."
+          },
+          {
+              "question": "Sample question 2 for Literature in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 2 in Literature for WAEC."
+          },
+          {
+              "question": "Sample question 3 for Literature in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 3 in Literature for WAEC."
+          },
+          {
+              "question": "Sample question 4 for Literature in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 4 in Literature for WAEC."
+          },
+          {
+              "question": "Sample question 5 for Literature in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 5 in Literature for WAEC."
+          },
+          {
+              "question": "Sample question 6 for Literature in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 6 in Literature for WAEC."
+          },
+          {
+              "question": "Sample question 7 for Literature in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 7 in Literature for WAEC."
+          },
+          {
+              "question": "Sample question 8 for Literature in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 8 in Literature for WAEC."
+          },
+          {
+              "question": "Sample question 9 for Literature in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 9 in Literature for WAEC."
+          },
+          {
+              "question": "Sample question 10 for Literature in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 10 in Literature for WAEC."
+          }
+      ],
+      "Geography": [
+          {
+              "question": "Sample question 1 for Geography in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 1 in Geography for WAEC."
+          },
+          {
+              "question": "Sample question 2 for Geography in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 2 in Geography for WAEC."
+          },
+          {
+              "question": "Sample question 3 for Geography in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 3 in Geography for WAEC."
+          },
+          {
+              "question": "Sample question 4 for Geography in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 4 in Geography for WAEC."
+          },
+          {
+              "question": "Sample question 5 for Geography in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 5 in Geography for WAEC."
+          },
+          {
+              "question": "Sample question 6 for Geography in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 6 in Geography for WAEC."
+          },
+          {
+              "question": "Sample question 7 for Geography in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 7 in Geography for WAEC."
+          },
+          {
+              "question": "Sample question 8 for Geography in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 8 in Geography for WAEC."
+          },
+          {
+              "question": "Sample question 9 for Geography in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 9 in Geography for WAEC."
+          },
+          {
+              "question": "Sample question 10 for Geography in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 10 in Geography for WAEC."
+          }
+      ],
+      "History": [
+          {
+              "question": "Sample question 1 for History in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 1 in History for WAEC."
+          },
+          {
+              "question": "Sample question 2 for History in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 2 in History for WAEC."
+          },
+          {
+              "question": "Sample question 3 for History in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 3 in History for WAEC."
+          },
+          {
+              "question": "Sample question 4 for History in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 4 in History for WAEC."
+          },
+          {
+              "question": "Sample question 5 for History in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 5 in History for WAEC."
+          },
+          {
+              "question": "Sample question 6 for History in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 6 in History for WAEC."
+          },
+          {
+              "question": "Sample question 7 for History in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 7 in History for WAEC."
+          },
+          {
+              "question": "Sample question 8 for History in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 8 in History for WAEC."
+          },
+          {
+              "question": "Sample question 9 for History in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 9 in History for WAEC."
+          },
+          {
+              "question": "Sample question 10 for History in WAEC?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 10 in History for WAEC."
+          }
+      ]
+  },
+  "NECO": {
+      "Mathematics": [
+          {
+              "question": "Sample question 1 for Mathematics in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 1 in Mathematics for NECO."
+          },
+          {
+              "question": "Sample question 2 for Mathematics in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 2 in Mathematics for NECO."
+          },
+          {
+              "question": "Sample question 3 for Mathematics in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 3 in Mathematics for NECO."
+          },
+          {
+              "question": "Sample question 4 for Mathematics in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 4 in Mathematics for NECO."
+          },
+          {
+              "question": "Sample question 5 for Mathematics in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 5 in Mathematics for NECO."
+          },
+          {
+              "question": "Sample question 6 for Mathematics in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 6 in Mathematics for NECO."
+          },
+          {
+              "question": "Sample question 7 for Mathematics in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 7 in Mathematics for NECO."
+          },
+          {
+              "question": "Sample question 8 for Mathematics in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 8 in Mathematics for NECO."
+          },
+          {
+              "question": "Sample question 9 for Mathematics in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 9 in Mathematics for NECO."
+          },
+          {
+              "question": "Sample question 10 for Mathematics in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 10 in Mathematics for NECO."
+          }
+      ],
+      "English": [
+          {
+              "question": "Sample question 1 for English in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 1 in English for NECO."
+          },
+          {
+              "question": "Sample question 2 for English in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 2 in English for NECO."
+          },
+          {
+              "question": "Sample question 3 for English in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 3 in English for NECO."
+          },
+          {
+              "question": "Sample question 4 for English in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 4 in English for NECO."
+          },
+          {
+              "question": "Sample question 5 for English in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 5 in English for NECO."
+          },
+          {
+              "question": "Sample question 6 for English in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 6 in English for NECO."
+          },
+          {
+              "question": "Sample question 7 for English in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 7 in English for NECO."
+          },
+          {
+              "question": "Sample question 8 for English in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 8 in English for NECO."
+          },
+          {
+              "question": "Sample question 9 for English in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 9 in English for NECO."
+          },
+          {
+              "question": "Sample question 10 for English in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 10 in English for NECO."
+          }
+      ],
+      "Physics": [
+          {
+              "question": "Sample question 1 for Physics in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 1 in Physics for NECO."
+          },
+          {
+              "question": "Sample question 2 for Physics in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 2 in Physics for NECO."
+          },
+          {
+              "question": "Sample question 3 for Physics in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 3 in Physics for NECO."
+          },
+          {
+              "question": "Sample question 4 for Physics in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 4 in Physics for NECO."
+          },
+          {
+              "question": "Sample question 5 for Physics in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 5 in Physics for NECO."
+          },
+          {
+              "question": "Sample question 6 for Physics in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 6 in Physics for NECO."
+          },
+          {
+              "question": "Sample question 7 for Physics in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 7 in Physics for NECO."
+          },
+          {
+              "question": "Sample question 8 for Physics in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 8 in Physics for NECO."
+          },
+          {
+              "question": "Sample question 9 for Physics in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 9 in Physics for NECO."
+          },
+          {
+              "question": "Sample question 10 for Physics in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 10 in Physics for NECO."
+          }
+      ],
+      "Chemistry": [
+          {
+              "question": "Sample question 1 for Chemistry in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 1 in Chemistry for NECO."
+          },
+          {
+              "question": "Sample question 2 for Chemistry in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 2 in Chemistry for NECO."
+          },
+          {
+              "question": "Sample question 3 for Chemistry in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 3 in Chemistry for NECO."
+          },
+          {
+              "question": "Sample question 4 for Chemistry in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 4 in Chemistry for NECO."
+          },
+          {
+              "question": "Sample question 5 for Chemistry in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 5 in Chemistry for NECO."
+          },
+          {
+              "question": "Sample question 6 for Chemistry in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 6 in Chemistry for NECO."
+          },
+          {
+              "question": "Sample question 7 for Chemistry in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 7 in Chemistry for NECO."
+          },
+          {
+              "question": "Sample question 8 for Chemistry in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 8 in Chemistry for NECO."
+          },
+          {
+              "question": "Sample question 9 for Chemistry in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 9 in Chemistry for NECO."
+          },
+          {
+              "question": "Sample question 10 for Chemistry in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 10 in Chemistry for NECO."
+          }
+      ],
+      "Biology": [
+          {
+              "question": "Sample question 1 for Biology in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 1 in Biology for NECO."
+          },
+          {
+              "question": "Sample question 2 for Biology in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 2 in Biology for NECO."
+          },
+          {
+              "question": "Sample question 3 for Biology in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 3 in Biology for NECO."
+          },
+          {
+              "question": "Sample question 4 for Biology in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 4 in Biology for NECO."
+          },
+          {
+              "question": "Sample question 5 for Biology in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 5 in Biology for NECO."
+          },
+          {
+              "question": "Sample question 6 for Biology in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 6 in Biology for NECO."
+          },
+          {
+              "question": "Sample question 7 for Biology in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 7 in Biology for NECO."
+          },
+          {
+              "question": "Sample question 8 for Biology in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 8 in Biology for NECO."
+          },
+          {
+              "question": "Sample question 9 for Biology in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 9 in Biology for NECO."
+          },
+          {
+              "question": "Sample question 10 for Biology in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 10 in Biology for NECO."
+          }
+      ],
+      "Government": [
+          {
+              "question": "Sample question 1 for Government in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 1 in Government for NECO."
+          },
+          {
+              "question": "Sample question 2 for Government in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 2 in Government for NECO."
+          },
+          {
+              "question": "Sample question 3 for Government in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 3 in Government for NECO."
+          },
+          {
+              "question": "Sample question 4 for Government in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 4 in Government for NECO."
+          },
+          {
+              "question": "Sample question 5 for Government in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 5 in Government for NECO."
+          },
+          {
+              "question": "Sample question 6 for Government in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 6 in Government for NECO."
+          },
+          {
+              "question": "Sample question 7 for Government in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 7 in Government for NECO."
+          },
+          {
+              "question": "Sample question 8 for Government in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 8 in Government for NECO."
+          },
+          {
+              "question": "Sample question 9 for Government in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 9 in Government for NECO."
+          },
+          {
+              "question": "Sample question 10 for Government in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 10 in Government for NECO."
+          }
+      ],
+      "Economics": [
+          {
+              "question": "Sample question 1 for Economics in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 1 in Economics for NECO."
+          },
+          {
+              "question": "Sample question 2 for Economics in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 2 in Economics for NECO."
+          },
+          {
+              "question": "Sample question 3 for Economics in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 3 in Economics for NECO."
+          },
+          {
+              "question": "Sample question 4 for Economics in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 4 in Economics for NECO."
+          },
+          {
+              "question": "Sample question 5 for Economics in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 5 in Economics for NECO."
+          },
+          {
+              "question": "Sample question 6 for Economics in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 6 in Economics for NECO."
+          },
+          {
+              "question": "Sample question 7 for Economics in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 7 in Economics for NECO."
+          },
+          {
+              "question": "Sample question 8 for Economics in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 8 in Economics for NECO."
+          },
+          {
+              "question": "Sample question 9 for Economics in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 9 in Economics for NECO."
+          },
+          {
+              "question": "Sample question 10 for Economics in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 10 in Economics for NECO."
+          }
+      ],
+      "Literature": [
+          {
+              "question": "Sample question 1 for Literature in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 1 in Literature for NECO."
+          },
+          {
+              "question": "Sample question 2 for Literature in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 2 in Literature for NECO."
+          },
+          {
+              "question": "Sample question 3 for Literature in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 3 in Literature for NECO."
+          },
+          {
+              "question": "Sample question 4 for Literature in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 4 in Literature for NECO."
+          },
+          {
+              "question": "Sample question 5 for Literature in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 5 in Literature for NECO."
+          },
+          {
+              "question": "Sample question 6 for Literature in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 6 in Literature for NECO."
+          },
+          {
+              "question": "Sample question 7 for Literature in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 7 in Literature for NECO."
+          },
+          {
+              "question": "Sample question 8 for Literature in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 8 in Literature for NECO."
+          },
+          {
+              "question": "Sample question 9 for Literature in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 9 in Literature for NECO."
+          },
+          {
+              "question": "Sample question 10 for Literature in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 10 in Literature for NECO."
+          }
+      ],
+      "Geography": [
+          {
+              "question": "Sample question 1 for Geography in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 1 in Geography for NECO."
+          },
+          {
+              "question": "Sample question 2 for Geography in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 2 in Geography for NECO."
+          },
+          {
+              "question": "Sample question 3 for Geography in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 3 in Geography for NECO."
+          },
+          {
+              "question": "Sample question 4 for Geography in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 4 in Geography for NECO."
+          },
+          {
+              "question": "Sample question 5 for Geography in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 5 in Geography for NECO."
+          },
+          {
+              "question": "Sample question 6 for Geography in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 6 in Geography for NECO."
+          },
+          {
+              "question": "Sample question 7 for Geography in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 7 in Geography for NECO."
+          },
+          {
+              "question": "Sample question 8 for Geography in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 8 in Geography for NECO."
+          },
+          {
+              "question": "Sample question 9 for Geography in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 9 in Geography for NECO."
+          },
+          {
+              "question": "Sample question 10 for Geography in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 10 in Geography for NECO."
+          }
+      ],
+      "History": [
+          {
+              "question": "Sample question 1 for History in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 1 in History for NECO."
+          },
+          {
+              "question": "Sample question 2 for History in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 2 in History for NECO."
+          },
+          {
+              "question": "Sample question 3 for History in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 3 in History for NECO."
+          },
+          {
+              "question": "Sample question 4 for History in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 4 in History for NECO."
+          },
+          {
+              "question": "Sample question 5 for History in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 5 in History for NECO."
+          },
+          {
+              "question": "Sample question 6 for History in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 6 in History for NECO."
+          },
+          {
+              "question": "Sample question 7 for History in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 7 in History for NECO."
+          },
+          {
+              "question": "Sample question 8 for History in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 8 in History for NECO."
+          },
+          {
+              "question": "Sample question 9 for History in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 9 in History for NECO."
+          },
+          {
+              "question": "Sample question 10 for History in NECO?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 10 in History for NECO."
+          }
+      ]
+  },
+  "JAMB": {
+      "Mathematics": [
+          {
+              "question": "Sample question 1 for Mathematics in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 1 in Mathematics for JAMB."
+          },
+          {
+              "question": "Sample question 2 for Mathematics in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 2 in Mathematics for JAMB."
+          },
+          {
+              "question": "Sample question 3 for Mathematics in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 3 in Mathematics for JAMB."
+          },
+          {
+              "question": "Sample question 4 for Mathematics in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 4 in Mathematics for JAMB."
+          },
+          {
+              "question": "Sample question 5 for Mathematics in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 5 in Mathematics for JAMB."
+          },
+          {
+              "question": "Sample question 6 for Mathematics in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 6 in Mathematics for JAMB."
+          },
+          {
+              "question": "Sample question 7 for Mathematics in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 7 in Mathematics for JAMB."
+          },
+          {
+              "question": "Sample question 8 for Mathematics in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 8 in Mathematics for JAMB."
+          },
+          {
+              "question": "Sample question 9 for Mathematics in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 9 in Mathematics for JAMB."
+          },
+          {
+              "question": "Sample question 10 for Mathematics in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 10 in Mathematics for JAMB."
+          }
+      ],
+      "English": [
+          {
+              "question": "Sample question 1 for English in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 1 in English for JAMB."
+          },
+          {
+              "question": "Sample question 2 for English in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 2 in English for JAMB."
+          },
+          {
+              "question": "Sample question 3 for English in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 3 in English for JAMB."
+          },
+          {
+              "question": "Sample question 4 for English in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 4 in English for JAMB."
+          },
+          {
+              "question": "Sample question 5 for English in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 5 in English for JAMB."
+          },
+          {
+              "question": "Sample question 6 for English in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 6 in English for JAMB."
+          },
+          {
+              "question": "Sample question 7 for English in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 7 in English for JAMB."
+          },
+          {
+              "question": "Sample question 8 for English in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 8 in English for JAMB."
+          },
+          {
+              "question": "Sample question 9 for English in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 9 in English for JAMB."
+          },
+          {
+              "question": "Sample question 10 for English in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 10 in English for JAMB."
+          }
+      ],
+      "Physics": [
+          {
+              "question": "Sample question 1 for Physics in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 1 in Physics for JAMB."
+          },
+          {
+              "question": "Sample question 2 for Physics in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 2 in Physics for JAMB."
+          },
+          {
+              "question": "Sample question 3 for Physics in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 3 in Physics for JAMB."
+          },
+          {
+              "question": "Sample question 4 for Physics in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 4 in Physics for JAMB."
+          },
+          {
+              "question": "Sample question 5 for Physics in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 5 in Physics for JAMB."
+          },
+          {
+              "question": "Sample question 6 for Physics in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 6 in Physics for JAMB."
+          },
+          {
+              "question": "Sample question 7 for Physics in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 7 in Physics for JAMB."
+          },
+          {
+              "question": "Sample question 8 for Physics in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 8 in Physics for JAMB."
+          },
+          {
+              "question": "Sample question 9 for Physics in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 9 in Physics for JAMB."
+          },
+          {
+              "question": "Sample question 10 for Physics in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 10 in Physics for JAMB."
+          }
+      ],
+      "Chemistry": [
+          {
+              "question": "Sample question 1 for Chemistry in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 1 in Chemistry for JAMB."
+          },
+          {
+              "question": "Sample question 2 for Chemistry in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 2 in Chemistry for JAMB."
+          },
+          {
+              "question": "Sample question 3 for Chemistry in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 3 in Chemistry for JAMB."
+          },
+          {
+              "question": "Sample question 4 for Chemistry in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 4 in Chemistry for JAMB."
+          },
+          {
+              "question": "Sample question 5 for Chemistry in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 5 in Chemistry for JAMB."
+          },
+          {
+              "question": "Sample question 6 for Chemistry in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 6 in Chemistry for JAMB."
+          },
+          {
+              "question": "Sample question 7 for Chemistry in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 7 in Chemistry for JAMB."
+          },
+          {
+              "question": "Sample question 8 for Chemistry in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 8 in Chemistry for JAMB."
+          },
+          {
+              "question": "Sample question 9 for Chemistry in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 9 in Chemistry for JAMB."
+          },
+          {
+              "question": "Sample question 10 for Chemistry in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 10 in Chemistry for JAMB."
+          }
+      ],
+      "Biology": [
+          {
+              "question": "Sample question 1 for Biology in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 1 in Biology for JAMB."
+          },
+          {
+              "question": "Sample question 2 for Biology in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 2 in Biology for JAMB."
+          },
+          {
+              "question": "Sample question 3 for Biology in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 3 in Biology for JAMB."
+          },
+          {
+              "question": "Sample question 4 for Biology in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 4 in Biology for JAMB."
+          },
+          {
+              "question": "Sample question 5 for Biology in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 5 in Biology for JAMB."
+          },
+          {
+              "question": "Sample question 6 for Biology in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 6 in Biology for JAMB."
+          },
+          {
+              "question": "Sample question 7 for Biology in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 7 in Biology for JAMB."
+          },
+          {
+              "question": "Sample question 8 for Biology in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 8 in Biology for JAMB."
+          },
+          {
+              "question": "Sample question 9 for Biology in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 9 in Biology for JAMB."
+          },
+          {
+              "question": "Sample question 10 for Biology in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 10 in Biology for JAMB."
+          }
+      ],
+      "Government": [
+          {
+              "question": "Sample question 1 for Government in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 1 in Government for JAMB."
+          },
+          {
+              "question": "Sample question 2 for Government in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 2 in Government for JAMB."
+          },
+          {
+              "question": "Sample question 3 for Government in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 3 in Government for JAMB."
+          },
+          {
+              "question": "Sample question 4 for Government in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 4 in Government for JAMB."
+          },
+          {
+              "question": "Sample question 5 for Government in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 5 in Government for JAMB."
+          },
+          {
+              "question": "Sample question 6 for Government in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 6 in Government for JAMB."
+          },
+          {
+              "question": "Sample question 7 for Government in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 7 in Government for JAMB."
+          },
+          {
+              "question": "Sample question 8 for Government in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 8 in Government for JAMB."
+          },
+          {
+              "question": "Sample question 9 for Government in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 9 in Government for JAMB."
+          },
+          {
+              "question": "Sample question 10 for Government in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 10 in Government for JAMB."
+          }
+      ],
+      "Economics": [
+          {
+              "question": "Sample question 1 for Economics in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 1 in Economics for JAMB."
+          },
+          {
+              "question": "Sample question 2 for Economics in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 2 in Economics for JAMB."
+          },
+          {
+              "question": "Sample question 3 for Economics in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 3 in Economics for JAMB."
+          },
+          {
+              "question": "Sample question 4 for Economics in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 4 in Economics for JAMB."
+          },
+          {
+              "question": "Sample question 5 for Economics in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 5 in Economics for JAMB."
+          },
+          {
+              "question": "Sample question 6 for Economics in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 6 in Economics for JAMB."
+          },
+          {
+              "question": "Sample question 7 for Economics in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 7 in Economics for JAMB."
+          },
+          {
+              "question": "Sample question 8 for Economics in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 8 in Economics for JAMB."
+          },
+          {
+              "question": "Sample question 9 for Economics in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 9 in Economics for JAMB."
+          },
+          {
+              "question": "Sample question 10 for Economics in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 10 in Economics for JAMB."
+          }
+      ],
+      "Literature": [
+          {
+              "question": "Sample question 1 for Literature in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 1 in Literature for JAMB."
+          },
+          {
+              "question": "Sample question 2 for Literature in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 2 in Literature for JAMB."
+          },
+          {
+              "question": "Sample question 3 for Literature in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 3 in Literature for JAMB."
+          },
+          {
+              "question": "Sample question 4 for Literature in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 4 in Literature for JAMB."
+          },
+          {
+              "question": "Sample question 5 for Literature in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 5 in Literature for JAMB."
+          },
+          {
+              "question": "Sample question 6 for Literature in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 6 in Literature for JAMB."
+          },
+          {
+              "question": "Sample question 7 for Literature in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 7 in Literature for JAMB."
+          },
+          {
+              "question": "Sample question 8 for Literature in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 8 in Literature for JAMB."
+          },
+          {
+              "question": "Sample question 9 for Literature in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 9 in Literature for JAMB."
+          },
+          {
+              "question": "Sample question 10 for Literature in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 10 in Literature for JAMB."
+          }
+      ],
+      "Geography": [
+          {
+              "question": "Sample question 1 for Geography in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 1 in Geography for JAMB."
+          },
+          {
+              "question": "Sample question 2 for Geography in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 2 in Geography for JAMB."
+          },
+          {
+              "question": "Sample question 3 for Geography in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 3 in Geography for JAMB."
+          },
+          {
+              "question": "Sample question 4 for Geography in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 4 in Geography for JAMB."
+          },
+          {
+              "question": "Sample question 5 for Geography in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 5 in Geography for JAMB."
+          },
+          {
+              "question": "Sample question 6 for Geography in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 6 in Geography for JAMB."
+          },
+          {
+              "question": "Sample question 7 for Geography in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 7 in Geography for JAMB."
+          },
+          {
+              "question": "Sample question 8 for Geography in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 8 in Geography for JAMB."
+          },
+          {
+              "question": "Sample question 9 for Geography in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 9 in Geography for JAMB."
+          },
+          {
+              "question": "Sample question 10 for Geography in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 10 in Geography for JAMB."
+          }
+      ],
+      "History": [
+          {
+              "question": "Sample question 1 for History in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 1 in History for JAMB."
+          },
+          {
+              "question": "Sample question 2 for History in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 2 in History for JAMB."
+          },
+          {
+              "question": "Sample question 3 for History in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 3 in History for JAMB."
+          },
+          {
+              "question": "Sample question 4 for History in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 4 in History for JAMB."
+          },
+          {
+              "question": "Sample question 5 for History in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 5 in History for JAMB."
+          },
+          {
+              "question": "Sample question 6 for History in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 6 in History for JAMB."
+          },
+          {
+              "question": "Sample question 7 for History in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 7 in History for JAMB."
+          },
+          {
+              "question": "Sample question 8 for History in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 8 in History for JAMB."
+          },
+          {
+              "question": "Sample question 9 for History in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 9 in History for JAMB."
+          },
+          {
+              "question": "Sample question 10 for History in JAMB?",
+              "options": [
+                  "A. Option 1",
+                  "B. Option 2",
+                  "C. Option 3",
+                  "D. Option 4"
+              ],
+              "answer": "A",
+              "explanation": "This is the explanation for question 10 in History for JAMB."
+          }
+      ]
+  }
+}

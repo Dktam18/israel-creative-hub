@@ -1,22 +1,32 @@
+// import React, { useState } from "react";
 import React, { useState } from "react";
+import axios from "axios";
 
 export const Login = () => {
-  const [formData, setFormData] = useState({ email: "", password: "" });
-  const [error, setError] = useState("");
+const [formData, setFormData] = useState({ email: "", password: "" });
+const [error, setError] = useState("");
 
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-    setError(""); // Clear error when user types
-  };
+const handleChange = (e) => {
+  setFormData({ ...formData, [e.target.name]: e.target.value });
+  setError(""); // Clear error when user types
+};
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (!formData.email || !formData.password) {
-      setError("Both fields are required.");
-      return;
-    }
-    console.log("Logging in with:", formData);
-  };
+const handleSubmit = async (e) => {
+  e.preventDefault();
+  if (!formData.email || !formData.password) {
+    setError("Both fields are required.");
+    return;
+  }
+  try {
+    const response = await axios.post("http://localhost:5000/Login", formData);
+    localStorage.setItem("token", response.data.token);
+    alert("Login successful");
+  } catch (error) {
+    console.error(error);
+    setError("Login failed. Please try again.");
+  }
+};
+
 <script type="module" src="Firebaseauth.js"></script>
   return (
     <>
@@ -77,4 +87,36 @@ export const Login = () => {
     </div>
     </>
   );
-}
+};
+
+// import { useState } from "react";
+// import axios from "axios";
+
+// export const Login = () => {
+//     const [formData, setFormData] = useState({ email: "", password: "" });
+
+//     const handleChange = (e) => {
+//         setFormData({ ...formData, [e.target.name]: e.target.value });
+//     };
+
+//     const handleSubmit = async (e) => {
+//         e.preventDefault();
+//         try {
+//             const response = await axios.post("http://localhost:5000/Login", formData);
+//             localStorage.setItem("token", response.data.token);
+//             alert("Login successful");
+//         } catch (error) {
+//             console.error(error);
+//         }
+//     };
+
+//     return (
+//         <form onSubmit={handleSubmit}>
+//             <input type="email" name="email" placeholder="Email" onChange={handleChange} required />
+//             <input type="password" name="password" placeholder="Password" onChange={handleChange} required />
+//             <button type="submit">Login</button>
+//         </form>
+//     );
+// };
+
+// // export default Login;
