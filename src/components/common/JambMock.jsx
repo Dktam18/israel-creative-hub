@@ -10,7 +10,7 @@ export const Jambmock = () => {
         <div className="w-3/5 md:w-4/5 m-auto shadow-md rounded-lg">
           <img
             className="w-full rounded-t-lg"
-            src="https://bdevs.net/wp/educal/wp-content/uploads/2021/08/blog-1.jpg"
+            src="https://i.postimg.cc/44DBKjRq/jamb-mock-slip-print-1.jpg"
             alt=""
           />
           <div className="text p-5">

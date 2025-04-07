@@ -54,7 +54,7 @@ export const Footer = () => {
             {/* <NavLink to="#" className=" text-[14px] block mb-2">
               Our team
             </NavLink> */}
-            <NavLink to="../Register" className=" text-[14px] block mb-2">
+            <NavLink to="#" className=" text-[14px] block mb-2">
               Register/Login
             </NavLink>
             <NavLink to="#" className=" text-[14px] block mb-2">
