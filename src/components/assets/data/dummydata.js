@@ -94,7 +94,7 @@ export const BlogData = [
     date: "2025-04-02",
     category: "JAMB",
     image: "https://i.postimg.cc/W1F7VKBw/jamb.jpg",
-    to: "jamb-mock",
+    to: "../jamb-mock",
   },
 
 ]
