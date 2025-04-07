@@ -15,17 +15,14 @@ export const Jambmock = () => {
           />
           <div className="text p-5">
             <p className="text-[14px] leading-5 my-3">
-            
+            <h3 className="text-black font-semibold">
+              JAMB has now opened portal for MOCK printing of JAMB slip
+            </h3>
 
-JAMB has now enabled the portal for the printing of the 2025 UTME Mock slip. Candidates, who indicated interest in writing the mock, can now print their exam slip for the mock, which is expected to hold April 10th, 2025. The mock slip will indicate the venue and time of the exam for eligible candidates. We have now provided the steps candidates are to take to print their Mock slips directly from the JAMB portal. See the steps and details below;
+
             </p>
             <p className="text-[14px] leading-5 my-3">
-              Cheeky bugger cracking goal starkers lemon squeezy lost the plot
-              pardon me no biggie the BBC burke gosh boot so I said wellies,
-              zonked a load of old tosh bodge barmy skive off he legged it
-              morish spend a penny my good sir wind up hunky-dory. Naff grub
-              elizabeth cheesed off don&apos;t get shirty with me arse over tit mush
-              a blinding shot young delinquent bloke boot blatant.
+            JAMB has now enabled the portal for the printing of the 2025 UTME Mock slip. Candidates, who indicated interest in writing the mock, can now print their exam slip for the mock, which is expected to hold April 10th, 2025. <br />The mock slip will indicate the venue and time of the exam for eligible candidates. We have now provided the steps candidates are to take to print their Mock slips directly from the JAMB portal. See the steps and details below;
             </p>
           </div>
           <img
@@ -34,9 +31,7 @@ JAMB has now enabled the portal for the printing of the 2025 UTME Mock slip. Can
             alt=""
           />
           <div className="text p-5">
-            <h3 className="text-black font-semibold">
-              Educal is the only theme you will ever need
-            </h3>
+          
             <p className="text-[14px] leading-5 my-3">
               Nancy boy Charles down the pub get stuffed mate easy peasy brown
               bread car boot squiffy loo, blimey arse over tit it’s your round
