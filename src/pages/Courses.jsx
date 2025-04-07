@@ -23,8 +23,8 @@ export const Courses = () => {
                 <div className='images rounded-t-lg relative overflow-hidden h-40 w-ful'>
                   <img src={item.cover} alt='' className='rounded-t-lg object-cover w-full h-full transition ease-in-out delay-150 cursor-pointer hover:scale-125 duration-300' />
                   <div className='categ flex gap-4 absolute top-0 m-3'>
-                    <span className='text-[14px] bg-blue-700 p-1 px-3 text-white rounded-[5px] shadow-md'>SS3</span>
-                    <span className='text-[14px] bg-pink-700 p-1 px-3 text-white rounded-[5px] shadow-md'>GOVERNMENT</span>
+                    <span className='text-[14px] bg-blue-700 p-1 px-3 text-white rounded-[5px] shadow-md'>{item.class}</span>
+                    <span className='text-[14px] bg-pink-700 p-1 px-3 text-white rounded-[5px] shadow-md'>{item.subject}</span>
                   </div>
                 </div>
                 <div className='text p-3'>

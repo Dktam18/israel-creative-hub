@@ -9,17 +9,17 @@ import { Instructor } from "./pages/Instructor"
 import { Login } from "./pages/Login"
 import { Register } from "./pages/Register"
 import { Practice } from "./pages/Practice"
-import { SpeedInsights } from "@vercel/speed-insights/react"
+// import { SpeedInsights } from "@vercel/speed-insights/react"
 import Dashboard from "./pages/Dashboard"
 import { AddQuestions } from "./pages/AddQuestions"
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
+import { Jambmock } from "./components/common/JambMock"
 // import { AddQuestions } from "./AddQuestions";
 
 
 
 export default function App() {
-  const [page, setPage] = useState("exam");
-  const [questionsData, setQuestionsData] = useState({});
+
 
   
 
@@ -28,7 +28,7 @@ export default function App() {
   
 
   
-    <SpeedInsights/>
+    {/* <SpeedInsights/> */}
       <BrowserRouter>
         <Routes>
           <Route
@@ -117,8 +117,20 @@ export default function App() {
             <AddQuestions/>
           }
           />
+
+         <Route
+         
+        path="/jamb-mock"
+        element={
+          <Layout>
+          <Jambmock/>
+          </Layout>
+        }
+        />
           
         </Routes>
+
+       
       </BrowserRouter>
     </>
   );

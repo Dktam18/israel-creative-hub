@@ -48,46 +48,43 @@ export const Footer = () => {
             <NavLink to="#" className=" text-[14px] block mb-2 ">
               Contact
             </NavLink>
-            <NavLink to="#" className=" text-[14px] block mb-2">
+            {/* <NavLink to="#" className=" text-[14px] block mb-2">
               Portfolio
-            </NavLink>
-            <NavLink to="#" className=" text-[14px] block mb-2">
+            </NavLink> */}
+            {/* <NavLink to="#" className=" text-[14px] block mb-2">
               Our team
-            </NavLink>
-            <NavLink to="#" className=" text-[14px] block mb-2">
-              Get in Touch
+            </NavLink> */}
+            <NavLink to="../Register" className=" text-[14px] block mb-2">
+              Register/Login
             </NavLink>
             <NavLink to="#" className=" text-[14px] block mb-2">
               FAQ
             </NavLink>
-            <NavLink to="#" className=" text-[14px] block mb-2">
+            <NavLink to="../Blog" className=" text-[14px] block mb-2">
               Latest news
             </NavLink>
           </li>
           <li>
             <h4 className="text-black text-sm font-semibold mb-5">Platform</h4>
             <NavLink to="#" className=" text-[14px] block mb-2">
-              Shop
-            </NavLink>
-            <NavLink to="#" className=" text-[14px] block mb-2">
               Products
             </NavLink>
-            <NavLink to="#" className=" text-[14px] block mb-2">
+            <NavLink to="../Courses" className=" text-[14px] block mb-2">
               Lesson notes
             </NavLink>
           </li>
           <li>
             <h4 className="text-black text-sm font-semibold mb-5">Subscribe</h4>
-            <NavLink to="#" className=" text-[14px] block mb-2">
+            <NavLink to="../About" className=" text-[14px] block mb-2">
               About us
             </NavLink>
-            <NavLink to="#" className=" text-[14px] block mb-2">
+            <NavLink to="./" className=" text-[14px] block mb-2">
               Contact
             </NavLink>
             <NavLink to="#" className=" text-[14px] block mb-2">
               Reviews
             </NavLink>
-            <NavLink to="#" className=" text-[14px] block mb-2">
+            <NavLink to="../Instructor" className=" text-[14px] block mb-2">
               Services
             </NavLink>
           </li>
