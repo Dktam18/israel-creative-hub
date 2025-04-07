@@ -60,9 +60,9 @@ export const Header = () => {
               <BiShoppingBag size={25} />
             </button>
             </NavLink>
-            <NavLink to="Login">
+            {/* <NavLink to="Login"> */}
             <button id="btnnn" onClick={handleClick}>Login</button>{" "}
-            </NavLink>
+            {/* </NavLink> */}
             <button className='open-menu' onClick={() => setOpen(!open)}>
               <HiOutlineMenuAlt1 size={25} />
             </button>
