@@ -14,13 +14,11 @@ export const Jambmock = () => {
             alt=""
           />
           <div className="text p-5">
-            <p className="text-[14px] leading-5 my-3">
+
             <h3 className="text-black font-semibold">
               JAMB has now opened portal for MOCK printing of JAMB slip
             </h3>
 
-
-            </p>
             <p className="text-[14px] leading-5 my-3">
             JAMB has now enabled the portal for the printing of the 2025 UTME Mock slip. Candidates, who indicated interest in writing the mock, can now print their exam slip for the mock, which is expected to hold April 10th, 2025. <br />The mock slip will indicate the venue and time of the exam for eligible candidates. We have now provided the steps candidates are to take to print their Mock slips directly from the JAMB portal. See the steps and details below;
             </p>
