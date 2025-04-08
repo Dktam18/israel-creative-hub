@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { FaFilePdf, FaSpinner } from "react-icons/fa";
+import { FaFilePdf, FaSpinner, FaTimes, FaWhatsapp } from "react-icons/fa";
 
 const jambSubjects = [
   { name: "Use of English", download: "Use-of-English.pdf" },
@@ -31,10 +31,32 @@ const jambSubjects = [
 
 export const BlogSinglePage = () => {
   const [loadingStates, setLoadingStates] = useState({});
+  const [showWhatsappPopup, setShowWhatsappPopup] = useState(false);
+
+  // Show WhatsApp popup after 10 seconds
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowWhatsappPopup(true);
+    }, 10000); // 10 seconds
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  // Preload PDFs on component mount
+  useEffect(() => {
+    jambSubjects.forEach((subject) => {
+      if (subject.download) {
+        const link = document.createElement("link");
+        link.rel = "preload";
+        link.as = "document";
+        link.href = `${process.env.PUBLIC_URL}/downloads/${subject.download}`;
+        document.head.appendChild(link);
+      }
+    });
+  }, []);
 
   const handleDownload = async (filename) => {
     try {
-      // Set loading state for this file
       setLoadingStates(prev => ({ ...prev, [filename]: true }));
       
       const response = await fetch(
@@ -53,7 +75,6 @@ export const BlogSinglePage = () => {
       document.body.appendChild(link);
       link.click();
       
-      // Cleanup
       setTimeout(() => {
         document.body.removeChild(link);
         window.URL.revokeObjectURL(url);
@@ -66,21 +87,38 @@ export const BlogSinglePage = () => {
     }
   };
 
-  // Preload PDFs on component mount
-  useEffect(() => {
-    jambSubjects.forEach((subject) => {
-      if (subject.download) {
-        const link = document.createElement("link");
-        link.rel = "preload";
-        link.as = "document";
-        link.href = `${process.env.PUBLIC_URL}/downloads/${subject.download}`;
-        document.head.appendChild(link);
-      }
-    });
-  }, []);
-
   return (
     <div>
+      {/* WhatsApp Popup */}
+      {showWhatsappPopup && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+          <div className="bg-white rounded-lg p-6 max-w-md w-full relative">
+            <button 
+              onClick={() => setShowWhatsappPopup(false)}
+              className="absolute top-2 right-2 text-gray-500 hover:text-gray-700"
+            >
+              <FaTimes />
+            </button>
+            
+            <div className="text-center">
+              <FaWhatsapp className="text-green-500 text-5xl mx-auto mb-4" />
+              <h3 className="text-xl font-bold mb-2">Join Our WhatsApp Group!</h3>
+              <p className="mb-4">Get instant updates on JAMB news, tips, and more by joining our educational community.</p>
+              
+              <a
+                href="https://whatsapp.com/channel/0029VajOfp62UPBOfXpold3b/1556" // Replace with your WhatsApp group invite link
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-green-500 hover:bg-green-600 text-white font-medium py-2 px-4 rounded inline-flex items-center justify-center gap-2"
+              >
+                <FaWhatsapp /> Join Now
+              </a>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Your original content */}
       <section className="py-12">
         <div className="w-3/5 md:w-4/5 m-auto shadow-md rounded-lg">
           <img
