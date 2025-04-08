@@ -14,6 +14,7 @@ import Dashboard from "./pages/Dashboard"
 import { AddQuestions } from "./pages/AddQuestions"
 // import { useState, useEffect } from "react";
 import { Jambmock } from "./components/common/JambMock"
+import {ShareButtons} from "./components/common/Sharebuttons"
 // import { AddQuestions } from "./AddQuestions";
 
 
@@ -61,6 +62,15 @@ export default function App() {
               <Layout>
                 <Instructor />
               </Layout>
+            }
+          />
+       
+          <Route
+            path='/share'
+            element={
+             
+                <ShareButtons />
+        
             }
           />
           <Route

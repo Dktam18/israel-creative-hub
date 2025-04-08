@@ -19,6 +19,7 @@
     "react-scripts": "5.0.1",
     "react-social-icons": "^6.22.0",
     "react-world-flags": "^1.6.0",
+    "swiper": "^11.2.6",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
