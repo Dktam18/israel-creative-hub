@@ -70,19 +70,5 @@ export const BlogData = [
     image: "https://i.postimg.cc/W1F7VKBw/jamb.jpg",
     to: "../jamb-mock",
   },
-  {
-    id: 3,
-    cover: "../images/course-1.jpg",
-    title: "JAMB opens portal for mock printing",
-    author: "Israel Mrakpor",
-    authorImage: "https://i.postimg.cc/PqkFV6Sv/download-1-343.jpg",
-    date: "2025-04-02",
-    category: "JAMB",
-    image: "https://i.postimg.cc/W1F7VKBw/jamb.jpg",
-    to: "../jamb-mock",
-  },
-
-
-
-
+ 
 ]

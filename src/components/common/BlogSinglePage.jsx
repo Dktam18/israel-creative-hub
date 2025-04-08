@@ -102,7 +102,7 @@ export const BlogSinglePage = () => {
             
             <div className="text-center">
               <FaWhatsapp className="text-green-500 text-5xl mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-2">Join Our WhatsApp Group!</h3>
+              <h3 className="text-xl font-bold mb-2">Join Our WhatsApp Channel!</h3>
               <p className="mb-4">Get instant updates on JAMB news, tips, and more by joining our educational community.</p>
               
               <a
