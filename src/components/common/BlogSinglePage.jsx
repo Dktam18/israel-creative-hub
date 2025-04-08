@@ -5,28 +5,28 @@ const jambSubjects = [
   { name: "Use of English", download: `${process.env.PUBLIC_URL}/downloads/Use-of-English.pdf` },
   { name: "Mathematics", download: "${process.env.PUBLIC_URL}/downloads/Mathematics.pdf" },
   { name: "Physics", download: "${process.env.PUBLIC_URL}/downloads/Physics.pdf" },
-  { name: "Chemistry", download: "" },
-  { name: "Biology", download: "" },
-  { name: "Agricultural Science", download: "https://examcode.net/Agriculture.pdf" },
-  { name: "Arabic", download: "" },
-  { name: "Christian Religious Studies", download: "" },
-  { name: "Commerce", download: "" },
-  { name: "Art", download: "" },
-  { name: "Computer Studies", download: "" },
-  { name: "Economics", download: "" },
-  { name: "French", download: "" },
-  { name: "Geography", download: "" },
-  { name: "Government", download: "" },
-  { name: "Hausa", download: "" },
-  { name: "History", download: "" },
-  { name: "Home Economics", download: "" },
-  { name: "Igbo", download: "" },
-  { name: "Islamic Studies", download: "" },
-  { name: "Literature in English", download: "" },
-  { name: "Music", download: "" },
-  { name: "Physical and Health Education", download: "" },
-  { name: "Principles of Accounts", download: "" },
-  { name: "Yoruba", download: "" }
+  { name: "Chemistry", download: "${process.env.PUBLIC_URL}/downloads/Chemistry.pdf" },
+  { name: "Biology", download: "${process.env.PUBLIC_URL}/downloads/Biology.pdf" },
+  { name: "Agricultural Science", download: "${process.env.PUBLIC_URL}/downloads/Agriculture.pdf" },
+  { name: "Arabic", download: "${process.env.PUBLIC_URL}/downloads/Arabic.pdf" },
+  { name: "Christian Religious Studies", download: "${process.env.PUBLIC_URL}/downloads/Christian-Religous-Studies.pdf" },
+  { name: "Commerce", download: "${process.env.PUBLIC_URL}/downloads/Commerce.pdf" },
+  { name: "Art", download: "${process.env.PUBLIC_URL}/downloads/Art.pdf" },
+  { name: "Computer Studies", download: "${process.env.PUBLIC_URL}/downloads/Computer-Studies.pdf" },
+  { name: "Economics", download: "${process.env.PUBLIC_URL}/downloads/Economics.pdf" },
+  { name: "French", download: "${process.env.PUBLIC_URL}/downloads/French.pdf" },
+  { name: "Geography", download: "${process.env.PUBLIC_URL}/downloads/Geography.pdf" },
+  { name: "Government", download: "${process.env.PUBLIC_URL}/downloads/Government.pdf" },
+  { name: "Hausa", download: "${process.env.PUBLIC_URL}/downloads/Hausa.pdf" },
+  { name: "History", download: "${process.env.PUBLIC_URL}/downloads/History.pdf" },
+  { name: "Home Economics", download: "${process.env.PUBLIC_URL}/downloads/Home-Economics.pdf" },
+  { name: "Igbo", download: "${process.env.PUBLIC_URL}/downloads/Igbo.pdf" },
+  { name: "Islamic Studies", download: "${process.env.PUBLIC_URL}/downloads/Islamic-Studies.pdf" },
+  { name: "Literature in English", download: "${process.env.PUBLIC_URL}/downloads/JAMB-Literature-in-English-Syllabus.pdf" },
+  { name: "Music", download: "${process.env.PUBLIC_URL}/downloads/Music.pdf" },
+  { name: "Physical and Health Education", download: "${process.env.PUBLIC_URL}/downloads/Physical-Health-Education.pdf" },
+  { name: "Principles of Accounts", download: "${process.env.PUBLIC_URL}/downloads/Principles-of-Accounts.pdf" },
+  { name: "Yoruba", download: "${process.env.PUBLIC_URL}/downloads/Youruba.pdf" }
 ];
 
 export const BlogSinglePage = () => {
@@ -54,7 +54,7 @@ export const BlogSinglePage = () => {
       <section className="py-12">
         <div className="max-w-5xl mx-auto px-4">
           <h2 className="text-3xl font-bold mb-6 text-center">📘 JAMB Syllabus</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-1 gap-6">
             {jambSubjects.map((subject, index) => (
               <div
                 key={index}
