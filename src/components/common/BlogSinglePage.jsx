@@ -2,34 +2,44 @@ import React from "react";
 import { FaFilePdf } from "react-icons/fa";
 
 const jambSubjects = [
-  { name: "Use of English", download: `${process.env.PUBLIC_URL}/downloads/Use-of-English.pdf` },
-  { name: "Mathematics", download: "${process.env.PUBLIC_URL}/downloads/Mathematics.pdf" },
-  { name: "Physics", download: "${process.env.PUBLIC_URL}/downloads/Physics.pdf" },
-  { name: "Chemistry", download: "${process.env.PUBLIC_URL}/downloads/Chemistry.pdf" },
-  { name: "Biology", download: "${process.env.PUBLIC_URL}/downloads/Biology.pdf" },
-  { name: "Agricultural Science", download: "${process.env.PUBLIC_URL}/downloads/Agriculture.pdf" },
-  { name: "Arabic", download: "${process.env.PUBLIC_URL}/downloads/Arabic.pdf" },
-  { name: "Christian Religious Studies", download: "${process.env.PUBLIC_URL}/downloads/Christian-Religous-Studies.pdf" },
-  { name: "Commerce", download: "${process.env.PUBLIC_URL}/downloads/Commerce.pdf" },
-  { name: "Art", download: "${process.env.PUBLIC_URL}/downloads/Art.pdf" },
-  { name: "Computer Studies", download: "${process.env.PUBLIC_URL}/downloads/Computer-Studies.pdf" },
-  { name: "Economics", download: "${process.env.PUBLIC_URL}/downloads/Economics.pdf" },
-  { name: "French", download: "${process.env.PUBLIC_URL}/downloads/French.pdf" },
-  { name: "Geography", download: "${process.env.PUBLIC_URL}/downloads/Geography.pdf" },
-  { name: "Government", download: "${process.env.PUBLIC_URL}/downloads/Government.pdf" },
-  { name: "Hausa", download: "${process.env.PUBLIC_URL}/downloads/Hausa.pdf" },
-  { name: "History", download: "${process.env.PUBLIC_URL}/downloads/History.pdf" },
-  { name: "Home Economics", download: "${process.env.PUBLIC_URL}/downloads/Home-Economics.pdf" },
-  { name: "Igbo", download: "${process.env.PUBLIC_URL}/downloads/Igbo.pdf" },
-  { name: "Islamic Studies", download: "${process.env.PUBLIC_URL}/downloads/Islamic-Studies.pdf" },
-  { name: "Literature in English", download: "${process.env.PUBLIC_URL}/downloads/JAMB-Literature-in-English-Syllabus.pdf" },
-  { name: "Music", download: "${process.env.PUBLIC_URL}/downloads/Music.pdf" },
-  { name: "Physical and Health Education", download: "${process.env.PUBLIC_URL}/downloads/Physical-Health-Education.pdf" },
-  { name: "Principles of Accounts", download: "${process.env.PUBLIC_URL}/downloads/Principles-of-Accounts.pdf" },
-  { name: "Yoruba", download: "${process.env.PUBLIC_URL}/downloads/Youruba.pdf" }
+  { name: "Use of English", download: "Use-of-English.pdf" },
+  { name: "Mathematics", download: "Mathematics.pdf" },
+  { name: "Physics", download: "Physics.pdf" },
+  { name: "Chemistry", download: "Chemistry.pdf" },
+  { name: "Biology", download: "Biology.pdf" },
+  { name: "Agricultural Science", download: "Agriculture.pdf" },
+  { name: "Arabic", download: "Arabic.pdf" },
+  { name: "Christian Religious Studies", download: "Christian-Religous-Studies.pdf" },
+  { name: "Commerce", download: "Commerce.pdf" },
+  { name: "Art", download: "Art.pdf" },
+  { name: "Computer Studies", download: "Computer-Studies.pdf" },
+  { name: "Economics", download: "Economics.pdf" },
+  { name: "French", download: "French.pdf" },
+  { name: "Geography", download: "Geography.pdf" },
+  { name: "Government", download: "Government.pdf" },
+  { name: "Hausa", download: "Hausa.pdf" },
+  { name: "History", download: "History.pdf" },
+  { name: "Home Economics", download: "Home-Economics.pdf" },
+  { name: "Igbo", download: "Igbo.pdf" },
+  { name: "Islamic Studies", download: "Islamic-Studies.pdf" },
+  { name: "Literature in English", download: "JAMB-Literature-in-English-Syllabus.pdf" },
+  { name: "Music", download: "Music.pdf" },
+  { name: "Physical and Health Education", download: "Physical-Health-Education.pdf" },
+  { name: "Principles of Accounts", download: "Principles-of-Accounts.pdf" },
+  { name: "Yoruba", download: "Youruba.pdf" }
 ];
 
 export const BlogSinglePage = () => {
+  const handleDownload = (filename) => {
+    // Create a temporary anchor element
+    const link = document.createElement('a');
+    link.href = `${process.env.PUBLIC_URL}/downloads/${filename}`;
+    link.download = filename;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div>
       <section className="py-12">
@@ -66,29 +76,15 @@ export const BlogSinglePage = () => {
                 </div>
 
                 <div className="flex gap-2 mt-2">
-                  <a
-                    href={subject.download || "#"}  // Fallback to "#" if empty
-                    download={Boolean(subject.download)}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                  <button
+                    onClick={() => subject.download && handleDownload(subject.download)}
                     className={`flex-1 text-sm text-white px-3 py-1 rounded text-center ${
                       subject.download ? "bg-blue-600 hover:bg-blue-700" : "bg-gray-400 cursor-not-allowed"
                     }`}
                     disabled={!subject.download}
                   >
                     📥 Download
-                  </a>
-                  <a
-                    href={subject.download || "#"}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={`flex-1 text-sm px-3 py-1 rounded text-center ${
-                      subject.download ? "text-blue-600 border border-blue-600 hover:bg-blue-50" : "text-gray-400 border border-gray-400 cursor-not-allowed"
-                    }`}
-                    disabled={!subject.download}
-                  >
-                    👁️ Read
-                  </a>
+                  </button>
                 </div>
               </div>
             ))}
