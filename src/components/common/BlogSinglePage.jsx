@@ -1,5 +1,5 @@
-import React, { useEffect } from "react";
-import { FaFilePdf } from "react-icons/fa";
+import React, { useState, useEffect } from "react";
+import { FaFilePdf, FaSpinner } from "react-icons/fa";
 
 const jambSubjects = [
   { name: "Use of English", download: "Use-of-English.pdf" },
@@ -30,13 +30,13 @@ const jambSubjects = [
 ];
 
 export const BlogSinglePage = () => {
+  const [loadingStates, setLoadingStates] = useState({});
+
   const handleDownload = async (filename) => {
     try {
-      // Show loading state
-      const button = document.querySelector(`button[data-file="${filename}"]`);
-      if (button) button.disabled = true;
+      // Set loading state for this file
+      setLoadingStates(prev => ({ ...prev, [filename]: true }));
       
-      // Fetch with cache-busting
       const response = await fetch(
         `${process.env.PUBLIC_URL}/downloads/${filename}?t=${Date.now()}`,
         { cache: "no-store" }
@@ -57,11 +57,12 @@ export const BlogSinglePage = () => {
       setTimeout(() => {
         document.body.removeChild(link);
         window.URL.revokeObjectURL(url);
-        if (button) button.disabled = false;
+        setLoadingStates(prev => ({ ...prev, [filename]: false }));
       }, 100);
     } catch (error) {
       console.error("Download failed:", error);
       alert("Download failed. Please try again.");
+      setLoadingStates(prev => ({ ...prev, [filename]: false }));
     }
   };
 
@@ -80,18 +81,68 @@ export const BlogSinglePage = () => {
 
   return (
     <div>
-      {/* Your existing JSX remains the same until the button */}
-      <button
-        onClick={() => handleDownload(subject.download)}
-        data-file={subject.download}
-        className={`flex-1 text-sm text-white px-3 py-1 rounded text-center ${
-          subject.download ? "bg-blue-600 hover:bg-blue-700" : "bg-gray-400 cursor-not-allowed"
-        }`}
-        disabled={!subject.download}
-      >
-        📥 Download
-      </button>
-      {/* Rest of your JSX */}
+      <section className="py-12">
+        <div className="w-3/5 md:w-4/5 m-auto shadow-md rounded-lg">
+          <img
+            className="w-full rounded-t-lg"
+            src="https://i.postimg.cc/WzGTFVp5/0284e7ad2e09fb18284d84d426ff40a9e0e.jpg"
+            alt="JAMB Syllabus"
+          />
+          <div className="text p-5">
+            <h3 className="text-black font-semibold">
+              Download JAMB syllabus for all subjects on Israel Creative Hub!
+            </h3> <br />
+            <h5 className="text-black">WHAT IS THE JAMB SYLLABUS?</h5>
+            <p className="text-[15px] leading-5 my-3">
+              The JAMB syllabus is an official document from the Joint Admissions and Matriculation Board that outlines the topics and subtopics students must study for each subject in the UTME (Unified Tertiary Matriculation Examination). It includes recommended textbooks, objectives for each topic, and what students are expected to know.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-12">
+        <div className="max-w-5xl mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-6 text-center">📘 JAMB Syllabus</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-1 gap-6">
+            {jambSubjects.map((subject, index) => (
+              <div
+                key={index}
+                className="bg-white shadow rounded-lg p-4 flex flex-col justify-between"
+              >
+                <div className="flex items-center gap-3 mb-3">
+                  <FaFilePdf className="text-red-600 text-2xl" />
+                  <span className="text-gray-800 font-medium">{subject.name}</span>
+                </div>
+
+                <div className="flex gap-2 mt-2">
+                  <button
+                    onClick={() => subject.download && handleDownload(subject.download)}
+                    disabled={!subject.download || loadingStates[subject.download]}
+                    className={`flex items-center justify-center gap-2 flex-1 text-sm text-white px-3 py-1 rounded ${
+                      subject.download 
+                        ? "bg-blue-600 hover:bg-blue-700" 
+                        : "bg-gray-400 cursor-not-allowed"
+                    } ${
+                      loadingStates[subject.download] ? "opacity-75" : ""
+                    }`}
+                  >
+                    {loadingStates[subject.download] ? (
+                      <>
+                        <FaSpinner className="animate-spin" />
+                        Loading...
+                      </>
+                    ) : (
+                      <>
+                        📥 Download
+                      </>
+                    )}
+                  </button>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
