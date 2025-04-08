@@ -1,11 +1,28 @@
 {
   "short_name": "Israel Creative Hub",
-  "name": "Create React App Sample",
+  "name": "Israel Creative Hub - No.1 Educational Forum in Nigeria",
+  "description": "Latest updates on educational news, lesson notes, CBT practice, scholarships, and job opportunities",
   "icons": [
     {
-      "src": "favicon.png",
+      "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
+    },
+    {
+      "src": "favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
       "src": "logo192.png",
@@ -19,7 +36,11 @@
     }
   ],
   "start_url": ".",
+  "scope": "/",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "categories": ["education", "news", "jobs"],
+  "lang": "en-NG"
 }
