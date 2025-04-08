@@ -53,7 +53,7 @@ export const BlogData = [
     title: "Download 2025 JAMB syllabus for free",
     author: "Israel Mrakpor",
     authorImage: "https://i.postimg.cc/PqkFV6Sv/download-1-343.jpg",
-    date: "2023-10-01",
+    date: "2025-04-07",
     category: "JAMB",
     image: "https://i.postimg.cc/WzGTFVp5/0284e7ad2e09fb18284d426ff40a9e0e.jpg",
     to: "../single-blog",
