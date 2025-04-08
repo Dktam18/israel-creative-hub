@@ -24,7 +24,7 @@ export const Practice = () => {
       alert("Time's up! Submitting exam...");
       setSubmitted(true);
     }
-  }, [timeLeft]);
+  }, [timeLeft, timer, submitted]);
 
   useEffect(() => {
     if (timer > 0 && !submitted) {
@@ -48,13 +48,13 @@ export const Practice = () => {
   };
 
   const nextQuestion = () => {
-    if (currentIndex < questions[subject]?.length - 1) {
+    if (questions[subject] && currentIndex < questions[subject].length - 1) {
       setCurrentIndex(currentIndex + 1);
     }
   };
 
   const prevQuestion = () => {
-    if (currentIndex > 0) {
+    if (questions[subject] && currentIndex > 0) {
       setCurrentIndex(currentIndex - 1);
     }
   };
@@ -172,7 +172,7 @@ export const Practice = () => {
       )}
 
       {/* Submit Button */}
-      {questions[subject] && currentIndex === questions[subject].length - 1 && !submitted && (
+      {questions[subject]?.length && currentIndex === questions[subject].length - 1 && !submitted && (
         <button
           onClick={submitExam}
           className="mt-6 bg-green-500 text-white p-2 rounded w-full"
@@ -187,7 +187,7 @@ export const Practice = () => {
           <h3 className="text-xl font-bold">Exam Completed!</h3>
           <p className="text-lg mt-2">Your Score: {calculateScore()} / {questions[subject].length}</p>
 
-          {questions[subject] && questions[subject].map((q, index) => (
+          {questions[subject]?.length && questions[subject].map((q, index) => (
             <div key={index} className="mt-4 text-left">
               <p className="font-bold">{index + 1}. {q.question}</p>
               <p className={`text-${answers[index] === q.answer ? "green" : "red"}-600`}>

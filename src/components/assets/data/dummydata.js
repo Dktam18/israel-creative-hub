@@ -76,12 +76,12 @@ export const BlogData = [
   {
     id: 1,
     cover: "../images/course-1.jpg",
-    title: "The Complete Financial Analyst Course 2022",
+    title: "Download 2025 JAMB syllabus for free",
     author: "Israel Mrakpor",
-    authorImage: "../images/course-1.jpg",
+    authorImage: ".../images/course-1.jpg",
     date: "2023-10-01",
     category: "JAMB",
-    image: "../images/course-1.jpg",
+    image: "https://i.postimg.cc/WzGTFVp5/0284e7ad2e09fb18284d426ff40a9e0e.jpg",
     to: "../single-blog",
   },
 
