@@ -9,6 +9,16 @@ export const Practice = () => {
   const [submitted, setSubmitted] = useState(false); // Track if exam is submitted
   const [timer, setTimer] = useState(0);  // Timer duration in minutes
   const [timeLeft, setTimeLeft] = useState(0); // Timer countdown in seconds
+  const [testStarted, setTestStarted] = useState(false); // Track if test has started
+  const [questionCount, setQuestionCount] = useState(0); // Number of questions to show
+  const [filteredQuestions, setFilteredQuestions] = useState([]); // Questions after filtering
+  const [showResults, setShowResults] = useState(false); // Track if results should be shown
+  const [userDetails, setUserDetails] = useState({
+    name: "",
+    email: "",
+    phone: ""
+  });
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   // Load questions from JSON file
   useEffect(() => {
@@ -18,28 +28,46 @@ export const Practice = () => {
       .catch((error) => console.error("Error loading questions:", error));
   }, []);
 
+  // Filter questions when subject changes
+  useEffect(() => {
+    if (subject && questions[subject]) {
+      // Filter by exam type if selected
+      const filtered = questions[subject].filter(q => 
+        examType ? q.examType === examType : true
+      );
+      setFilteredQuestions(filtered);
+    }
+  }, [subject, examType, questions]);
+
   // Timer countdown
   useEffect(() => {
-    if (timeLeft === 0 && timer > 0) {
+    if (timeLeft === 0 && timer > 0 && testStarted) {
       alert("Time's up! Submitting exam...");
-      setSubmitted(true);
+      handleSubmitExam();
     }
-  }, [timeLeft, timer, submitted]);
+  }, [timeLeft, timer, testStarted]);
 
   useEffect(() => {
-    if (timer > 0 && !submitted) {
+    if (timer > 0 && testStarted && !submitted) {
       const interval = setInterval(() => {
         setTimeLeft((prev) => prev - 1);
       }, 1000);
       return () => clearInterval(interval);
     }
-  }, [timer, submitted]);
+  }, [timer, submitted, testStarted]);
 
-  const startTimer = () => {
-    if (examType && subject && questions[subject] && questions[subject].length) {
-      setTimeLeft(timer * 60); // Set timer to selected value in seconds
+  const startTest = () => {
+    if (examType && subject && filteredQuestions.length && timer > 0 && questionCount > 0) {
+      // Shuffle questions and take the selected count
+      const shuffled = [...filteredQuestions].sort(() => 0.5 - Math.random());
+      const selectedQuestions = shuffled.slice(0, Math.min(questionCount, shuffled.length));
+      setFilteredQuestions(selectedQuestions);
+      setTimeLeft(timer * 60);
+      setTestStarted(true);
+      setCurrentIndex(0);
+      setAnswers({});
     } else {
-      alert("Please select Exam Type, Subject, and Timer!");
+      alert("Please complete all selections before starting!");
     }
   };
 
@@ -48,160 +76,328 @@ export const Practice = () => {
   };
 
   const nextQuestion = () => {
-    if (questions[subject] && currentIndex < questions[subject].length - 1) {
+    if (currentIndex < filteredQuestions.length - 1) {
       setCurrentIndex(currentIndex + 1);
     }
   };
 
   const prevQuestion = () => {
-    if (questions[subject] && currentIndex > 0) {
+    if (currentIndex > 0) {
       setCurrentIndex(currentIndex - 1);
     }
   };
 
   const calculateScore = () => {
     let score = 0;
-    questions[subject]?.forEach((q, index) => {
+    filteredQuestions.forEach((q, index) => {
       if (answers[index] === q.answer) score += 1;
     });
     return score;
   };
 
-  const submitExam = () => {
+  const handleSubmitExam = () => {
     setSubmitted(true);
+  };
+
+  const handleUserDetailsChange = (e) => {
+    const { name, value } = e.target;
+    setUserDetails(prev => ({
+      ...prev,
+      [name]: value
+    }));
+  };
+
+  const submitUserDetails = async (e) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+
+    const formData = new FormData();
+    formData.append("name", userDetails.name);
+    formData.append("email", userDetails.email);
+    formData.append("phone", userDetails.phone);
+    formData.append("examType", examType);
+    formData.append("subject", subject);
+    formData.append("score", calculateScore());
+    formData.append("totalQuestions", filteredQuestions.length);
+    formData.append("percentage", Math.round((calculateScore() / filteredQuestions.length) * 100));
+    formData.append("answers", JSON.stringify(answers));
+    formData.append("_replyto", userDetails.email);
+    formData.append("_subject", `CBT Test Results - ${userDetails.name}`);
+
+    try {
+      const response = await fetch("https://formsubmit.co/ajax/mraisrael05@gmail.com", {
+        method: "POST",
+        body: formData
+      });
+
+      const result = await response.json();
+      if (result.success) {
+        setShowResults(true);
+      } else {
+        alert("Failed to submit details. Please try again.");
+      }
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      alert("An error occurred. Please try again.");
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
+  // Calculate available question counts based on filtered questions
+  const availableQuestionCounts = () => {
+    if (!filteredQuestions.length) return [];
+    const max = Math.min(50, filteredQuestions.length); // Cap at 50 questions
+    return [10, 20, 30, 40, max].filter(n => n <= max);
   };
 
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center p-6">
       <h1 className="text-3xl font-bold text-blue-600 mb-6">CBT Practice Test</h1>
 
-      {/* Exam Type Selection */}
-      <div className="w-full max-w-md bg-white shadow-md p-4 rounded-lg mb-4">
-        <label className="block font-semibold text-gray-700">Choose Exam Type:</label>
-        <select
-          onChange={(e) => setExamType(e.target.value)}
-          className="mt-2 p-2 w-full border rounded-lg focus:ring-2 focus:ring-blue-400"
-        >
-          <option value="">Select Exam Type</option>
-          <option value="WAEC">WAEC</option>
-          <option value="NECO">NECO</option>
-          <option value="JAMB">JAMB</option>
-        </select>
-      </div>
+      {/* Selection Section - Only shown before test starts */}
+      {!testStarted && (
+        <div className="w-full max-w-md space-y-4">
+          {/* Exam Type Selection */}
+          <div className="bg-white shadow-md p-4 rounded-lg">
+            <label className="block font-semibold text-gray-700">Choose Exam Type:</label>
+            <select
+              onChange={(e) => setExamType(e.target.value)}
+              className="mt-2 p-2 w-full border rounded-lg focus:ring-2 focus:ring-blue-400"
+              value={examType}
+            >
+              <option value="">Select Exam Type</option>
+              <option value="WAEC">WAEC</option>
+              <option value="NECO">NECO</option>
+              <option value="JAMB">JAMB</option>
+            </select>
+          </div>
 
-      {/* Subject Selection */}
-      <div className="w-full max-w-md bg-white shadow-md p-4 rounded-lg mb-4">
-        <label className="block font-semibold text-gray-700">Choose a Subject:</label>
-        <select
-          onChange={(e) => setSubject(e.target.value)}
-          className="mt-2 p-2 w-full border rounded-lg focus:ring-2 focus:ring-blue-400"
-        >
-          <option value="">Select Subject</option>
-          {Object.keys(questions).map((subj) => (
-            <option key={subj} value={subj}>{subj}</option>
-          ))}
-        </select>
-      </div>
+          {/* Subject Selection */}
+          <div className="bg-white shadow-md p-4 rounded-lg">
+            <label className="block font-semibold text-gray-700">Choose a Subject:</label>
+            <select
+              onChange={(e) => setSubject(e.target.value)}
+              className="mt-2 p-2 w-full border rounded-lg focus:ring-2 focus:ring-blue-400"
+              value={subject}
+            >
+              <option value="">Select Subject</option>
+              {Object.keys(questions).map((subj) => (
+                <option key={subj} value={subj}>{subj}</option>
+              ))}
+            </select>
+          </div>
 
-      {/* Timer Selection */}
-      {subject && (
-        <div className="w-full max-w-md bg-white shadow-md p-4 rounded-lg mb-4">
-          <label className="block font-semibold text-gray-700">Choose Timer Duration (Minutes):</label>
-          <select
-            onChange={(e) => setTimer(Number(e.target.value))}
-            className="mt-2 p-2 w-full border rounded-lg focus:ring-2 focus:ring-blue-400"
-          >
-            <option value="">Select Timer</option>
-            {[5, 10, 15, 20, 30].map((time, idx) => (
-              <option key={idx} value={time}>{time} Minutes</option>
-            ))}
-          </select>
+          {/* Question Count Selection */}
+          <div className="bg-white shadow-md p-4 rounded-lg">
+            <label className="block font-semibold text-gray-700">
+              Number of Questions (Available: {filteredQuestions.length})
+            </label>
+            <select
+              onChange={(e) => setQuestionCount(Number(e.target.value))}
+              className="mt-2 p-2 w-full border rounded-lg focus:ring-2 focus:ring-blue-400"
+              value={questionCount}
+            >
+              <option value="0">Select Question Count</option>
+              {availableQuestionCounts().map((count) => (
+                <option key={count} value={count}>
+                  {count} Questions
+                </option>
+              ))}
+            </select>
+          </div>
+
+          {/* Timer Selection */}
+          <div className="bg-white shadow-md p-4 rounded-lg">
+            <label className="block font-semibold text-gray-700">Timer Duration:</label>
+            <select
+              onChange={(e) => setTimer(Number(e.target.value))}
+              className="mt-2 p-2 w-full border rounded-lg focus:ring-2 focus:ring-blue-400"
+              value={timer}
+            >
+              <option value="0">Select Timer</option>
+              <option value="5">5 Minutes</option>
+              <option value="10">10 Minutes</option>
+              <option value="15">15 Minutes</option>
+              <option value="20">20 Minutes</option>
+              <option value="30">30 Minutes</option>
+            </select>
+          </div>
+
+          {/* Start Test Button */}
           <button
-            onClick={startTimer}
-            className="mt-4 bg-blue-500 text-white p-2 rounded w-full"
+            onClick={startTest}
+            className="w-full bg-blue-500 text-white p-3 rounded-lg hover:bg-blue-600 transition-colors font-semibold"
+            disabled={!examType || !subject || questionCount <= 0 || timer <= 0}
           >
-            Start Timer
+            Start Test
           </button>
         </div>
       )}
 
-      {/* Questions and Answers */}
-      {subject && !submitted && (
-        <div className="w-full max-w-2xl bg-white shadow-lg p-6 rounded-lg mt-6">
-          <div className="flex justify-between mb-6">
-            <h2 className="text-xl font-semibold">{questions[subject] && questions[subject][currentIndex]?.question}</h2>
-            <span className="text-red-500 font-bold">
-              {Math.floor(timeLeft / 60)}:{(timeLeft % 60).toString().padStart(2, "0")}
-            </span>
+      {/* Test Section - Only shown after test starts */}
+      {testStarted && !submitted && (
+        <div className="w-full max-w-2xl bg-white shadow-lg p-6 rounded-lg">
+          {/* Header with timer and progress */}
+          <div className="flex justify-between items-center mb-6">
+            <div className="text-sm text-gray-600">
+              Question {currentIndex + 1} of {filteredQuestions.length}
+            </div>
+            <div className="text-red-500 font-bold">
+              Time Remaining: {Math.floor(timeLeft / 60)}:{(timeLeft % 60).toString().padStart(2, "0")}
+            </div>
           </div>
 
-          <div className="mt-3">
+          {/* Current Question */}
+          <div className="mb-6">
+            <h2 className="text-xl font-semibold mb-4">
+              {filteredQuestions[currentIndex]?.question}
+            </h2>
+            
             {/* Multiple Choice Options */}
-            {questions[subject] && questions[subject][currentIndex]?.options?.map((option, idx) => (
-              <label key={idx} className="block bg-white p-2 border rounded-lg cursor-pointer hover:bg-gray-200">
-                <input
-                  type="radio"
-                  name={`question-${currentIndex}`}
-                  value={option}
-                  checked={answers[currentIndex] === option}
-                  onChange={() => handleAnswerChange(option)}
-                  className="mr-2"
-                />
-                {String.fromCharCode(65 + idx)}) {option} {/* A, B, C, D */}
-              </label>
-            ))}
+            <div className="space-y-2">
+              {filteredQuestions[currentIndex]?.options?.map((option, idx) => (
+                <label key={idx} className="flex items-center p-3 border rounded-lg cursor-pointer hover:bg-gray-50">
+                  <input
+                    type="radio"
+                    name={`question-${currentIndex}`}
+                    value={option}
+                    checked={answers[currentIndex] === option}
+                    onChange={() => handleAnswerChange(option)}
+                    className="mr-3"
+                  />
+                  <span>{String.fromCharCode(65 + idx)}) {option}</span>
+                </label>
+              ))}
+            </div>
           </div>
 
-          <div className="mt-4 flex justify-between">
+          {/* Navigation Buttons */}
+          <div className="flex justify-between">
             <button
               onClick={prevQuestion}
               disabled={currentIndex === 0}
-              className="bg-gray-300 p-2 rounded"
+              className="bg-gray-200 px-4 py-2 rounded hover:bg-gray-300 transition-colors"
             >
               Previous
             </button>
-            <button
-              onClick={nextQuestion}
-              disabled={currentIndex === questions[subject].length - 1}
-              className="bg-blue-500 text-white p-2 rounded"
-            >
-              Next
-            </button>
+            
+            {currentIndex < filteredQuestions.length - 1 ? (
+              <button
+                onClick={nextQuestion}
+                className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition-colors"
+              >
+                Next
+              </button>
+            ) : (
+              <button
+                onClick={handleSubmitExam}
+                className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition-colors"
+              >
+                Submit Exam
+              </button>
+            )}
           </div>
         </div>
       )}
 
-      {/* Submit Button */}
-      {questions[subject]?.length && currentIndex === questions[subject].length - 1 && !submitted && (
-        <button
-          onClick={submitExam}
-          className="mt-6 bg-green-500 text-white p-2 rounded w-full"
-        >
-          Submit Exam
-        </button>
+      {/* User Details Form - Shown after submission but before results */}
+      {submitted && !showResults && (
+        <div className="w-full max-w-md bg-white shadow-lg p-6 rounded-lg">
+          <h2 className="text-2xl font-bold text-blue-600 mb-6">Enter Your Details</h2>
+          <form onSubmit={submitUserDetails} className="space-y-4">
+            <div>
+              <label className="block font-semibold text-gray-700 mb-1">Full Name</label>
+              <input
+                type="text"
+                name="name"
+                value={userDetails.name}
+                onChange={handleUserDetailsChange}
+                required
+                className="w-full p-2 border rounded-lg focus:ring-2 focus:ring-blue-400"
+              />
+            </div>
+            
+            <div>
+              <label className="block font-semibold text-gray-700 mb-1">Email Address</label>
+              <input
+                type="email"
+                name="email"
+                value={userDetails.email}
+                onChange={handleUserDetailsChange}
+                required
+                className="w-full p-2 border rounded-lg focus:ring-2 focus:ring-blue-400"
+              />
+            </div>
+            
+            <div>
+              <label className="block font-semibold text-gray-700 mb-1">Phone Number</label>
+              <input
+                type="tel"
+                name="phone"
+                value={userDetails.phone}
+                onChange={handleUserDetailsChange}
+                required
+                className="w-full p-2 border rounded-lg focus:ring-2 focus:ring-blue-400"
+              />
+            </div>
+            
+            <button
+              type="submit"
+              disabled={isSubmitting}
+              className="w-full bg-blue-500 text-white p-3 rounded-lg hover:bg-blue-600 transition-colors font-semibold"
+            >
+              {isSubmitting ? "Submitting..." : "View Results"}
+            </button>
+          </form>
+        </div>
       )}
 
-      {/* Result Section */}
-      {submitted && (
-        <div className="w-full max-w-2xl bg-white shadow-lg p-6 rounded-lg mt-6 text-center">
-          <h3 className="text-xl font-bold">Exam Completed!</h3>
-          <p className="text-lg mt-2">Your Score: {calculateScore()} / {questions[subject].length}</p>
+      {/* Results Section - Shown after user details are submitted */}
+      {showResults && (
+        <div className="w-full max-w-2xl bg-white shadow-lg p-6 rounded-lg">
+          <div className="text-center mb-6">
+            <h2 className="text-2xl font-bold text-green-600">Exam Results</h2>
+            <p className="text-lg mt-2">
+              Name: <span className="font-bold">{userDetails.name}</span>
+            </p>
+            <p className="text-lg mt-2">
+              Your Score: <span className="font-bold">{calculateScore()}</span> out of <span className="font-bold">{filteredQuestions.length}</span>
+            </p>
+            <p className="text-lg">
+              Percentage: <span className="font-bold">{Math.round((calculateScore() / filteredQuestions.length) * 100)}%</span>
+            </p>
+          </div>
 
-          {questions[subject]?.length && questions[subject].map((q, index) => (
-            <div key={index} className="mt-4 text-left">
-              <p className="font-bold">{index + 1}. {q.question}</p>
-              <p className={`text-${answers[index] === q.answer ? "green" : "red"}-600`}>
-                Correct Answer: {q.answer}
-              </p>
-              <p className="text-gray-700">Explanation: {q.explanation || "No explanation provided."}</p>
-            </div>
-          ))}
+          {/* Answers Review */}
+          <div className="space-y-6">
+            {filteredQuestions.map((q, index) => (
+              <div key={index} className="border-b pb-4">
+                <p className="font-semibold text-lg">
+                  {index + 1}. {q.question}
+                </p>
+                <p className={`mt-2 ${answers[index] === q.answer ? 'text-green-600' : 'text-red-600'}`}>
+                  Your answer: {answers[index] || "Not answered"}
+                </p>
+                {answers[index] !== q.answer && (
+                  <p className="text-green-600">Correct answer: {q.answer}</p>
+                )}
+                {q.explanation && (
+                  <div className="mt-2 p-3 bg-gray-50 rounded">
+                    <p className="font-medium">Explanation:</p>
+                    <p>{q.explanation}</p>
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
 
+          {/* Retake Button */}
           <button
             onClick={() => window.location.reload()}
-            className="mt-4 bg-blue-500 text-white p-2 rounded"
+            className="mt-6 w-full bg-blue-500 text-white p-3 rounded-lg hover:bg-blue-600 transition-colors font-semibold"
           >
-            Retake Exam
+            Take Another Test
           </button>
         </div>
       )}

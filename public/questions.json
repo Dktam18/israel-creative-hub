@@ -1,51 +1,402 @@
 {
-    "Mathematics": [
-      {
-        "examType": "WAEC",
-        "question": "What is the value of x in the equation 2x + 3 = 11?",
-        "options": ["2", "3", "4", "5"],
-        "answer": "4",
-        "explanation": "2x + 3 = 11 → 2x = 8 → x = 4"
-      },
-      {
-        "examType": "JAMB",
-        "question": "Simplify: 2(3x - 4) + 4(2x + 1)",
-        "options": ["14x - 4", "10x", "14x - 2", "6x + 4"],
-        "answer": "14x - 4",
-        "explanation": "2(3x - 4) = 6x - 8, 4(2x + 1) = 8x + 4 → 6x - 8 + 8x + 4 = 14x - 4"
-      }
-    ],
-    "English": [
-      {
-        "examType": "NECO",
-        "question": "Choose the word that is nearest in meaning to 'benevolent':",
-        "options": ["Greedy", "Kind", "Mean", "Cruel"],
-        "answer": "Kind",
-        "explanation": "‘Benevolent’ means well-meaning or kindly."
-      },
-      {
-        "examType": "WAEC",
-        "question": "Which of the following is a synonym for 'obscure'?",
-        "options": ["Clear", "Vague", "Bright", "Famous"],
-        "answer": "Vague",
-        "explanation": "‘Obscure’ means unclear or difficult to understand."
-      }
-    ],
-    "Biology": [
-      {
-        "examType": "JAMB",
-        "question": "Which organelle is responsible for cellular respiration?",
-        "options": ["Nucleus", "Mitochondrion", "Chloroplast", "Ribosome"],
-        "answer": "Mitochondrion",
-        "explanation": "Mitochondria are known as the powerhouse of the cell."
-      },
-      {
-        "examType": "NECO",
-        "question": "Which of these is not a function of the liver?",
-        "options": ["Bile secretion", "Detoxification", "Urea formation", "Pumping blood"],
-        "answer": "Pumping blood",
-        "explanation": "Pumping blood is a function of the heart, not the liver."
-      }
-    ]
-  }
-  
+  "Mathematics": [
+    {
+      "examType": "WAEC",
+      "question": "What is the value of x in the equation 2x + 3 = 11?",
+      "options": ["2", "3", "4", "5"],
+      "answer": "4",
+      "explanation": "2x + 3 = 11 → 2x = 8 → x = 4"
+    },
+    {
+      "examType": "JAMB",
+      "question": "Simplify: 2(3x - 4) + 4(2x + 1)",
+      "options": ["14x - 4", "10x", "14x - 2", "6x + 4"],
+      "answer": "14x - 4",
+      "explanation": "2(3x - 4) = 6x - 8, 4(2x + 1) = 8x + 4 → 6x - 8 + 8x + 4 = 14x - 4"
+    }
+  ],
+  "English": [
+    {
+      "examType": "NECO",
+      "question": "Choose the word that is nearest in meaning to 'benevolent':",
+      "options": ["Greedy", "Kind", "Mean", "Cruel"],
+      "answer": "Kind",
+      "explanation": "‘Benevolent’ means well-meaning or kindly."
+    },
+    {
+      "examType": "WAEC",
+      "question": "Which of the following is a synonym for 'obscure'?",
+      "options": ["Clear", "Vague", "Bright", "Famous"],
+      "answer": "Vague",
+      "explanation": "‘Obscure’ means unclear or difficult to understand."
+    }
+  ],
+  "Biology": [
+    {
+      "examType": "JAMB",
+      "question": "Which organelle is responsible for cellular respiration?",
+      "options": ["Nucleus", "Mitochondrion", "Chloroplast", "Ribosome"],
+      "answer": "Mitochondrion",
+      "explanation": "Mitochondria are known as the powerhouse of the cell."
+    },
+    {
+      "examType": "NECO",
+      "question": "Which of these is not a function of the liver?",
+      "options": ["Bile secretion", "Detoxification", "Urea formation", "Pumping blood"],
+      "answer": "Pumping blood",
+      "explanation": "Pumping blood is a function of the heart, not the liver."
+    }
+  ],
+  "Government": [
+    {
+      "examType": "JAMB",
+      "question": "The primary function of government is to:",
+      "options": ["Control the economy", "Provide security", "Manage education", "Regulate trade"],
+      "answer": "Provide security",
+      "explanation": "The fundamental role of government is to maintain law and order and protect citizens."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Which of the following is a characteristic of a federal system of government?",
+      "options": ["Centralized power", "Division of powers", "Unitary authority", "Absolute monarchy"],
+      "answer": "Division of powers",
+      "explanation": "Federal systems divide power between central and regional governments."
+    },
+    {
+      "examType": "JAMB",
+      "question": "The concept of separation of powers was popularized by:",
+      "options": ["Karl Marx", "John Locke", "Montesquieu", "Thomas Hobbes"],
+      "answer": "Montesquieu",
+      "explanation": "Montesquieu advocated for separating government into legislative, executive and judicial branches."
+    },
+    {
+      "examType": "JAMB",
+      "question": "A government that is ruled by a single person is known as:",
+      "options": ["Democracy", "Monarchy", "Oligarchy", "Republic"],
+      "answer": "Monarchy",
+      "explanation": "Monarchy is a form of government with a single ruler, typically a king or queen."
+    },
+    {
+      "examType": "JAMB",
+      "question": "The judiciary is responsible for:",
+      "options": ["Making laws", "Enforcing laws", "Interpreting laws", "Amending laws"],
+      "answer": "Interpreting laws",
+      "explanation": "The judiciary interprets and applies laws in specific cases."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Which document serves as the supreme law of Nigeria?",
+      "options": ["The Constitution", "The Bill of Rights", "The National Assembly Act", "The Electoral Act"],
+      "answer": "The Constitution",
+      "explanation": "The Constitution is the fundamental and supreme law of Nigeria."
+    },
+    {
+      "examType": "JAMB",
+      "question": "The principle of checks and balances is intended to:",
+      "options": ["Increase government efficiency", "Prevent abuse of power", "Centralize authority", "Limit citizen participation"],
+      "answer": "Prevent abuse of power",
+      "explanation": "Checks and balances ensure no single branch of government becomes too powerful."
+    },
+    {
+      "examType": "JAMB",
+      "question": "The highest court in Nigeria is known as:",
+      "options": ["Court of Appeal", "Supreme Court", "Federal High Court", "High Court"],
+      "answer": "Supreme Court",
+      "explanation": "The Supreme Court is the highest court in Nigeria's judicial hierarchy."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Which of the following is NOT a form of government?",
+      "options": ["Democracy", "Anarchy", "Autocracy", "Oligarchy"],
+      "answer": "Anarchy",
+      "explanation": "Anarchy refers to absence of government, not a form of government."
+    },
+    {
+      "examType": "JAMB",
+      "question": "A government that derives its power from the consent of the governed is called:",
+      "options": ["Authoritarian", "Totalitarian", "Democratic", "Dictatorial"],
+      "answer": "Democratic",
+      "explanation": "Democracy is government by the people, through elected representatives."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Which body in Nigeria is responsible for conducting elections?",
+      "options": ["National Assembly", "Independent National Electoral Commission (INEC)", "Federal Executive Council", "Judiciary"],
+      "answer": "Independent National Electoral Commission (INEC)",
+      "explanation": "INEC is Nigeria's electoral body established by the 1999 Constitution."
+    },
+    {
+      "examType": "JAMB",
+      "question": "The principle of popular sovereignty means:",
+      "options": ["The government controls everything", "The people are the ultimate source of authority", "Only the elite can govern", "Laws are made by the king"],
+      "answer": "The people are the ultimate source of authority",
+      "explanation": "Popular sovereignty means government power comes from the people's consent."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Which of the following rights is guaranteed under the Nigerian Constitution?",
+      "options": ["Right to bear arms", "Right to freedom of speech", "Right to free education for all citizens", "Right to own land"],
+      "answer": "Right to freedom of speech",
+      "explanation": "Freedom of expression is guaranteed under Chapter IV of the Nigerian Constitution."
+    },
+    {
+      "examType": "JAMB",
+      "question": "The term 'bicameral' refers to:",
+      "options": ["Two branches of government", "Two houses of legislature", "Two parties in a democracy", "Two types of elections"],
+      "answer": "Two houses of legislature",
+      "explanation": "Nigeria has a bicameral legislature (Senate and House of Representatives)."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Who is the head of state in Nigeria?",
+      "options": ["The Prime Minister", "The President", "The Governor", "The Chief Justice"],
+      "answer": "The President",
+      "explanation": "The President is both head of state and head of government in Nigeria."
+    },
+    {
+      "examType": "JAMB",
+      "question": "A system where power is concentrated in a central government is known as:",
+      "options": ["Federalism", "Confederation", "Unitary system", "Decentralization"],
+      "answer": "Unitary system",
+      "explanation": "In unitary systems, all government power is held by the central authority."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Which of the following is a duty of citizenship?",
+      "options": ["Right to vote", "Paying taxes", "Freedom of speech", "Right to protest"],
+      "answer": "Paying taxes",
+      "explanation": "Paying taxes is a civic duty required of all citizens."
+    },
+    {
+      "examType": "JAMB",
+      "question": "The Nigerian Senate consists of how many members?",
+      "options": ["109", "120", "150", "360"],
+      "answer": "109",
+      "explanation": "The Senate has 109 members (3 from each state + 1 from FCT)."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Which document outlines the fundamental rights of Nigerian citizens?",
+      "options": ["The Preamble", "The Constitution", "The Bill of Rights Act", "The National Policy"],
+      "answer": "The Constitution",
+      "explanation": "Chapter IV of the Nigerian Constitution contains fundamental rights provisions."
+    },
+    {
+      "examType": "JAMB",
+      "question": "What is the maximum term for a president in Nigeria?",
+      "options": ["4 years", "8 years", "10 years", "12 years"],
+      "answer": "8 years",
+      "explanation": "The constitution limits presidents to two 4-year terms (maximum 8 years)."
+    },
+    {
+      "examType": "JAMB",
+      "question": "The legislative power in Nigeria is vested in:",
+      "options": ["The President", "The National Assembly", "The Judiciary", "The Executive Council"],
+      "answer": "The National Assembly",
+      "explanation": "Section 4 of the 1999 Constitution vests legislative powers in the National Assembly."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Which of the following is NOT a type of democracy?",
+      "options": ["Direct democracy", "Representative democracy", "Participatory democracy", "Authoritarian democracy"],
+      "answer": "Authoritarian democracy",
+      "explanation": "Authoritarian democracy is an oxymoron - authoritarianism opposes democratic principles."
+    },
+    {
+      "examType": "JAMB",
+      "question": "The principle of rule of law means:",
+      "options": ["Laws are made by the king", "Everyone is subject to the law", "Law is arbitrary", "Only certain people are above the law"],
+      "answer": "Everyone is subject to the law",
+      "explanation": "Rule of law means equality before the law and supremacy of the law."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Who appoints judges in Nigeria?",
+      "options": ["The President", "The National Assembly", "The Chief Justice", "The Governor"],
+      "answer": "The President",
+      "explanation": "The President appoints judges on recommendation of the National Judicial Council."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Which political party was in power during Nigeria's first military coup?",
+      "options": ["National Council of Nigeria and the Cameroons (NCNC)", "Action Group (AG)", "Northern People's Congress (NPC)", "People's Democratic Party (PDP)"],
+      "answer": "Northern People's Congress (NPC)",
+      "explanation": "The NPC-led government was overthrown in Nigeria's first coup on January 15, 1966."
+    },
+    {
+      "examType": "JAMB",
+      "question": "What is the primary role of the executive branch in government?",
+      "options": ["Make laws", "Enforce laws", "Interpret laws", "Amend laws"],
+      "answer": "Enforce laws",
+      "explanation": "The executive branch implements and enforces laws made by the legislature."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Which article of the Nigerian Constitution deals with fundamental human rights?",
+      "options": ["Article 4", "Article 33-46", "Article 1", "Article 12"],
+      "answer": "Article 33-46",
+      "explanation": "Chapter IV (Articles 33-46) of the 1999 Constitution covers fundamental rights."
+    },
+    {
+      "examType": "JAMB",
+      "question": "What does the term 'suffrage' refer to?",
+      "options": ["Right to free speech", "Right to vote", "Right to assemble", "Right to privacy"],
+      "answer": "Right to vote",
+      "explanation": "Suffrage refers to the right to vote in political elections."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Which body has the power to impeach the president in Nigeria?",
+      "options": ["House of Representatives", "Senate", "Supreme Court", "National Assembly"],
+      "answer": "National Assembly",
+      "explanation": "The National Assembly (both houses) has power to impeach the president."
+    },
+    {
+      "examType": "JAMB",
+      "question": "In which year did Nigeria gain independence?",
+      "options": ["1960", "1970", "1980", "1990"],
+      "answer": "1960",
+      "explanation": "Nigeria gained independence from Britain on October 1, 1960."
+    },
+    {
+      "examType": "JAMB",
+      "question": "What does 'civil society' refer to?",
+      "options": ["Government institutions", "Organizations independent of government", "Military organizations", "Political parties"],
+      "answer": "Organizations independent of government",
+      "explanation": "Civil society comprises non-governmental organizations and institutions."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Which of the following is a feature of a totalitarian regime?",
+      "options": ["Free elections", "Pluralism", "Centralized control over all aspects of life", "Independent judiciary"],
+      "answer": "Centralized control over all aspects of life",
+      "explanation": "Totalitarian regimes exercise extreme control over all aspects of society."
+    },
+    {
+      "examType": "JAMB",
+      "question": "What is the purpose of a constitution?",
+      "options": ["To create laws", "To limit governmental power", "To elect representatives", "To establish political parties"],
+      "answer": "To limit governmental power",
+      "explanation": "Constitutions establish and constrain government power while protecting rights."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Who has the authority to declare a state of emergency in Nigeria?",
+      "options": ["National Assembly", "President", "Chief Justice", "Governor"],
+      "answer": "President",
+      "explanation": "The President can declare a state of emergency subject to National Assembly approval."
+    },
+    {
+      "examType": "JAMB",
+      "question": "What does 'autonomy' mean in a political context?",
+      "options": ["Complete independence", "Self-governance within a larger political entity", "Total control by a central authority", "Limited rights for citizens"],
+      "answer": "Self-governance within a larger political entity",
+      "explanation": "Autonomy refers to self-rule while remaining part of a larger political unit."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Which institution is responsible for interpreting the Constitution in Nigeria?",
+      "options": ["National Assembly", "Supreme Court", "Federal Executive Council", "Independent Electoral Commission"],
+      "answer": "Supreme Court",
+      "explanation": "The Supreme Court is the final interpreter of Nigeria's Constitution."
+    },
+    {
+      "examType": "JAMB",
+      "question": "What is the main function of political parties?",
+      "options": ["To enforce laws", "To represent different interests and compete for power", "To interpret laws", "To conduct elections"],
+      "answer": "To represent different interests and compete for power",
+      "explanation": "Political parties aggregate interests and seek political power through elections."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Who was Nigeria's first military ruler after independence?",
+      "options": ["General Yakubu Gowon", "General Muhammadu Buhari", "General Johnson Aguiyi-Ironsi", "General Olusegun Obasanjo"],
+      "answer": "General Johnson Aguiyi-Ironsi",
+      "explanation": "Major-General Aguiyi-Ironsi took power after the January 1966 coup."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Which right protects individuals from arbitrary arrest and detention?",
+      "options": ["Right to freedom of expression", "Right to personal liberty", "Right to fair trial", "Right to privacy"],
+      "answer": "Right to personal liberty",
+      "explanation": "Section 35 of the Constitution protects against unlawful detention."
+    },
+    {
+      "examType": "JAMB",
+      "question": "What does 'judicial review' allow courts to do?",
+      "options": ["Create new laws", "Overturn unconstitutional laws", "Enforce existing laws", "Appoint judges"],
+      "answer": "Overturn unconstitutional laws",
+      "explanation": "Judicial review empowers courts to invalidate laws that violate the constitution."
+    },
+    {
+      "examType": "JAMB",
+      "question": "What is the role of the Electoral Commission in Nigeria?",
+      "options": ["To conduct elections and ensure fairness", "To make laws", "To interpret laws", "To enforce laws"],
+      "answer": "To conduct elections and ensure fairness",
+      "explanation": "INEC organizes elections and ensures compliance with electoral laws."
+    },
+    {
+      "examType": "JAMB",
+      "question": "What type of government does Nigeria practice?",
+      "options": ["Monarchy", "Republic", "Dictatorship", "Oligarchy"],
+      "answer": "Republic",
+      "explanation": "Nigeria is a federal republic with elected representatives."
+    },
+    {
+      "examType": "JAMB",
+      "question": "How many states does Nigeria have?",
+      "options": ["30", "36", "40", "50"],
+      "answer": "36",
+      "explanation": "Nigeria comprises 36 states and the Federal Capital Territory."
+    },
+    {
+      "examType": "JAMB",
+      "question": "What is one major reason for political instability in Nigeria?",
+      "options": ["Strong economy", "Ethnic and religious conflicts", "High literacy rate", "Stable political parties"],
+      "answer": "Ethnic and religious conflicts",
+      "explanation": "Ethno-religious divisions have contributed to Nigeria's political instability."
+    },
+    {
+      "examType": "JAMB",
+      "question": "What does 'devolution' mean in governance?",
+      "options": ["Centralization of power", "Distribution of powers to lower levels of government", "Complete independence", "Elimination of local governments"],
+      "answer": "Distribution of powers to lower levels of government",
+      "explanation": "Devolution transfers power from central to regional/local governments."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Which principle allows citizens to participate in governance through voting?",
+      "options": ["Popular sovereignty", "Rule of law", "Separation of powers", "Checks and balances"],
+      "answer": "Popular sovereignty",
+      "explanation": "Popular sovereignty means government derives power from the people's consent."
+    },
+    {
+      "examType": "JAMB",
+      "question": "In Nigeria, which body has exclusive legislative powers over certain matters?",
+      "options": ["House of Representatives", "Senate", "National Assembly", "State Assemblies"],
+      "answer": "National Assembly",
+      "explanation": "The Exclusive Legislative List contains matters only the National Assembly can legislate on."
+    },
+    {
+      "examType": "JAMB",
+      "question": "What does 'political culture' refer to?",
+      "options": ["Government policies only", "Attitudes, beliefs, and values about politics within a society", "Legal frameworks only", "Economic conditions only"],
+      "answer": "Attitudes, beliefs, and values about politics within a society",
+      "explanation": "Political culture encompasses a society's political attitudes and norms."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Which term describes a system where multiple parties exist and compete for power?",
+      "options": ["One-party system", "Multi-party system", "Dictatorship", "Oligarchy"],
+      "answer": "Multi-party system",
+      "explanation": "Nigeria operates a multi-party system with numerous competing parties."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Who is responsible for appointing ministers in Nigeria?",
+      "options": ["National Assembly", "President", "Chief Justice", "Governors"],
+      "answer": "President",
+      "explanation": "The President appoints ministers subject to Senate confirmation."
+    }
+  ]
+}
