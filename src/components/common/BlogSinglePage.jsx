@@ -9,7 +9,7 @@ const jambSubjects = [
   { name: "Biology", download: "Biology.pdf" },
   { name: "Agricultural Science", download: "Agriculture.pdf" },
   { name: "Arabic", download: "Arabic.pdf" },
-  { name: "Christian Religious Studies", download: "Christian-Religous-Studies.pdf" },
+  { name: "Christian Religious Studies", download: "Christian-Religious-Studies.pdf" },
   { name: "Commerce", download: "Commerce.pdf" },
   { name: "Art", download: "Art.pdf" },
   { name: "Computer Studies", download: "Computer-Studies.pdf" },
