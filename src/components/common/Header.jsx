@@ -98,12 +98,12 @@ export const Header = () => {
               )}
             </div>
 
-            {/* Shopping Bag */}
-            <NavLink to='#'>
+            
+            {/* <NavLink to='#'>
               <button>
                 <BiShoppingBag size={25} />
               </button>
-            </NavLink>
+            </NavLink> */}
 
             {/* Login */}
             <button id='btnnn' onClick={handleClick}>
