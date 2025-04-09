@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { FaTimes, FaWhatsapp } from "react-icons/fa";
 
 export const Practice = () => {
   const [questions, setQuestions] = useState({});
@@ -19,6 +20,7 @@ export const Practice = () => {
     phone: ""
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [showWhatsappPopup, setShowWhatsappPopup] = useState(false);
 
   // Load questions from JSON file
   useEffect(() => {
@@ -55,6 +57,16 @@ export const Practice = () => {
       return () => clearInterval(interval);
     }
   }, [timer, submitted, testStarted]);
+
+  // Show WhatsApp popup 3 seconds after results are shown
+  useEffect(() => {
+    if (showResults) {
+      const timer = setTimeout(() => {
+        setShowWhatsappPopup(true);
+      }, 3000);
+      return () => clearTimeout(timer);
+    }
+  }, [showResults]);
 
   const startTest = () => {
     if (examType && subject && filteredQuestions.length && timer > 0 && questionCount > 0) {
@@ -356,6 +368,47 @@ export const Practice = () => {
       {/* Results Section - Shown after user details are submitted */}
       {showResults && (
         <div className="w-full max-w-2xl bg-white shadow-lg p-6 rounded-lg">
+          {/* Floating WhatsApp Button */}
+          {!showWhatsappPopup && (
+            <div className="fixed bottom-6 right-6 z-40">
+              <button 
+                onClick={() => setShowWhatsappPopup(true)}
+                className="bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-colors flex items-center justify-center"
+              >
+                <FaWhatsapp className="text-2xl" />
+              </button>
+            </div>
+          )}
+
+          {/* WhatsApp Popup */}
+          {showWhatsappPopup && (
+            <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+              <div className="bg-white rounded-lg p-6 max-w-md w-full relative">
+                <button 
+                  onClick={() => setShowWhatsappPopup(false)}
+                  className="absolute top-2 right-2 text-gray-500 hover:text-gray-700"
+                >
+                  <FaTimes />
+                </button>
+                
+                <div className="text-center">
+                  <FaWhatsapp className="text-green-500 text-5xl mx-auto mb-4" />
+                  <h3 className="text-xl font-bold mb-2">Join Our WhatsApp Channel!</h3>
+                  <p className="mb-4">Get instant updates on JAMB news, tips, and more by joining our educational community.</p>
+                  
+                  <a
+                    href="https://whatsapp.com/channel/0029VajOfp62UPBOfXpold3b/1556"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-green-500 hover:bg-green-600 text-white font-medium py-2 px-4 rounded inline-flex items-center justify-center gap-2"
+                  >
+                    <FaWhatsapp /> Join Now
+                  </a>
+                </div>
+              </div>
+            </div>
+          )}
+
           <div className="text-center mb-6">
             <h2 className="text-2xl font-bold text-green-600">Exam Results</h2>
             <p className="text-lg mt-2">
