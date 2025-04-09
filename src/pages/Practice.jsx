@@ -304,7 +304,7 @@ export const Practice = () => {
       {/* User Details Form - Shown after submission but before results */}
       {submitted && !showResults && (
         <div className="w-full max-w-md bg-white shadow-lg p-6 rounded-lg">
-          <h2 className="text-2xl font-bold text-blue-600 mb-6">Enter Your Details</h2>
+          <h2 className="text-2xl font-bold text-blue-600 mb-6">Enter Your Details to view result</h2>
           <form onSubmit={submitUserDetails} className="space-y-4">
             <div>
               <label className="block font-semibold text-gray-700 mb-1">Full Name</label>

@@ -31,6 +31,22 @@
       "explanation": "‘Obscure’ means unclear or difficult to understand."
     }
   ],
+  "Civic Education ": [
+    {
+      "examType": "NECO",
+      "question": "Choose the word that is nearest in meaning to 'benevolent':",
+      "options": ["Greedy", "Kind", "Mean", "Cruel"],
+      "answer": "Kind",
+      "explanation": "‘Benevolent’ means well-meaning or kindly."
+    },
+    {
+      "examType": "WAEC",
+      "question": "Which of the following is a synonym for 'obscure'?",
+      "options": ["Clear", "Vague", "Bright", "Famous"],
+      "answer": "Vague",
+      "explanation": "‘Obscure’ means unclear or difficult to understand."
+    }
+  ],
   "Biology": [
     {
       "examType": "JAMB",
@@ -397,6 +413,523 @@
       "options": ["National Assembly", "President", "Chief Justice", "Governors"],
       "answer": "President",
       "explanation": "The President appoints ministers subject to Senate confirmation."
+    }
+  ],
+  "LEKKI HEADMASTER": [
+    {
+      "examType": "JAMB",
+      "question": "Why did the director of \"Beesway Group of School\" claim the ritual involving the cow was necessary?",
+      "options": [
+        "To pray for his late father who gave him the land",
+        "To bring in more pupils to the school",
+        "To appease the parents who had raised complaints",
+        "To conduct a purification ceremony for the school"
+      ],
+      "answer": "To pray for his late father who gave him the land"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What led to the closure of the school Bepo started?",
+      "options": [
+        "Poor road conditions in the neighbourhood",
+        "Parents' dissatisfaction with the curriculum",
+        "A failed spiritual ritual to attract more pupils",
+        "Mismanagement of school funds"
+      ],
+      "answer": "A failed spiritual ritual to attract more pupils"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What was the cost of the form for the position of Head Boy or Head Girl in the school election at Stardom?",
+      "options": ["N25,000", "N40,000", "N50,000", "N60,000"],
+      "answer": "N50,000"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What inappropriate remark did Banky make during Speech Day?",
+      "options": [
+        "Tosh was unqualified for the position",
+        "Tosh was the son of an ex-convict",
+        "Tosh bribed his way into the election",
+        "Tosh lacked the required skill for the role"
+      ],
+      "answer": "Tosh was the son of an ex-convict"
+    },
+    {
+      "examType": "JAMB",
+      "question": "Why was Tosh's father, Chief Ogba, detained for 36 months?",
+      "options": [
+        "He was an ex-convict for theft",
+        "He failed to pay a school debt",
+        "He was accused of fraud but acquitted later",
+        "He faced trial for alleged misappropriation"
+      ],
+      "answer": "He faced trial for alleged misappropriation"
+    },
+    {
+      "examType": "JAMB",
+      "question": "Which of the following waterfalls is the highest in West Africa, according to the novel?",
+      "options": [
+        "Gurara Falls",
+        "Erin Ijesha Waterfalls",
+        "Ikogosi Warm Springs",
+        "Owu Waterfalls"
+      ],
+      "answer": "Owu Waterfalls"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What is the primary reason Mr Bepo organises excursions for the students at Stardom?",
+      "options": [
+        "To give them a good grasp of their country before they all go abroad.",
+        "To promote Stardom as a school that values excursions",
+        "To prepare students for geography exams.",
+        "To encourage tourism in Nigeria"
+      ],
+      "answer": "To give them a good grasp of their country before they all go abroad."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Which of the following festivals have the students attended? \n\ni. Calabar Carnival\n\nii. Osun Oshogbo Festival\n\niii. Argungu Festival\n\niv. Abuja Carnival",
+      "options": [
+        "i, ii, iii only",
+        "i and iv only",
+        "ii and iii only",
+        "i, ii, iii, iv"
+      ],
+      "answer": "i, ii, iii, iv"
+    },
+    {
+      "examType": "JAMB",
+      "question": "How did Mr Bepo inspire students after they visited areas like Mushin and Ajegunle during their excursions?",
+      "options": [
+        "By promising to relocate them to better areas",
+        "By sharing stories of successful individuals who rose from slums",
+        "By discouraging them from visiting such areas again",
+        "By giving them motivational books about success"
+      ],
+      "answer": "By sharing stories of successful individuals who rose from slums"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What was the source of the name \"Badagry\", according to the novel?",
+      "options": [
+        "It was named after the Badagry River",
+        "It was derived from (agbadarigi)",
+        "It originated from a European explorer's name",
+        "It was named after a nearby slave market"
+      ],
+      "answer": "It was derived from (agbadarigi)"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What does Mr Bepo mean by the term \"new slavery\"?",
+      "options": [
+        "Africans willingly move abroad for better opportunities",
+        "The continuation of slave trade in some regions",
+        "The exploitation of Africans by modern companies",
+        "Africans selling themselves into physical labour"
+      ],
+      "answer": "Africans willingly move abroad for better opportunities"
+    },
+    {
+      "examType": "JAMB",
+      "question": "Why was Mr Bepo moved during his visit to the Black Heritage Museum?",
+      "options": [
+        "He felt nostalgic about Nigeria's history",
+        "He was impressed by the museum's architecture",
+        "He empathised with the suffering of slaves in the past",
+        "He remembered his ancestors were involved in slavery"
+      ],
+      "answer": "He empathised with the suffering of slaves in the past"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What is the meaning of the term \"japa\" as used in the novel?",
+      "options": [
+        "The struggle for financial independence",
+        "To travel abroad in search of better opportunities",
+        "To resist colonial influences inn modern times",
+        "To work as a slave in a foreign country"
+      ],
+      "answer": "To travel abroad in search of better opportunities"
+    },
+    {
+      "examType": "JAMB",
+      "question": "Why was Mr Bepo initially reluctant to renew his passport?",
+      "options": [
+        "He had lost his passport",
+        "He was too busy with his teaching duties",
+        "He had heard about the hassles applicants were facing",
+        "He did not plan to travel abroad anytime soon"
+      ],
+      "answer": "He had heard about the hassles applicants were facing"
+    },
+    {
+      "examType": "JAMB",
+      "question": "How much was the official fee for a 10-year passport renewal (64 pages)?",
+      "options": ["N250,000", "N100,000", "N1,000,000", "N70,000"],
+      "answer": "N70,000"
+    },
+    {
+      "examType": "JAMB",
+      "question": "Why did Bepo choose Ibadan for his passport renewal?",
+      "options": [
+        "It was closer to his location",
+        "He was advised that the process would be easier there",
+        "He had a friend who worked in immigration there",
+        "The fees were lower in Ibadan"
+      ],
+      "answer": "He was advised that the process would be easier there"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What can be inferred about Tai's role in the passport renewal process?",
+      "options": [
+        "He is a middleman exploiting applicants",
+        "He was a legitimate immigration officer",
+        "He was an honest businessman offering his services",
+        "He was unaware of the actual renewal process"
+      ],
+      "answer": "He is a middleman exploiting applicants"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What does the phrase \"in cahoots\" most likely mean in the context of Tai and the immigration staff?",
+      "options": [
+        "In conflict with",
+        "Secretly collaborating with",
+        "Officially associated with",
+        "Unknowingly assisting"
+      ],
+      "answer": "Secretly collaborating with"
+    },
+    {
+      "examType": "JAMB",
+      "question": "Why does Mr Bepo delay his flight to the UK?",
+      "options": [
+        "The airline cancels his flight",
+        "He is required to attend a farewell celebration",
+        "He needs to finalise his resignation paperwork",
+        "He has a last-minute meeting with the MD"
+      ],
+      "answer": "He is required to attend a farewell celebration"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What Yoruba adage does Mr Bepo recall after the debate at the farewell celebration?",
+      "options": [
+        "A wise man never leaves his work unfinished",
+        "The work of a teacher outlives their time",
+        "Success is not final; failure is not fatal",
+        "Even if the master carver retires, his carvings remain"
+      ],
+      "answer": "Even if the master carver retires, his carvings remain"
+    },
+    {
+      "examType": "JAMB",
+      "question": "Why does Mr Bepo yell \"Noooo!\" during the drama club performance at the farewell celebration?",
+      "options": [
+        "He was disappointed with the dance",
+        "He is overwhelmed by memories of the Heritage Slave Museum",
+        "He feels the performance is disrespectful",
+        "He disagrees with the students' portrayal of history"
+      ],
+      "answer": "He is overwhelmed by memories of the Heritage Slave Museum"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What was the farewell gift presented to Mr Bepo?",
+      "options": [
+        "A framed picture of the staff and students",
+        "A plaque commemorating his years of service",
+        "A cheque for $10,000",
+        "A plane ticket to his new destination"
+      ],
+      "answer": "A framed picture of the staff and students"
+    },
+    {
+      "examType": "JAMB",
+      "question": "At what time is Mr Bepo's flight to the UK scheduled to depart?",
+      "options": ["5:00pm", "10:00 pm", "1:00 pm", "8:00 pm"],
+      "answer": "10:00 pm"
+    },
+    {
+      "examType": "JAMB",
+      "question": "Who offers to drive Mr Bepo to the airport?",
+      "options": [
+        "Mrs Grace Apeh",
+        "Mr Oyelana",
+        "Mr Ogunwale",
+        "The Stardom accountant"
+      ],
+      "answer": "Mr Oyelana"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What did Mr Bepo's wife insist he should pack for his trip to the UK?",
+      "options": [
+        "Locust beans, egusi, ground crayfish and dry snail",
+        "New clothes and electronics",
+        "Fruits and water",
+        "His passport and essential documents"
+      ],
+      "answer": "Locust beans, egusi, ground crayfish and dry snail"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What is the primary setting of The Lekki Headmaster?",
+      "options": [
+        "Beesway Group of School",
+        "Stardom Schools",
+        "The Black Heritage Museum, Badagry",
+        "Mushin, Lagos"
+      ],
+      "answer": "Stardom Schools"
+    },
+    {
+      "examType": "JAMB",
+      "question": "Who is the protagonist of the novel?",
+      "options": [
+        "Mr Alabi",
+        "Mrs Grace Apeh",
+        "Mrs Ibidun Gloss",
+        "Mr Adewale Adebepo"
+      ],
+      "answer": "Mr Adewale Adebepo"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What is Mr Bepo's profession?",
+      "options": ["A doctor", "A principal", "A businessman", "A historian"],
+      "answer": "A principal"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What is the main challenge that Mr Bepo faces in the novel?",
+      "options": [
+        "Convincing parents to enrol their children",
+        "Managing the school's finances",
+        "Balancing his career with pressure to migrate",
+        "Starting his own school"
+      ],
+      "answer": "Balancing his career with pressure to migrate"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What theme is predominantly explored in the novel?",
+      "options": [
+        "Betrayal",
+        "Political corruption",
+        "Love and relationships",
+        "Migration and identity"
+      ],
+      "answer": "Migration and identity"
+    },
+    {
+      "examType": "JAMB",
+      "question": "Which teacher is known for the use of witty remarks in the novel?",
+      "options": [
+        "Mrs Ibidun Gloss",
+        "Mrs Grace Apeh",
+        "Mr Audu",
+        "Mr Amos"
+      ],
+      "answer": "Mrs Ibidun Gloss"
+    },
+    {
+      "examType": "JAMB",
+      "question": "Which two students have a rivalry that dates back to JSS 3?",
+      "options": [
+        "Banky and Tosh",
+        "Seri and Kemi",
+        "Ogba and Banky",
+        "Ogba and Tosh"
+      ],
+      "answer": "Banky and Tosh"
+    },
+    {
+      "examType": "JAMB",
+      "question": "The novel explores the effects of migration under which term?",
+      "options": [
+        "Brain Drain",
+        "Japa Syndrome",
+        "Wanderlust",
+        "Exodus"
+      ],
+      "answer": "Japa Syndrome"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What led to the conflict during the prefect election speech?",
+      "options": [
+        "Banky insulted Tosh's father",
+        "Banky attempted to bribe the judges",
+        "Tosh's mom accused the school of favouritism",
+        "Bepo intervened in the voting process"
+      ],
+      "answer": "Banky insulted Tosh's father"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What significant historical location did the students visit in Badagry?",
+      "options": [
+        "First Storey Building",
+        "Slave Market",
+        "Point of No Return",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What tourist attractions in Bauchi did the students explore?",
+      "options": [
+        "Ikogosi Warm Springs",
+        "Erin Ijesha Waterfalls",
+        "Arinta Waterfalls",
+        "Yakari Games Reserve"
+      ],
+      "answer": "Yakari Games Reserve"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What was the major challenge that Bepo faced during his NIN validation?",
+      "options": [
+        "Corruption among officials",
+        "Long queues",
+        "Poor networks",
+        "None of the above"
+      ],
+      "answer": "Poor networks"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What performances during the send-off caused Bepo to become deeply emotional?",
+      "options": [
+        "The Bata dance",
+        "The Atilogwu dance",
+        "The Canoe dance",
+        "The Koroso dance"
+      ],
+      "answer": "The Canoe dance"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What year was the Ikogosi Warm Sprigs discovered?",
+      "options": ["1745", "1820", "1852", "1901"],
+      "answer": "1852"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What lesson does the novel teach about migration?",
+      "options": [
+        "Migration should always be the last option",
+        "Migration brings mixed blessings and challenges",
+        "Migration guarantees success",
+        "Migration is a betrayal of one's roots"
+      ],
+      "answer": "Migration brings mixed blessings and challenges"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What was Bepo's relationship with Mrs Ibidun Gloss?",
+      "options": [
+        "She was his supervisor",
+        "She was his rival",
+        "She deeply respected and appreciated his contributions",
+        "She criticised his decisions frequently"
+      ],
+      "answer": "She deeply respected and appreciated his contributions"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What caused Mr Bepo's emotional breakdown during the school assembly?",
+      "options": [
+        "A student's rude behaviour",
+        "Financial troubles at the school",
+        "His upcoming relocation to the UK",
+        "A conflict with the MD"
+      ],
+      "answer": "His upcoming relocation to the UK"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What is the boarding fee per session at Stardom Schools?",
+      "options": ["₦150,000", "₦165,000", "₦250,000", "₦200,000"],
+      "answer": "₦165,000"
+    },
+    {
+      "examType": "JAMB",
+      "question": "Why was the boarding fee at Stardom Schools reduced?",
+      "options": [
+        "To attract more parents",
+        "To improve facilities",
+        "To meet government regulations",
+        "To reduce student lateness"
+      ],
+      "answer": "To reduce student lateness"
+    },
+    {
+      "examType": "JAMB",
+      "question": "The theme central to the novel is",
+      "options": [
+        "The corruption in the Nigerian education system",
+        "The struggles of students in private schools",
+        "The decline of traditional Nigerian values",
+        "The challenges of migration and identity"
+      ],
+      "answer": "The challenges of migration and identity"
+    },
+    {
+      "examType": "JAMB",
+      "question": "How does The Lekki Headmaster portray the issue of \"Japa\"?",
+      "options": [
+        "As a necessary step for career growth",
+        "As a personal and moral dilemma",
+        "As a privilege for the wealthy",
+        "As an easy decision for most Nigerians"
+      ],
+      "answer": "As a personal and moral dilemma"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What is the central physical setting of the novel?",
+      "options": [
+        "Beesway Group of School",
+        "Black Heritage Museum, Badagry",
+        "Stardom Schools, Lagos",
+        "Murtala Muhammed Airport, Lagos"
+      ],
+      "answer": "Stardom Schools, Lagos"
+    },
+    {
+      "examType": "JAMB",
+      "question": "Which setting in the novel serves as a point of psychological conflict for Bepo?",
+      "options": [
+        "The school assembly hall",
+        "Black Heritage Museum, Badagry",
+        "The Vice Principal's office",
+        "His home in Ikeja"
+      ],
+      "answer": "Black Heritage Museum, Badagry"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What narrative technique is commonly used in The Lekki Headmaster?",
+      "options": ["Flashback", "Myth", "Foreshadowing", "First-person narration"],
+      "answer": "Flashback"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What was Mr Bepo's long-term professional goal before considering migration?",
+      "options": [
+        "Becoming the MD of Stardom Schools",
+        "Starting his own school",
+        "Writing a book on educational reform",
+        "Retiring early and moving to his hometown"
+      ],
+      "answer": "Starting his own school"
     }
   ]
 }
