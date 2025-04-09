@@ -10,7 +10,7 @@ export const Header = () => {
   const [open, setOpen] = useState(false)
   const [showNotifications, setShowNotifications] = useState(false)
   const [messages, setMessages] = useState([
-    { text: "Welcome to Israel Creative Hub!", link: "/welcome" },
+    { text: "Welcome to Israel Creative Hub!", link: "#" },
     { text: "You can now practice for the 'LEKKI HEADMASTER'.", link: "/practice" },
     { text: "New questions have been added to the CBT. Check them out!", link: "/practice" },
   ])
