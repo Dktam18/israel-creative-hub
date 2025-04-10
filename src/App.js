@@ -15,6 +15,7 @@ import { AddQuestions } from "./pages/AddQuestions"
 // import { useState, useEffect } from "react";
 import { Jambmock } from "./components/common/JambMock"
 import {ShareButtons} from "./components/common/Sharebuttons"
+import { Waeconline } from "./components/common/Weac-examiner-site"
 // import { AddQuestions } from "./AddQuestions";
 
 
@@ -134,6 +135,16 @@ export default function App() {
         element={
           <Layout>
           <Jambmock/>
+          </Layout>
+        }
+        />
+
+        <Route
+        
+        path="/waec-examiner-site"
+        element={
+          <Layout>
+          <Waeconline/>
           </Layout>
         }
         />

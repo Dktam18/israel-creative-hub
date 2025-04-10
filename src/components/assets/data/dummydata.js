@@ -70,5 +70,17 @@ export const BlogData = [
     image: "https://i.postimg.cc/W1F7VKBw/jamb.jpg",
     to: "../jamb-mock",
   },
+
+  {
+    id: 3,
+    cover: "https://i.postimg.cc/0QJJkKn4/Screenshot-2025-04-10-194452.png",
+    author: "Israel Mrakpor",
+    title: "Secret website for WAEC students which they don't know",
+    authorImage: "https://i.postimg.cc/PqkFV6Sv/download-1-343.jpg",
+    date: "2025-04-10",
+    category: "JAMB",
+    image: "https://i.postimg.cc/0QJJkKn4/Screenshot-2025-04-10-194452.png",
+    to: "../waec-examiner-site",
+  }
  
 ]
