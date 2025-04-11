@@ -1708,7 +1708,318 @@
         "answer": "Pressure increases",
         "explanation": "Boyle’s Law: P ∝ 1/V at constant T. Smaller volume → higher pressure."
       }
-    ]     
+    ],
+    "Chemistry": [
+  {
+    "examType": "JAMB",
+    "question": "Which of the following is a strong acid?",
+    "options": ["HCl", "CH3COOH", "H2CO3", "H2S"],
+    "answer": "HCl",
+    "explanation": "HCl (hydrochloric acid) is a strong acid that completely dissociates in water."
+  },
+  {
+    "examType": "JAMB",
+    "question": "The pH of a neutral solution at 25°C is:",
+    "options": ["0", "7", "14", "1"],
+    "answer": "7",
+    "explanation": "Neutral solutions have a pH of 7 at 25°C."
+  },
+  {
+    "examType": "JAMB",
+    "question": "What is the molar mass of water (H2O)?",
+    "options": ["18 g/mol", "16 g/mol", "20 g/mol", "22 g/mol"],
+    "answer": "18 g/mol",
+    "explanation": "Water (H2O) has a molar mass of 2(1) + 16 = 18 g/mol."
+  },
+  {
+    "examType": "JAMB",
+    "question": "Which of the following elements is a noble gas?",
+    "options": ["Nitrogen", "Argon", "Oxygen", "Hydrogen"],
+    "answer": "Argon",
+    "explanation": "Argon is one of the noble gases in Group 18 of the periodic table."
+  },
+  {
+    "examType": "JAMB",
+    "question": "The process of converting a solid directly into a gas is called:",
+    "options": ["Sublimation", "Evaporation", "Condensation", "Deposition"],
+    "answer": "Sublimation",
+    "explanation": "Sublimation is the direct change from solid to gas without becoming liquid."
+  },
+  {
+    "examType": "JAMB",
+    "question": "The chemical formula for table salt is:",
+    "options": ["NaCl", "KCl", "MgCl2", "CaCl2"],
+    "answer": "NaCl",
+    "explanation": "Table salt is chemically known as sodium chloride (NaCl)."
+  },
+  {
+    "examType": "JAMB",
+    "question": "What type of bond is formed between two nonmetals?",
+    "options": ["Ionic bond", "Covalent bond", "Metallic bond", "Hydrogen bond"],
+    "answer": "Covalent bond",
+    "explanation": "Covalent bonds are formed between two nonmetal atoms sharing electrons."
+  },
+  {
+    "examType": "JAMB",
+    "question": "The main component of natural gas is:",
+    "options": ["Ethanol", "Methane", "Propane", "Butane"],
+    "answer": "Methane",
+    "explanation": "Methane (CH4) is the principal component of natural gas."
+  },
+  {
+    "examType": "JAMB",
+    "question": "Which of the following is an example of a homogeneous mixture?",
+    "options": ["Salad", "Air", "Sand and salt mixture", "Oil and water"],
+    "answer": "Air",
+    "explanation": "Air is a homogeneous mixture of gases with uniform composition."
+  },
+  {
+    "examType": "JAMB",
+    "question": "The law of conservation of mass states that:",
+    "options": ["Mass can be created or destroyed", "Mass cannot be created or destroyed", "Mass is only created", "Mass is only destroyed"],
+    "answer": "Mass cannot be created or destroyed",
+    "explanation": "This law states that mass remains constant in a closed system."
+  },
+  {
+    "examType": "JAMB",
+    "question": "Which of the following has the highest electronegativity?",
+    "options": ["Sodium", "Chlorine", "Magnesium", "Calcium"],
+    "answer": "Chlorine",
+    "explanation": "Chlorine has the highest electronegativity among these elements."
+  },
+  {
+    "examType": "JAMB",
+    "question": "The process of a liquid turning into a gas is known as:",
+    "options": ["Freezing", "Melting", "Evaporation", "Condensation"],
+    "answer": "Evaporation",
+    "explanation": "Evaporation is the process where a liquid turns into gas."
+  },
+  {
+    "examType": "JAMB",
+    "question": "Which of the following compounds is an alkane?",
+    "options": ["C2H4", "C3H8", "C2H2", "C4H10O"],
+    "answer": "C3H8",
+    "explanation": "C3H8 (propane) is an alkane, which consists only of single bonds between carbon atoms."
+  },
+  {
+    "examType": "JAMB",
+    "question": "The atomic number of an element is determined by the number of:",
+    "options": ["Neutrons", "Protons", "Electrons", "Nuclei"],
+    "answer": "Protons",
+    "explanation": "The atomic number of an element is equal to the number of protons in its nucleus."
+  },
+  {
+    "examType": "JAMB",
+    "question": "Which gas is produced during photosynthesis?",
+    "options": ["Carbon dioxide", "Oxygen", "Nitrogen", "Hydrogen"],
+    "answer": "Oxygen",
+    "explanation": "During photosynthesis, plants produce oxygen as a by-product."
+  },
+  {
+    "examType": "JAMB",
+    "question": "An example of a saturated hydrocarbon is:",
+    "options": ["Ethene", "Ethyne", "Ethane", "Benzene"],
+    "answer": "Ethane",
+    "explanation": "Ethane (C2H6) is a saturated hydrocarbon, meaning it has only single bonds between carbon atoms."
+  },
+  {
+    "examType": "JAMB",
+    "question": "The term 'isotope' refers to atoms with:",
+    "options": ["Same atomic number, different mass number", "Different atomic number, same mass number", "Same mass number, different charge", "Different mass and atomic numbers"],
+    "answer": "Same atomic number, different mass number",
+    "explanation": "Isotopes are atoms of the same element with the same number of protons but different numbers of neutrons."
+  },
+  {
+    "examType": "JAMB",
+    "question": "What type of reaction occurs when an acid reacts with a base?",
+    "options": ["Synthesis", "Decomposition", "Neutralization", "Combustion"],
+    "answer": "Neutralization",
+    "explanation": "Neutralization reactions occur when an acid reacts with a base to form water and salt."
+  },
+  {
+    "examType": "JAMB",
+    "question": "The main use of sulfuric acid in industry is as:",
+    "options": ["A cleaning agent", "An electrolyte", "A dehydrating agent", "A fuel"],
+    "answer": "A dehydrating agent",
+    "explanation": "Sulfuric acid is widely used as a dehydrating agent in various industrial processes."
+  },
+  {
+    "examType": "JAMB",
+    "question": "Which of the following has the highest boiling point?",
+    "options": ["Methane", "Ethanol", "Propane", "Butane"],
+    "answer": "Ethanol",
+    "explanation": "Ethanol has a higher boiling point compared to methane, propane, and butane."
+  },
+  {
+    "examType": "JAMB",
+    "question": "The primary source of energy for photosynthesis is:",
+    "options": ["Chemical energy", "Heat energy", "Light energy", "Electrical energy"],
+    "answer": "Light energy",
+    "explanation": "Light energy, primarily from the sun, is the main energy source for photosynthesis in plants."
+  },
+  {
+    "examType": "JAMB",
+    "question": "The process by which a solid dissolves in a liquid is called:",
+    "options": ["Filtration", "Dissolution", "Precipitation", "Crystallization"],
+    "answer": "Dissolution",
+    "explanation": "Dissolution is the process in which a solid dissolves in a liquid to form a solution."
+  },
+  {
+    "examType": "JAMB",
+    "question": "Which of the following ions has a charge of +1?",
+    "options": ["Ca²⁺", "Na⁺", "Cl⁻", "Mg²⁺"],
+    "answer": "Na⁺",
+    "explanation": "The Na⁺ ion has a charge of +1, which is a result of it losing one electron."
+  },
+  {
+    "examType": "JAMB",
+    "question": "The term 'molarity' refers to:",
+    "options": ["Moles per liter of solution", "Grams per liter of solution", "Volume per mole of solution", "Mass per mole of solute"],
+    "answer": "Moles per liter of solution",
+    "explanation": "Molarity is the measure of the concentration of a solute in a solution, expressed in moles per liter."
+  },
+  {
+    "examType": "JAMB",
+    "question": "The chemical formula for ammonia is:",
+    "options": ["NH3", "NH4", "N2H4", "N3H"],
+    "answer": "NH3",
+    "explanation": "Ammonia has the chemical formula NH3, consisting of one nitrogen and three hydrogen atoms."
+  },
+  {
+    "examType": "JAMB",
+    "question": "Which element is most abundant in the Earth's crust?",
+    "options": ["Iron", "Oxygen", "Silicon", "Aluminum"],
+    "answer": "Oxygen",
+    "explanation": "Oxygen is the most abundant element in the Earth's crust, making up about 46% by weight."
+  },
+  {
+    "examType": "JAMB",
+    "question": "The reaction between an acid and metal typically produces:",
+    "options": ["Salt and water only", "Salt and hydrogen gas", "Hydrogen gas only", "Water only"],
+    "answer": "Salt and hydrogen gas",
+    "explanation": "When an acid reacts with a metal, it typically produces salt and hydrogen gas."
+  },
+  {
+    "examType": "JAMB",
+    "question": "Which of the following compounds contains a carbon-carbon double bond?",
+    "options": ["Ethane", "Ethylene", "Propane", "Butane"],
+    "answer": "Ethylene",
+    "explanation": "Ethylene (C2H4) contains a carbon-carbon double bond."
+  },
+  {
+    "examType": "JAMB",
+    "question": "The process of separating components of a mixture based on their boiling points is known as:",
+    "options": ["Filtration", "Distillation", "Crystallization", "Chromatography"],
+    "answer": "Distillation",
+    "explanation": "Distillation is used to separate components of a mixture based on their different boiling points."
+  },
+  {
+    "examType": "JAMB",
+    "question": "What is the primary function of a catalyst in a chemical reaction?",
+    "options": ["To increase the temperature", "To increase the rate of reaction without being consumed", "To change the products", "To decrease the rate of reaction"],
+    "answer": "To increase the rate of reaction without being consumed",
+    "explanation": "A catalyst increases the rate of a chemical reaction without being consumed in the process."
+  },
+  {
+    "examType": "JAMB",
+    "question": "Which of the following is not a property of metals?",
+    "options": ["Conductivity", "Malleability", "Brittle nature", "Luster"],
+    "answer": "Brittle nature",
+    "explanation": "Metals are typically malleable and ductile, not brittle."
+  },
+  {
+    "examType": "JAMB",
+    "question": "The main component of vinegar is:",
+    "options": ["Acetic acid", "Citric acid", "Lactic acid", "Hydrochloric acid"],
+    "answer": "Acetic acid",
+    "explanation": "Vinegar is primarily composed of acetic acid."
+  },
+  {
+    "examType": "JAMB",
+    "question": "Which gas is commonly used in balloons?",
+    "options": ["Oxygen", "Helium", "Carbon dioxide", "Nitrogen"],
+    "answer": "Helium",
+    "explanation": "Helium is commonly used in balloons because it is lighter than air and non-flammable."
+  },
+  {
+    "examType": "JAMB",
+    "question": "What type of reaction involves the transfer of electrons?",
+    "options": ["Synthesis", "Redox reaction", "Decomposition", "Precipitation"],
+    "answer": "Redox reaction",
+    "explanation": "Redox reactions involve the transfer of electrons between reactants."
+  },
+  {
+    "examType": "JAMB",
+    "question": "Which of the following is an example of an endothermic reaction?",
+    "options": ["Combustion", "Photosynthesis", "Respiration", "Neutralization"],
+    "answer": "Photosynthesis",
+    "explanation": "Photosynthesis is an endothermic reaction as it absorbs energy from light."
+  },
+  {
+    "examType": "JAMB",
+    "question": "The chemical symbol for gold is:",
+    "options": ["Au", "Ag", "Pb", "Fe"],
+    "answer": "Au",
+    "explanation": "The chemical symbol for gold is Au, derived from its Latin name 'aurum.'"
+  },
+  {
+    "examType": "JAMB",
+    "question": "Which type of radiation has the highest energy?",
+    "options": ["Alpha radiation", "Beta radiation", "Gamma radiation", "X-ray radiation"],
+    "answer": "Gamma radiation",
+    "explanation": "Gamma radiation has the highest energy and shortest wavelength of all types of radiation."
+  },
+  {
+    "examType": "JAMB",
+    "question": "The term 'concentration' in chemistry refers to:",
+    "options": ["The amount of solute in a given volume of solution", "The total mass of the solution", "The temperature of the solution", "The color intensity"],
+    "answer": "The amount of solute in a given volume of solution",
+    "explanation": "Concentration refers to how much solute is present in a given volume of solution."
+  },
+  {
+    "examType": "JAMB",
+    "question": "What is the primary product when a hydrocarbon undergoes complete combustion?",
+    "options": ["Carbon monoxide", "Water and carbon dioxide", "Carbon and hydrogen gas", "Methanol"],
+    "answer": "Water and carbon dioxide",
+    "explanation": "Complete combustion of a hydrocarbon produces water and carbon dioxide."
+  },
+  {
+    "examType": "JAMB",
+    "question": "Which of the following describes an exothermic reaction?",
+    "options": ["Absorbs heat from surroundings", "Releases heat to surroundings", "Has no heat change", "Requires energy input to proceed"],
+    "answer": "Releases heat to surroundings",
+    "explanation": "Exothermic reactions release energy, often in the form of heat."
+  },
+  {
+    "examType": "JAMB",
+    "question": "Which element has the atomic number 6?",
+    "options": ["Oxygen", "Carbon", "Nitrogen", "Sulfur"],
+    "answer": "Carbon",
+    "explanation": "Carbon has the atomic number 6, indicating it has 6 protons."
+  },
+  {
+    "examType": "JAMB",
+    "question": "Which type of bond involves the sharing of electron pairs?",
+    "options": ["Ionic bond", "Covalent bond", "Metallic bond", "Hydrogen bond"],
+    "answer": "Covalent bond",
+    "explanation": "A covalent bond is formed when two atoms share electrons."
+  },
+  {
+    "examType": "JAMB",
+    "question": "In which state of matter do particles have the least kinetic energy?",
+    "options": ["Solid", "Liquid", "Gas", "Plasma"],
+    "answer": "Solid",
+    "explanation": "In solids, particles have the least kinetic energy and are closely packed."
+  },
+  {
+    "examType": "JAMB",
+    "question": "What is the main product when limestone (calcium carbonate, CaCO3), decomposes upon heating?",
+    "options": ["Calcium oxide and carbon dioxide", "Calcium hydroxide and carbon dioxide", "Calcium and oxygen", "Calcium oxide and carbon monoxide"],
+    "answer": "Calcium oxide and carbon dioxide",
+    "explanation": "When calcium carbonate is heated, it decomposes to form calcium oxide and carbon dioxide."
+  }
+]
+     
   }
   
   

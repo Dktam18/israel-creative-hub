@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { FaTelegramPlane, FaTimes, FaWhatsapp } from "react-icons/fa";
 
 export const Practice = () => {
