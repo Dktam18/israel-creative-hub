@@ -53,7 +53,7 @@ export const Layout = ({ children }) => {
             {!isHomePage && (
               <button
                 onClick={handleGoBack}
-                className="fixed bottom-48 left-6 p-3 bg-blue-700 text-white rounded-full shadow-lg hover:bg-gray-900 transition duration-300 z-50"
+                className="fixed bottom-48 left-6 p-3 bg-blue-600 text-white rounded-full shadow-lg hover:bg-gray-900 transition duration-300 z-50"
                 aria-label="Go back"
               >
                 <FaArrowLeft />
