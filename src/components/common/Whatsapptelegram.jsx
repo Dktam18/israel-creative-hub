@@ -43,7 +43,7 @@ export const Whatsapptelegram = () => {
 
                 {/* Telegram Button */}
                 <a
-                  href="https://t.me/yourTelegramChannelLink" // Replace with your actual Telegram link
+                  href="https://t.me/icreativeh" // Replace with your actual Telegram link
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 px-4 rounded inline-flex items-center justify-center gap-2"

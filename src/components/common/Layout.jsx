@@ -32,6 +32,10 @@ export const Layout = ({ children }) => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, [location.pathname]);
+  
   const handleGoBack = () => {
     navigate(-1);
   };
@@ -62,6 +66,7 @@ export const Layout = ({ children }) => {
 
             {children}
           </main>
+          
 
           <ShareButtons />
           <Footer />

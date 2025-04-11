@@ -45,7 +45,7 @@ export const Footer = () => {
 
           <li>
             <h4 className="text-black text-sm font-semibold mb-5">Quick Links</h4>
-            <NavLink to="../contact" className=" text-[14px] block mb-2 ">
+            <NavLink to="../contact" className=" text-[14px] block mb-2  " style={{textDecoration: "underline"}}>
               Contact
             </NavLink>
             {/* <NavLink to="#" className=" text-[14px] block mb-2">
