@@ -16,6 +16,7 @@ import { AddQuestions } from "./pages/AddQuestions"
 import { Jambmock } from "./components/common/JambMock"
 import {ShareButtons} from "./components/common/Sharebuttons"
 import { Waeconline } from "./components/common/Weac-examiner-site"
+import { Contact } from "./pages/Contact"
 // import { AddQuestions } from "./AddQuestions";
 
 
@@ -145,6 +146,15 @@ export default function App() {
         element={
           <Layout>
           <Waeconline/>
+          </Layout>
+        }
+        />
+
+        <Route
+        path="/contact"
+        element={
+          <Layout>
+          <Contact/>
           </Layout>
         }
         />
