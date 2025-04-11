@@ -45,7 +45,7 @@ export const Footer = () => {
 
           <li>
             <h4 className="text-black text-sm font-semibold mb-5">Quick Links</h4>
-            <NavLink to="#" className=" text-[14px] block mb-2 ">
+            <NavLink to="../contact" className=" text-[14px] block mb-2 ">
               Contact
             </NavLink>
             {/* <NavLink to="#" className=" text-[14px] block mb-2">
@@ -66,8 +66,8 @@ export const Footer = () => {
           </li>
           <li>
             <h4 className="text-black text-sm font-semibold mb-5">Platform</h4>
-            <NavLink to="#" className=" text-[14px] block mb-2">
-              Products
+            <NavLink to="../instructor" className=" text-[14px] block mb-2">
+              Products/services
             </NavLink>
             <NavLink to="../Courses" className=" text-[14px] block mb-2">
               Lesson notes
