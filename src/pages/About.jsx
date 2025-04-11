@@ -51,8 +51,8 @@ export const About = () => {
             />
           </div>
         </div>
-        <div className="w-2/5 m-auto mt-10  max-width: 70%; margin: auto;">
-          <p className="w-3px font-semibold text-black" style={{textAlign:"center", position:"center"}}>How to make the most of our website</p>
+        {/* <div className="w-2/5 m-auto mt-10  max-width: 70%; margin: auto;">
+          <p className="w-3px font-semibold text-black youtube" style={{textAlign:"center", position:"center"}} >How to make the most of our website</p>
           <iframe
             width="560"
             height="315"
@@ -63,7 +63,7 @@ export const About = () => {
             referrerpolicy="strict-origin-when-cross-origin"
             allowfullscreen
           ></iframe>
-        </div>
+        </div> */}
       </section>
       <AboutContent />
     </>

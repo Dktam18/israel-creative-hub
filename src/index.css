@@ -50,7 +50,9 @@ header .container {
   .hero-responsive {
     height: 50vh; /* Adjust height for mobile */
   }
-
+.youtube{
+  
+}
   .hero-responsive img {
     object-fit: cover; /* Ensures image fills the space */
     width: 100%;
