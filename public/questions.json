@@ -931,5 +931,457 @@
       ],
       "answer": "Starting his own school"
     }
-  ]
-}
+  ],
+
+    "Physics": [
+      {
+        "examType": "JAMB",
+        "question": "Which of the following is a scalar quantity?",
+        "options": ["Velocity", "Acceleration", "Force", "Mass"],
+        "answer": "Mass",
+        "explanation": "Scalar quantities have magnitude only (e.g., mass). Vectors have magnitude and direction (e.g., velocity, acceleration, force)."
+      },
+      {
+        "examType": "JAMB",
+        "question": "The unit of electrical resistance is:",
+        "options": ["Volt", "Ampere", "Ohm", "Watt"],
+        "answer": "Ohm",
+        "explanation": "Resistance is measured in ohms (Ω). Volt is for voltage, ampere for current, and watt for power."
+      },
+      {
+        "examType": "JAMB",
+        "question": "What is the principle behind the operation of a lever?",
+        "options": ["Conservation of energy", "Conservation of momentum", "Mechanical advantage", "Archimedes' principle"],
+        "answer": "Mechanical advantage",
+        "explanation": "Levers multiply input force (effort) to overcome larger loads, demonstrating mechanical advantage."
+      },
+      {
+        "examType": "JAMB",
+        "question": "The SI unit of power is:",
+        "options": ["Joule", "Watt", "Newton", "Pascal"],
+        "answer": "Watt",
+        "explanation": "Power (rate of energy transfer) is measured in watts (W). Joule is for energy, newton for force, pascal for pressure."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which of the following describes the motion of an object in free fall?",
+        "options": ["Uniform motion", "Accelerated motion", "Circular motion", "Oscillatory motion"],
+        "answer": "Accelerated motion",
+        "explanation": "Free-falling objects accelerate at ~9.8 m/s² due to gravity (neglecting air resistance)."
+      },
+      {
+        "examType": "JAMB",
+        "question": "The phenomenon of light bending as it passes from one medium to another is called:",
+        "options": ["Reflection", "Refraction", "Diffraction", "Dispersion"],
+        "answer": "Refraction",
+        "explanation": "Refraction occurs when light changes speed between media (e.g., air to water), bending its path."
+      },
+      {
+        "examType": "JAMB",
+        "question": "The law of conservation of momentum states that:",
+        "options": [
+          "Energy cannot be created or destroyed",
+          "The total momentum before an event equals the total momentum after the event",
+          "Forces are equal and opposite",
+          "Work done is equal to energy transferred"
+        ],
+        "answer": "The total momentum before an event equals the total momentum after the event",
+        "explanation": "In a closed system, momentum is conserved unless acted upon by an external force."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which of the following is not a form of energy?",
+        "options": ["Kinetic energy", "Potential energy", "Thermal energy", "Time"],
+        "answer": "Time",
+        "explanation": "Time is a dimension, not energy. Kinetic, potential, and thermal energy are energy forms."
+      },
+      {
+        "examType": "JAMB",
+        "question": "The frequency of a wave is defined as:",
+        "options": [
+          "The distance between two successive crests",
+          "The number of waves passing a point per unit time",
+          "The speed of the wave divided by its wavelength",
+          "The amplitude of the wave"
+        ],
+        "answer": "The number of waves passing a point per unit time",
+        "explanation": "Frequency (Hz) = waves/second. Wavelength is crest-to-crest distance; amplitude is wave height."
+      },
+      {
+        "examType": "JAMB",
+        "question": "In a vacuum, all electromagnetic waves travel at:",
+        "options": ["Different speeds", "The speed of light", "The speed of sound", "Zero speed"],
+        "answer": "The speed of light",
+        "explanation": "Electromagnetic waves (e.g., light, radio) travel at ~3×10⁸ m/s in a vacuum."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which of the following has the highest frequency?",
+        "options": ["Radio waves", "Infrared rays", "Ultraviolet rays", "Visible light"],
+        "answer": "Ultraviolet rays",
+        "explanation": "UV rays have higher frequency than visible light, infrared, and radio waves in the EM spectrum."
+      },
+      {
+        "examType": "JAMB",
+        "question": "The force that opposes the motion of an object through a fluid is called:",
+        "options": ["Gravity", "Friction", "Drag", "Tension"],
+        "answer": "Drag",
+        "explanation": "Drag (fluid friction) acts opposite to motion in fluids (e.g., air, water)."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which of the following statements about sound waves is true?",
+        "options": [
+          "They can travel through a vacuum",
+          "They are longitudinal waves",
+          "They travel faster than light",
+          "They are electromagnetic waves"
+        ],
+        "answer": "They are longitudinal waves",
+        "explanation": "Sound waves are longitudinal (particles vibrate parallel to wave direction) and need a medium (no vacuum)."
+      },
+      {
+        "examType": "JAMB",
+        "question": "The center of mass of an object is:",
+        "options": [
+          "Always at its geometric center",
+          "The point where all mass can be considered to be concentrated",
+          "The point where gravitational force acts",
+          "Always at the lowest point of the object"
+        ],
+        "answer": "The point where all mass can be considered to be concentrated",
+        "explanation": "Center of mass simplifies calculations by treating distributed mass as a single point."
+      },
+      {
+        "examType": "JAMB",
+        "question": "When light passes through a prism, it is separated into different colors due to:",
+        "options": ["Reflection", "Refraction", "Diffraction", "Interference"],
+        "answer": "Refraction",
+        "explanation": "Prisms refract light, bending wavelengths differently (dispersion) to create a spectrum."
+      },
+      {
+        "examType": "JAMB",
+        "question": "The work done on an object is defined as:",
+        "options": [
+          "The force applied multiplied by the distance moved in the direction of the force",
+          "The energy transferred to the object",
+          "The change in kinetic energy",
+          "The power used to move the object"
+        ],
+        "answer": "The force applied multiplied by the distance moved in the direction of the force",
+        "explanation": "Work (W) = Force (F) × Distance (d) × cos(θ), where θ is the angle between F and d."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which type of lens is thicker at the edges than in the middle?",
+        "options": ["Convex lens", "Concave lens", "Cylindrical lens", "Bifocal lens"],
+        "answer": "Concave lens",
+        "explanation": "Concave lenses diverge light rays and are thinner at the center."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which of the following is a condition for equilibrium?",
+        "options": [
+          "The net force must be zero",
+          "The net torque must be non-zero",
+          "The mass must be constant",
+          "The velocity must be constant"
+        ],
+        "answer": "The net force must be zero",
+        "explanation": "Equilibrium requires ΣF = 0 (no linear acceleration) and Στ = 0 (no rotational acceleration)."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Ohm's Law states that:",
+        "options": [
+          "Voltage equals current times resistance",
+          "Current equals voltage divided by resistance",
+          "Resistance equals voltage divided by current",
+          "All of the above"
+        ],
+        "answer": "All of the above",
+        "explanation": "V = IR, I = V/R, and R = V/I are all valid forms of Ohm’s Law."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which of the following devices converts electrical energy into mechanical energy?",
+        "options": ["Transformer", "Generator", "Motor", "Resistor"],
+        "answer": "Motor",
+        "explanation": "Motors use electromagnetic forces to produce motion (mechanical energy)."
+      },
+      {
+        "examType": "JAMB",
+        "question": "An object moving in a circular path at constant speed has:",
+        "options": ["Constant velocity", "Changing velocity", "No acceleration", "Zero net force"],
+        "answer": "Changing velocity",
+        "explanation": "Direction changes continuously in circular motion, so velocity (a vector) changes, causing centripetal acceleration."
+      },
+      {
+        "examType": "JAMB",
+        "question": "The image formed by a concave mirror is always:",
+        "options": [
+          "Real and inverted for all distances",
+          "Virtual and upright for all distances",
+          "Real and inverted when the object is beyond the focal point",
+          "Always at infinity"
+        ],
+        "answer": "Real and inverted when the object is beyond the focal point",
+        "explanation": "Concave mirrors form real/inverted images for objects beyond the focal point; virtual/upright if inside."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which of the following does not affect the rate of conduction of heat?",
+        "options": ["Temperature difference", "Thickness of material", "Color of material", "Surface area"],
+        "answer": "Color of material",
+        "explanation": "Heat conduction depends on material properties (e.g., thermal conductivity), not color (which affects radiation)."
+      },
+      {
+        "examType": "JAMB",
+        "question": "In thermodynamics, the first law states that:",
+        "options": [
+          "Heat cannot be created or destroyed, only transformed",
+          "Energy can be created and destroyed",
+          "Work done is equal to heat added",
+          "Entropy always increases"
+        ],
+        "answer": "Heat cannot be created or destroyed, only transformed",
+        "explanation": "First Law: ΔU = Q - W (change in internal energy = heat added - work done by system)."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which particle has a positive charge?",
+        "options": ["Electron", "Neutron", "Proton", "Ion"],
+        "answer": "Proton",
+        "explanation": "Protons (+) and electrons (-) are charged; neutrons are neutral. Ions may be + or -."
+      },
+      {
+        "examType": "JAMB",
+        "question": "When two waves meet, they can interfere constructively or destructively depending on their:",
+        "options": ["Speed", "Frequency", "Phase relationship", "Amplitude"],
+        "answer": "Phase relationship",
+        "explanation": "Constructive interference occurs when waves are in phase (crests align); destructive when out of phase."
+      },
+      {
+        "examType": "JAMB",
+        "question": "The acceleration due to gravity on Earth is approximately:",
+        "options": ["9.8 m/s²", "9.8 km/s²", "10 m/s²", "8.0 m/s²"],
+        "answer": "9.8 m/s²",
+        "explanation": "Earth’s gravitational acceleration (g) averages 9.81 m/s², often rounded to 9.8 m/s²."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which of the following statements about electric fields is true?",
+        "options": [
+          "They exist only in conductors",
+          "They are stronger further from charges",
+          "They exert forces on other charges",
+          "They do not affect neutral objects"
+        ],
+        "answer": "They exert forces on other charges",
+        "explanation": "Electric fields (E) exert force (F = qE) on charges. They exist around all charges, not just conductors."
+      },
+      {
+        "examType": "JAMB",
+        "question": "In simple harmonic motion, the restoring force is proportional to:",
+        "options": ["Displacement from equilibrium position", "Velocity", "Mass", "Time"],
+        "answer": "Displacement from equilibrium position",
+        "explanation": "Restoring force (F) = -kx (Hooke’s Law), where x is displacement and k is the spring constant."
+      },
+      {
+        "examType": "JAMB",
+        "question": "The principle behind hydraulic systems is based on:",
+        "options": ["Pascal's law", "Archimedes' principle", "Bernoulli's principle", "Newton's law"],
+        "answer": "Pascal's law",
+        "explanation": "Pascal’s Law states pressure applied to a confined fluid is transmitted equally in all directions."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which of the following best describes inertia?",
+        "options": [
+          "Resistance to change in motion",
+          "Force acting on an object",
+          "Change in velocity over time",
+          "Energy stored in an object"
+        ],
+        "answer": "Resistance to change in motion",
+        "explanation": "Inertia (Newton’s 1st Law) is an object’s tendency to maintain its state of motion."
+      },
+      {
+        "examType": "JAMB",
+        "question": "The measurement of how much matter is contained in an object is known as:",
+        "options": ["Weight", "Volume", "Mass", "Density"],
+        "answer": "Mass",
+        "explanation": "Mass measures matter content (kg); weight is the gravitational force on mass (W = mg)."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Light behaves as both a wave and a particle; this concept is known as:",
+        "options": [
+          "Dual nature of light",
+          "Electromagnetic theory",
+          "Quantum mechanics",
+          "Wave-particle duality"
+        ],
+        "answer": "Wave-particle duality",
+        "explanation": "Light exhibits wave-like (interference) and particle-like (photons) properties."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which of the following types of radiation has the highest penetrating power?",
+        "options": ["Alpha radiation", "Beta radiation", "Gamma radiation", "Ultraviolet radiation"],
+        "answer": "Gamma radiation",
+        "explanation": "Gamma rays penetrate deeply (e.g., through lead); alpha is stopped by paper, beta by aluminum."
+      },
+      {
+        "examType": "JAMB",
+        "question": "An object in uniform circular motion experiences:",
+        "options": [
+          "No acceleration",
+          "Constant speed but changing direction",
+          "Constant velocity",
+          "Increasing speed"
+        ],
+        "answer": "Constant speed but changing direction",
+        "explanation": "Direction changes continuously, causing centripetal acceleration (a = v²/r)."
+      },
+      {
+        "examType": "JAMB",
+        "question": "The Doppler effect refers to:",
+        "options": [
+          "Change in frequency due to relative motion between source and observer",
+          "Change in wavelength due to temperature",
+          "Reflection of sound waves",
+          "Absorption of sound by materials"
+        ],
+        "answer": "Change in frequency due to relative motion between source and observer",
+        "explanation": "Doppler effect explains pitch changes (e.g., sirens) as sources move toward/away from observers."
+      },
+      {
+        "examType": "JAMB",
+        "question": "An increase in temperature generally results in:",
+        "options": [
+          "Decrease in kinetic energy",
+          "Increase in kinetic energy",
+          "No change in kinetic energy",
+          "Change in potential energy only"
+        ],
+        "answer": "Increase in kinetic energy",
+        "explanation": "Higher temperature → faster particle motion → higher kinetic energy."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which law states that for every action, there is an equal and opposite reaction?",
+        "options": [
+          "Newton's first law",
+          "Newton's second law",
+          "Newton's third law",
+          "Law of conservation of momentum"
+        ],
+        "answer": "Newton's third law",
+        "explanation": "Action-reaction pairs (e.g., rocket propulsion) are described by Newton’s 3rd Law."
+      },
+      {
+        "examType": "JAMB",
+        "question": "The phenomenon whereby a material returns to its original shape after being deformed is called:",
+        "options": ["Plasticity", "Elasticity", "Rigidity", "Viscosity"],
+        "answer": "Elasticity",
+        "explanation": "Elastic materials (e.g., rubber) regain shape; plastic deformation is permanent."
+      },
+      {
+        "examType": "JAMB",
+        "question": "The critical angle for total internal reflection depends on:",
+        "options": ["Wavelength only", "Refractive index only", "Angle of incidence only", "All of the above"],
+        "answer": "Refractive index only",
+        "explanation": "Critical angle (θ_c) = sin⁻¹(n₂/n₁), where n₁ > n₂ (refractive indices)."
+      },
+      {
+        "examType": "JAMB",
+        "question": "In a parallel circuit, the total current is:",
+        "options": [
+          "Equal to the sum of individual currents",
+          "Equal to the voltage across each component",
+          "Constant throughout all components",
+          "Zero if one branch is broken"
+        ],
+        "answer": "Equal to the sum of individual currents",
+        "explanation": "Parallel circuits: Voltage is constant across branches; currents add (I_total = I₁ + I₂ + ...)."
+      },
+      {
+        "examType": "JAMB",
+        "question": "What type of wave does not require a medium to travel?",
+        "options": ["Sound wave", "Water wave", "Light wave", "Seismic wave"],
+        "answer": "Light wave",
+        "explanation": "EM waves (light) travel through vacuum; mechanical waves (sound, seismic) need a medium."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which instrument measures atmospheric pressure?",
+        "options": ["Thermometer", "Barometer", "Anemometer", "Hygrometer"],
+        "answer": "Barometer",
+        "explanation": "Barometers measure air pressure; anemometers (wind speed), hygrometers (humidity)."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which type of nuclear decay emits particles with a positive charge?",
+        "options": ["Alpha decay", "Beta decay", "Gamma decay", "Neutron decay"],
+        "answer": "Alpha decay",
+        "explanation": "Alpha particles (He²⁺) are positively charged; beta decay emits e⁻ (β⁻) or e⁺ (β⁺)."
+      },
+      {
+        "examType": "JAMB",
+        "question": "In which medium does sound travel fastest?",
+        "options": ["Air", "Water", "Steel", "Vacuum"],
+        "answer": "Steel",
+        "explanation": "Sound travels fastest in solids (steel) due to tightly packed particles, slowest in gases (air)."
+      },
+      {
+        "examType": "JAMB",
+        "question": "According to Charles's Law, at constant pressure, volume is directly proportional to:",
+        "options": ["Temperature", "Mass", "Density", "Pressure"],
+        "answer": "Temperature",
+        "explanation": "Charles’s Law: V ∝ T (Kelvin) for a fixed mass of gas at constant pressure."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which statement about electric current is true?",
+        "options": [
+          "It flows from negative to positive terminal",
+          "It flows from positive to negative terminal",
+          "It does not involve movement of charges",
+          "It can exist without a circuit"
+        ],
+        "answer": "It flows from positive to negative terminal",
+        "explanation": "Conventional current flows + → - (opposite to electron flow)."
+      },
+      {
+        "examType": "JAMB",
+        "question": "In terms of thermodynamics, entropy can be defined as:",
+        "options": [
+          "Measure of disorder or randomness in a system",
+          "Measure of energy transfer during work done",
+          "Measure of heat content in a substance",
+          "Measure of temperature change"
+        ],
+        "answer": "Measure of disorder or randomness in a system",
+        "explanation": "Entropy (S) quantifies disorder (2nd Law: ΔS ≥ 0 for isolated systems)."
+      },
+      {
+        "examType": "JAMB",
+        "question": "When light strikes a surface and bounces back, this process is known as:",
+        "options": ["Refraction", "Reflection", "Diffraction", "Dispersion"],
+        "answer": "Reflection",
+        "explanation": "Reflection follows the law θ_incident = θ_reflected."
+      },
+      {
+        "examType": "JAMB",
+        "question": "What happens to the pressure exerted by a gas if its volume decreases while temperature remains constant?",
+        "options": ["Pressure decreases", "Pressure increases", "Pressure remains constant", "Pressure becomes zero"],
+        "answer": "Pressure increases",
+        "explanation": "Boyle’s Law: P ∝ 1/V at constant T. Smaller volume → higher pressure."
+      }
+    ]
+  }
+  
+  
+
+
