@@ -51,19 +51,7 @@ export const About = () => {
             />
           </div>
         </div>
-        {/* <div className="w-2/5 m-auto mt-10  max-width: 70%; margin: auto;">
-          <p className="w-3px font-semibold text-black youtube" style={{textAlign:"center", position:"center"}} >How to make the most of our website</p>
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/LxG1MWO3y7Q?si=HB6MxcC_37Od9GBs"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          ></iframe>
-        </div> */}
+
       </section>
       <AboutContent />
     </>

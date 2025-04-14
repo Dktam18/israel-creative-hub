@@ -1,0 +1,2027 @@
+{
+  "Mathematics": [
+    {
+      "examType": "WAEC",
+      "question": "What is the value of x in the equation 2x + 3 = 11?",
+      "options": ["2", "3", "4", "5"],
+      "answer": "4",
+      "explanation": "2x + 3 = 11 → 2x = 8 → x = 4"
+    },
+    {
+      "examType": "JAMB",
+      "question": "Simplify: 2(3x - 4) + 4(2x + 1)",
+      "options": ["14x - 4", "10x", "14x - 2", "6x + 4"],
+      "answer": "14x - 4",
+      "explanation": "2(3x - 4) = 6x - 8, 4(2x + 1) = 8x + 4 → 6x - 8 + 8x + 4 = 14x - 4"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What is the value of 5 + 3 × 2?",
+      "options": ["16", "11", "10", "8"],
+      "answer": "11",
+      "explanation": "Follow BODMAS: Multiplication before addition. 3 × 2 = 6 → 5 + 6 = 11."
+    },
+    {
+      "examType": "JAMB",
+      "question": "If x = 3, what is the value of 2x² + 4?",
+      "options": ["10", "20", "14", "18"],
+      "answer": "20",
+      "explanation": "Substitute x = 3: 2(3)² + 4 = 2(9) + 4 = 18 + 4 = 22."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Solve for x in the equation 2x - 5 = 9.",
+      "options": ["7", "6", "8", "5"],
+      "answer": "7",
+      "explanation": "2x - 5 = 9 → 2x = 14 → x = 7."
+    },
+    {
+      "examType": "JAMB",
+      "question": "What is the area of a triangle with a base of 10 cm and height of 5 cm?",
+      "options": ["25 cm²", "30 cm²", "50 cm²", "15 cm²"],
+      "answer": "25 cm²",
+      "explanation": "Area = ½ × base × height = ½ × 10 × 5 = 25 cm²."
+    },
+    {
+      "examType": "JAMB",
+      "question": "If f(x) = 3x + 2, what is f(4)?",
+      "options": ["10", "14", "12", "8"],
+      "answer": "14",
+      "explanation": "f(4) = 3(4) + 2 = 12 + 2 = 14."
+    },
+    {
+      "examType": "JAMB",
+      "question": "What is the value of ½ + ⅓?",
+      "options": ["⅚", "⅖", "⅗", "⅙"],
+      "answer": "⅚",
+      "explanation": "½ + ⅓ = (3/6) + (2/6) = 5/6."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Simplify (x² - x)(x + 2).",
+      "options": ["x³ + x² - 2x", "x³ + x² + 2x", "x³ + x² - 2x", "x³ - x² + 2x"],
+      "answer": "x³ + x² - 2x",
+      "explanation": "(x² - x)(x + 2) = x³ + 2x² - x² - 2x = x³ + x² - 2x."
+    },
+    {
+      "examType": "JAMB",
+      "question": "What is the slope of the line represented by the equation y = 3x + 4?",
+      "options": ["4", "3", "-3", "-4"],
+      "answer": "3",
+      "explanation": "Slope (m) in y = mx + c is 3."
+    },
+    {
+      "examType": "JAMB",
+      "question": "If a rectangle has a length of 8 cm and a width of 4 cm, what is its perimeter?",
+      "options": ["24 cm", "32 cm", "20 cm", "18 cm"],
+      "answer": "24 cm",
+      "explanation": "Perimeter = 2(length + width) = 2(8 + 4) = 24 cm."
+    },
+    {
+      "examType": "JAMB",
+      "question": "What is the solution to the inequality x + 5 < 12?",
+      "options": ["x < 7", "x > 7", "x < -7", "x > -7"],
+      "answer": "x < 7",
+      "explanation": "x + 5 < 12 → x < 7."
+    },
+    {
+      "examType": "JAMB",
+      "question": "If a = 2, what is the value of a³ - a² + a?",
+      "options": ["4", "6", "8", "10"],
+      "answer": "6",
+      "explanation": "a³ - a² + a = (2)³ - (2)² + 2 = 8 - 4 + 2 = 6."
+    },
+    {
+      "examType": "JAMB",
+      "question": "What is the value of (3 + 5)² - (4 - 2)²?",
+      "options": ["60", "56", "48", "50"],
+      "answer": "56",
+      "explanation": "(8)² - (2)² = 64 - 4 = 60."
+    },
+    {
+      "examType": "JAMB",
+      "question": "What is the product of the roots of the equation x² - 6x + 8 = 0?",
+      "options": ["-8", "-6", "8", "6"],
+      "answer": "8",
+      "explanation": "For ax² + bx + c = 0, product of roots = c/a = 8/1 = 8."
+    },
+    {
+      "examType": "JAMB",
+      "question": "The sum of angles in a triangle is:",
+      "options": ["180°", "90°", "360°", "270°"],
+      "answer": "180°",
+      "explanation": "All triangles have interior angles summing to 180°."
+    },
+    {
+      "examType": "JAMB",
+      "question": "If the circumference of a circle is C = 2πr, what is the radius if C = 31.4?",
+      "options": ["5", "10", "15", "20"],
+      "answer": "5",
+      "explanation": "31.4 = 2πr → r = 31.4 / (2 × 3.14) ≈ 5."
+    },
+    {
+      "examType": "JAMB",
+      "question": "What is the value of log₁₀(1000)?",
+      "options": ["1", "2", "3", "4"],
+      "answer": "3",
+      "explanation": "10³ = 1000 → log₁₀(1000) = 3."
+    },
+    {
+      "examType": "JAMB",
+      "question": "If x² - x - 6 = 0, what are the roots?",
+      "options": ["-3, 2", "-2, -3", "-1, -6", "-4, -1"],
+      "answer": "-3, 2",
+      "explanation": "Factor: (x - 3)(x + 2) = 0 → x = 3 or x = -2."
+    },
+    {
+      "examType": "JAMB",
+      "question": "What is the median of the set {3, 5, 7, 9, 11}?",
+      "options": ["5", "7", "9", "None of the above"],
+      "answer": "7",
+      "explanation": "Median is the middle value in an ordered set: 7."
+    },
+    {
+      "examType": "JAMB",
+      "question": "What is the value of sin(30°)?",
+      "options": ["½", "(√3)/2", "(√2)/2", "¾"],
+      "answer": "½",
+      "explanation": "sin(30°) = 0.5 (standard trigonometric value)."
+    },
+    {
+      "examType": "JAMB",
+      "question": "If a number is increased by 20% and then decreased by 20%, what is the overall percentage change?",
+      "options": ["-4%", "+4%", "-8%", "+8%"],
+      "answer": "-4%",
+      "explanation": "Let original = 100 → 120 → 96. Net change = -4%."
+    },
+    {
+      "examType": "JAMB",
+      "question": "The roots of the equation x² + bx + c = 0 are given as p and q. What is the value of p + q?",
+      "options": ["b", "-b", "c", "-c"],
+      "answer": "-b",
+      "explanation": "Sum of roots (p + q) = -b/a = -b (since a = 1)."
+    },
+    {
+      "examType": "JAMB",
+      "question": "If a car travels at a speed of 60 km/h, how far will it travel in 1.5 hours?",
+      "options": ["90 km", "80 km", "70 km", "100 km"],
+      "answer": "90 km",
+      "explanation": "Distance = Speed × Time = 60 × 1.5 = 90 km."
+    },
+    {
+      "examType": "JAMB",
+      "question": "What is the solution to the equation 3x + 4 = x + 10?",
+      "options": ["x = -3", "x = -4", "x = +3", "x = +4"],
+      "answer": "x = +3",
+      "explanation": "3x + 4 = x + 10 → 2x = 6 → x = 3."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Find the value of |−7| + |−4|.",
+      "options": ["|−11|", "|11|", "|7| + |4| = 11", "|−11| = −11"],
+      "answer": "|7| + |4| = 11",
+      "explanation": "Absolute values: |−7| = 7, |−4| = 4 → 7 + 4 = 11."
+    },
+    {
+      "examType": "JAMB",
+      "question": "What is the probability of rolling a sum of seven with two dice?",
+      "options": ["⅙", "1/36", "5/36", "1/12"],
+      "answer": "⅙",
+      "explanation": "6 combinations sum to 7 out of 36 possible → 6/36 = 1/6."
+    },
+    {
+      "examType": "JAMB",
+      "question": "If you have a right triangle with legs measuring 6 cm and 8 cm, what is the length of the hypotenuse?",
+      "options": ["10 cm", "12 cm", "14 cm", "15 cm"],
+      "answer": "10 cm",
+      "explanation": "Pythagoras: √(6² + 8²) = √(36 + 64) = √100 = 10 cm."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Solve for y in terms of x in the equation: y = mx + b.",
+      "options": ["y = mx + b", "y = b - mx", "y = mx - b", "y = mx + b"],
+      "answer": "y = mx + b",
+      "explanation": "This is the standard slope-intercept form (no rearrangement needed)."
+    },
+    {
+      "examType": "JAMB",
+      "question": "What is the value of the expression: (2 + 3)³ - 5(2 + 3)² + 6(2 + 3) - 7?",
+      "options": ["-7", "-6", "-5", "-4"],
+      "answer": "-7",
+      "explanation": "(5)³ - 5(5)² + 6(5) - 7 = 125 - 125 + 30 - 7 = -7."
+    },
+    {
+      "examType": "JAMB",
+      "question": "If you invest ₦1000 at an interest rate of ₦200 per year, what is your rate of return?",
+      "options": ["20%", "30%", "40%", "50%"],
+      "answer": "20%",
+      "explanation": "Rate = (Interest/Principal) × 100 = (200/1000) × 100 = 20%."
+    },
+    {
+      "examType": "JAMB",
+      "question": "The sum of two consecutive integers is equal to twenty-one. What are these integers?",
+      "options": ["10, 11", "11, 12", "12, 13", "13, 14"],
+      "answer": "10, 11",
+      "explanation": "Let integers be n and n+1 → n + (n+1) = 21 → n = 10."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Calculate the value of: 9⁰.",
+      "options": ["0", "1", "9", "None of the above"],
+      "answer": "1",
+      "explanation": "Any non-zero number to the power of 0 is 1."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Which of these fractions is equivalent to: 0.75?",
+      "options": ["¾", "¼", "⅓", "½"],
+      "answer": "¾",
+      "explanation": "0.75 = 75/100 = 3/4."
+    },
+    {
+      "examType": "JAMB",
+      "question": "If you have a cube with a volume of 27 cm³, what is the length of one side?",
+      "options": ["3 cm", "9 cm", "6 cm", "12 cm"],
+      "answer": "3 cm",
+      "explanation": "Volume = side³ → side = ∛27 = 3 cm."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Find the value of: 25 - 7(3 - 1).",
+      "options": ["15", "17", "19", "21"],
+      "answer": "17",
+      "explanation": "25 - 7(2) = 25 - 14 = 11."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Solve for z in: z/4 = 8.",
+      "options": ["12", "16", "20", "24"],
+      "answer": "32",
+      "explanation": "z = 8 × 4 = 32."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Calculate: 8! / (6! × 2!).",
+      "options": ["28", "56", "12", "42"],
+      "answer": "28",
+      "explanation": "8!/(6! × 2!) = (8 × 7)/2 = 28."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Find the value of: cos(60°).",
+      "options": ["0.5", "0.75", "1", "0"],
+      "answer": "0.5",
+      "explanation": "cos(60°) = 0.5 (standard trigonometric value)."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Simplify: (a + b)² - (a - b)².",
+      "options": ["4ab", "a² + b²", "a² - b²", "a + b"],
+      "answer": "4ab",
+      "explanation": "(a² + 2ab + b²) - (a² - 2ab + b²) = 4ab."
+    },
+    {
+      "examType": "JAMB",
+      "question": "What is the next number in this sequence: 1, 4, 9, 16, 25,…?",
+      "options": ["30", "36", "49", "64"],
+      "answer": "36",
+      "explanation": "Sequence of squares: 1², 2², 3²,... Next is 6² = 36."
+    },
+    {
+      "examType": "JAMB",
+      "question": "If a triangle has sides measuring: 5 cm, 12 cm, and 13 cm, it is a:",
+      "options": ["Right triangle", "Isosceles triangle", "Equilateral triangle", "Scalene triangle"],
+      "answer": "Right triangle",
+      "explanation": "5² + 12² = 13² (25 + 144 = 169) → satisfies Pythagoras' theorem."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Calculate: 7 + (-9) + (-5) + 6 + (-4) + 8 + (-7) + (-6) + (-10) + (-9) + (-8) + (-10).",
+      "options": ["-18", "-19", "-20", "-21"],
+      "answer": "-47",
+      "explanation": "Sum all values: 7 - 9 - 5 + 6 - 4 + 8 - 7 - 6 - 10 - 9 - 8 - 10 = -47."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Solve for n: if n/3 = 15.",
+      "options": ["n = 30", "n = 45", "n = 60", "n = 75"],
+      "answer": "n = 45",
+      "explanation": "n = 15 × 3 = 45."
+    },
+    {
+      "examType": "JAMB",
+      "question": "The least common multiple (LCM) of 4 and 6 is:",
+      "options": ["12", "24", "6", "8"],
+      "answer": "12",
+      "explanation": "Multiples of 4: 4, 8, 12,...; 6: 6, 12,... → LCM = 12."
+    },
+    {
+      "examType": "JAMB",
+      "question": "The area of a circle with radius r is given by:",
+      "options": ["πr²", "πr³", "πr⁴", "πr⁵"],
+      "answer": "πr²",
+      "explanation": "Standard formula for the area of a circle."
+    },
+    {
+      "examType": "JAMB",
+      "question": "The derivative of sin(x) is:",
+      "options": ["cos(x)", "sin(x)", "tan(x)", "cot(x)"],
+      "answer": "cos(x)",
+      "explanation": "d/dx [sin(x)] = cos(x)."
+    },
+    {
+      "examType": "JAMB",
+      "question": "The integral of dx is:",
+      "options": ["x + c", "x² + c", "x³ + c", "x⁴ + c"],
+      "answer": "x + c",
+      "explanation": "∫dx = x + c (where c is the constant of integration)."
+    },
+    {
+      "examType": "JAMB",
+      "question": "The limit as x approaches infinity of 1/x is:",
+      "options": ["0", "1", "∞", "undefined"],
+      "answer": "0",
+      "explanation": "As x → ∞, 1/x → 0."
+    }
+  ],
+  "English": [
+    {
+      "examType": "NECO",
+      "question": "Choose the word that is nearest in meaning to 'benevolent':",
+      "options": ["Greedy", "Kind", "Mean", "Cruel"],
+      "answer": "Kind",
+      "explanation": "‘Benevolent’ means well-meaning or kindly."
+    },
+    {
+      "examType": "WAEC",
+      "question": "Which of the following is a synonym for 'obscure'?",
+      "options": ["Clear", "Vague", "Bright", "Famous"],
+      "answer": "Vague",
+      "explanation": "‘Obscure’ means unclear or difficult to understand."
+    }
+  ],
+  "Civic Education ": [
+    {
+      "examType": "NECO",
+      "question": "Choose the word that is nearest in meaning to 'benevolent':",
+      "options": ["Greedy", "Kind", "Mean", "Cruel"],
+      "answer": "Kind",
+      "explanation": "‘Benevolent’ means well-meaning or kindly."
+    },
+    {
+      "examType": "WAEC",
+      "question": "Which of the following is a synonym for 'obscure'?",
+      "options": ["Clear", "Vague", "Bright", "Famous"],
+      "answer": "Vague",
+      "explanation": "‘Obscure’ means unclear or difficult to understand."
+    }
+  ],
+  "Biology": [
+    {
+      "examType": "JAMB",
+      "question": "Which organelle is responsible for cellular respiration?",
+      "options": ["Nucleus", "Mitochondrion", "Chloroplast", "Ribosome"],
+      "answer": "Mitochondrion",
+      "explanation": "Mitochondria are known as the powerhouse of the cell."
+    },
+    {
+      "examType": "NECO",
+      "question": "Which of these is not a function of the liver?",
+      "options": ["Bile secretion", "Detoxification", "Urea formation", "Pumping blood"],
+      "answer": "Pumping blood",
+      "explanation": "Pumping blood is a function of the heart, not the liver."
+    }
+  ],
+  "Government": [
+    {
+      "examType": "JAMB",
+      "question": "The primary function of government is to:",
+      "options": ["Control the economy", "Provide security", "Manage education", "Regulate trade"],
+      "answer": "Provide security",
+      "explanation": "The fundamental role of government is to maintain law and order and protect citizens."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Which of the following is a characteristic of a federal system of government?",
+      "options": ["Centralized power", "Division of powers", "Unitary authority", "Absolute monarchy"],
+      "answer": "Division of powers",
+      "explanation": "Federal systems divide power between central and regional governments."
+    },
+    {
+      "examType": "JAMB",
+      "question": "The concept of separation of powers was popularized by:",
+      "options": ["Karl Marx", "John Locke", "Montesquieu", "Thomas Hobbes"],
+      "answer": "Montesquieu",
+      "explanation": "Montesquieu advocated for separating government into legislative, executive and judicial branches."
+    },
+    {
+      "examType": "JAMB",
+      "question": "A government that is ruled by a single person is known as:",
+      "options": ["Democracy", "Monarchy", "Oligarchy", "Republic"],
+      "answer": "Monarchy",
+      "explanation": "Monarchy is a form of government with a single ruler, typically a king or queen."
+    },
+    {
+      "examType": "JAMB",
+      "question": "The judiciary is responsible for:",
+      "options": ["Making laws", "Enforcing laws", "Interpreting laws", "Amending laws"],
+      "answer": "Interpreting laws",
+      "explanation": "The judiciary interprets and applies laws in specific cases."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Which document serves as the supreme law of Nigeria?",
+      "options": ["The Constitution", "The Bill of Rights", "The National Assembly Act", "The Electoral Act"],
+      "answer": "The Constitution",
+      "explanation": "The Constitution is the fundamental and supreme law of Nigeria."
+    },
+    {
+      "examType": "JAMB",
+      "question": "The principle of checks and balances is intended to:",
+      "options": ["Increase government efficiency", "Prevent abuse of power", "Centralize authority", "Limit citizen participation"],
+      "answer": "Prevent abuse of power",
+      "explanation": "Checks and balances ensure no single branch of government becomes too powerful."
+    },
+    {
+      "examType": "JAMB",
+      "question": "The highest court in Nigeria is known as:",
+      "options": ["Court of Appeal", "Supreme Court", "Federal High Court", "High Court"],
+      "answer": "Supreme Court",
+      "explanation": "The Supreme Court is the highest court in Nigeria's judicial hierarchy."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Which of the following is NOT a form of government?",
+      "options": ["Democracy", "Anarchy", "Autocracy", "Oligarchy"],
+      "answer": "Anarchy",
+      "explanation": "Anarchy refers to absence of government, not a form of government."
+    },
+    {
+      "examType": "JAMB",
+      "question": "A government that derives its power from the consent of the governed is called:",
+      "options": ["Authoritarian", "Totalitarian", "Democratic", "Dictatorial"],
+      "answer": "Democratic",
+      "explanation": "Democracy is government by the people, through elected representatives."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Which body in Nigeria is responsible for conducting elections?",
+      "options": ["National Assembly", "Independent National Electoral Commission (INEC)", "Federal Executive Council", "Judiciary"],
+      "answer": "Independent National Electoral Commission (INEC)",
+      "explanation": "INEC is Nigeria's electoral body established by the 1999 Constitution."
+    },
+    {
+      "examType": "JAMB",
+      "question": "The principle of popular sovereignty means:",
+      "options": ["The government controls everything", "The people are the ultimate source of authority", "Only the elite can govern", "Laws are made by the king"],
+      "answer": "The people are the ultimate source of authority",
+      "explanation": "Popular sovereignty means government power comes from the people's consent."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Which of the following rights is guaranteed under the Nigerian Constitution?",
+      "options": ["Right to bear arms", "Right to freedom of speech", "Right to free education for all citizens", "Right to own land"],
+      "answer": "Right to freedom of speech",
+      "explanation": "Freedom of expression is guaranteed under Chapter IV of the Nigerian Constitution."
+    },
+    {
+      "examType": "JAMB",
+      "question": "The term 'bicameral' refers to:",
+      "options": ["Two branches of government", "Two houses of legislature", "Two parties in a democracy", "Two types of elections"],
+      "answer": "Two houses of legislature",
+      "explanation": "Nigeria has a bicameral legislature (Senate and House of Representatives)."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Who is the head of state in Nigeria?",
+      "options": ["The Prime Minister", "The President", "The Governor", "The Chief Justice"],
+      "answer": "The President",
+      "explanation": "The President is both head of state and head of government in Nigeria."
+    },
+    {
+      "examType": "JAMB",
+      "question": "A system where power is concentrated in a central government is known as:",
+      "options": ["Federalism", "Confederation", "Unitary system", "Decentralization"],
+      "answer": "Unitary system",
+      "explanation": "In unitary systems, all government power is held by the central authority."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Which of the following is a duty of citizenship?",
+      "options": ["Right to vote", "Paying taxes", "Freedom of speech", "Right to protest"],
+      "answer": "Paying taxes",
+      "explanation": "Paying taxes is a civic duty required of all citizens."
+    },
+    {
+      "examType": "JAMB",
+      "question": "The Nigerian Senate consists of how many members?",
+      "options": ["109", "120", "150", "360"],
+      "answer": "109",
+      "explanation": "The Senate has 109 members (3 from each state + 1 from FCT)."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Which document outlines the fundamental rights of Nigerian citizens?",
+      "options": ["The Preamble", "The Constitution", "The Bill of Rights Act", "The National Policy"],
+      "answer": "The Constitution",
+      "explanation": "Chapter IV of the Nigerian Constitution contains fundamental rights provisions."
+    },
+    {
+      "examType": "JAMB",
+      "question": "What is the maximum term for a president in Nigeria?",
+      "options": ["4 years", "8 years", "10 years", "12 years"],
+      "answer": "8 years",
+      "explanation": "The constitution limits presidents to two 4-year terms (maximum 8 years)."
+    },
+    {
+      "examType": "JAMB",
+      "question": "The legislative power in Nigeria is vested in:",
+      "options": ["The President", "The National Assembly", "The Judiciary", "The Executive Council"],
+      "answer": "The National Assembly",
+      "explanation": "Section 4 of the 1999 Constitution vests legislative powers in the National Assembly."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Which of the following is NOT a type of democracy?",
+      "options": ["Direct democracy", "Representative democracy", "Participatory democracy", "Authoritarian democracy"],
+      "answer": "Authoritarian democracy",
+      "explanation": "Authoritarian democracy is an oxymoron - authoritarianism opposes democratic principles."
+    },
+    {
+      "examType": "JAMB",
+      "question": "The principle of rule of law means:",
+      "options": ["Laws are made by the king", "Everyone is subject to the law", "Law is arbitrary", "Only certain people are above the law"],
+      "answer": "Everyone is subject to the law",
+      "explanation": "Rule of law means equality before the law and supremacy of the law."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Who appoints judges in Nigeria?",
+      "options": ["The President", "The National Assembly", "The Chief Justice", "The Governor"],
+      "answer": "The President",
+      "explanation": "The President appoints judges on recommendation of the National Judicial Council."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Which political party was in power during Nigeria's first military coup?",
+      "options": ["National Council of Nigeria and the Cameroons (NCNC)", "Action Group (AG)", "Northern People's Congress (NPC)", "People's Democratic Party (PDP)"],
+      "answer": "Northern People's Congress (NPC)",
+      "explanation": "The NPC-led government was overthrown in Nigeria's first coup on January 15, 1966."
+    },
+    {
+      "examType": "JAMB",
+      "question": "What is the primary role of the executive branch in government?",
+      "options": ["Make laws", "Enforce laws", "Interpret laws", "Amend laws"],
+      "answer": "Enforce laws",
+      "explanation": "The executive branch implements and enforces laws made by the legislature."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Which article of the Nigerian Constitution deals with fundamental human rights?",
+      "options": ["Article 4", "Article 33-46", "Article 1", "Article 12"],
+      "answer": "Article 33-46",
+      "explanation": "Chapter IV (Articles 33-46) of the 1999 Constitution covers fundamental rights."
+    },
+    {
+      "examType": "JAMB",
+      "question": "What does the term 'suffrage' refer to?",
+      "options": ["Right to free speech", "Right to vote", "Right to assemble", "Right to privacy"],
+      "answer": "Right to vote",
+      "explanation": "Suffrage refers to the right to vote in political elections."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Which body has the power to impeach the president in Nigeria?",
+      "options": ["House of Representatives", "Senate", "Supreme Court", "National Assembly"],
+      "answer": "National Assembly",
+      "explanation": "The National Assembly (both houses) has power to impeach the president."
+    },
+    {
+      "examType": "JAMB",
+      "question": "In which year did Nigeria gain independence?",
+      "options": ["1960", "1970", "1980", "1990"],
+      "answer": "1960",
+      "explanation": "Nigeria gained independence from Britain on October 1, 1960."
+    },
+    {
+      "examType": "JAMB",
+      "question": "What does 'civil society' refer to?",
+      "options": ["Government institutions", "Organizations independent of government", "Military organizations", "Political parties"],
+      "answer": "Organizations independent of government",
+      "explanation": "Civil society comprises non-governmental organizations and institutions."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Which of the following is a feature of a totalitarian regime?",
+      "options": ["Free elections", "Pluralism", "Centralized control over all aspects of life", "Independent judiciary"],
+      "answer": "Centralized control over all aspects of life",
+      "explanation": "Totalitarian regimes exercise extreme control over all aspects of society."
+    },
+    {
+      "examType": "JAMB",
+      "question": "What is the purpose of a constitution?",
+      "options": ["To create laws", "To limit governmental power", "To elect representatives", "To establish political parties"],
+      "answer": "To limit governmental power",
+      "explanation": "Constitutions establish and constrain government power while protecting rights."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Who has the authority to declare a state of emergency in Nigeria?",
+      "options": ["National Assembly", "President", "Chief Justice", "Governor"],
+      "answer": "President",
+      "explanation": "The President can declare a state of emergency subject to National Assembly approval."
+    },
+    {
+      "examType": "JAMB",
+      "question": "What does 'autonomy' mean in a political context?",
+      "options": ["Complete independence", "Self-governance within a larger political entity", "Total control by a central authority", "Limited rights for citizens"],
+      "answer": "Self-governance within a larger political entity",
+      "explanation": "Autonomy refers to self-rule while remaining part of a larger political unit."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Which institution is responsible for interpreting the Constitution in Nigeria?",
+      "options": ["National Assembly", "Supreme Court", "Federal Executive Council", "Independent Electoral Commission"],
+      "answer": "Supreme Court",
+      "explanation": "The Supreme Court is the final interpreter of Nigeria's Constitution."
+    },
+    {
+      "examType": "JAMB",
+      "question": "What is the main function of political parties?",
+      "options": ["To enforce laws", "To represent different interests and compete for power", "To interpret laws", "To conduct elections"],
+      "answer": "To represent different interests and compete for power",
+      "explanation": "Political parties aggregate interests and seek political power through elections."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Who was Nigeria's first military ruler after independence?",
+      "options": ["General Yakubu Gowon", "General Muhammadu Buhari", "General Johnson Aguiyi-Ironsi", "General Olusegun Obasanjo"],
+      "answer": "General Johnson Aguiyi-Ironsi",
+      "explanation": "Major-General Aguiyi-Ironsi took power after the January 1966 coup."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Which right protects individuals from arbitrary arrest and detention?",
+      "options": ["Right to freedom of expression", "Right to personal liberty", "Right to fair trial", "Right to privacy"],
+      "answer": "Right to personal liberty",
+      "explanation": "Section 35 of the Constitution protects against unlawful detention."
+    },
+    {
+      "examType": "JAMB",
+      "question": "What does 'judicial review' allow courts to do?",
+      "options": ["Create new laws", "Overturn unconstitutional laws", "Enforce existing laws", "Appoint judges"],
+      "answer": "Overturn unconstitutional laws",
+      "explanation": "Judicial review empowers courts to invalidate laws that violate the constitution."
+    },
+    {
+      "examType": "JAMB",
+      "question": "What is the role of the Electoral Commission in Nigeria?",
+      "options": ["To conduct elections and ensure fairness", "To make laws", "To interpret laws", "To enforce laws"],
+      "answer": "To conduct elections and ensure fairness",
+      "explanation": "INEC organizes elections and ensures compliance with electoral laws."
+    },
+    {
+      "examType": "JAMB",
+      "question": "What type of government does Nigeria practice?",
+      "options": ["Monarchy", "Republic", "Dictatorship", "Oligarchy"],
+      "answer": "Republic",
+      "explanation": "Nigeria is a federal republic with elected representatives."
+    },
+    {
+      "examType": "JAMB",
+      "question": "How many states does Nigeria have?",
+      "options": ["30", "36", "40", "50"],
+      "answer": "36",
+      "explanation": "Nigeria comprises 36 states and the Federal Capital Territory."
+    },
+    {
+      "examType": "JAMB",
+      "question": "What is one major reason for political instability in Nigeria?",
+      "options": ["Strong economy", "Ethnic and religious conflicts", "High literacy rate", "Stable political parties"],
+      "answer": "Ethnic and religious conflicts",
+      "explanation": "Ethno-religious divisions have contributed to Nigeria's political instability."
+    },
+    {
+      "examType": "JAMB",
+      "question": "What does 'devolution' mean in governance?",
+      "options": ["Centralization of power", "Distribution of powers to lower levels of government", "Complete independence", "Elimination of local governments"],
+      "answer": "Distribution of powers to lower levels of government",
+      "explanation": "Devolution transfers power from central to regional/local governments."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Which principle allows citizens to participate in governance through voting?",
+      "options": ["Popular sovereignty", "Rule of law", "Separation of powers", "Checks and balances"],
+      "answer": "Popular sovereignty",
+      "explanation": "Popular sovereignty means government derives power from the people's consent."
+    },
+    {
+      "examType": "JAMB",
+      "question": "In Nigeria, which body has exclusive legislative powers over certain matters?",
+      "options": ["House of Representatives", "Senate", "National Assembly", "State Assemblies"],
+      "answer": "National Assembly",
+      "explanation": "The Exclusive Legislative List contains matters only the National Assembly can legislate on."
+    },
+    {
+      "examType": "JAMB",
+      "question": "What does 'political culture' refer to?",
+      "options": ["Government policies only", "Attitudes, beliefs, and values about politics within a society", "Legal frameworks only", "Economic conditions only"],
+      "answer": "Attitudes, beliefs, and values about politics within a society",
+      "explanation": "Political culture encompasses a society's political attitudes and norms."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Which term describes a system where multiple parties exist and compete for power?",
+      "options": ["One-party system", "Multi-party system", "Dictatorship", "Oligarchy"],
+      "answer": "Multi-party system",
+      "explanation": "Nigeria operates a multi-party system with numerous competing parties."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Who is responsible for appointing ministers in Nigeria?",
+      "options": ["National Assembly", "President", "Chief Justice", "Governors"],
+      "answer": "President",
+      "explanation": "The President appoints ministers subject to Senate confirmation."
+    }
+  ],
+  "LEKKI HEADMASTER": [
+    {
+      "examType": "JAMB",
+      "question": "Why did the director of \"Beesway Group of School\" claim the ritual involving the cow was necessary?",
+      "options": [
+        "To pray for his late father who gave him the land",
+        "To bring in more pupils to the school",
+        "To appease the parents who had raised complaints",
+        "To conduct a purification ceremony for the school"
+      ],
+      "answer": "To pray for his late father who gave him the land"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What led to the closure of the school Bepo started?",
+      "options": [
+        "Poor road conditions in the neighbourhood",
+        "Parents' dissatisfaction with the curriculum",
+        "A failed spiritual ritual to attract more pupils",
+        "Mismanagement of school funds"
+      ],
+      "answer": "A failed spiritual ritual to attract more pupils"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What was the cost of the form for the position of Head Boy or Head Girl in the school election at Stardom?",
+      "options": ["N25,000", "N40,000", "N50,000", "N60,000"],
+      "answer": "N50,000"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What inappropriate remark did Banky make during Speech Day?",
+      "options": [
+        "Tosh was unqualified for the position",
+        "Tosh was the son of an ex-convict",
+        "Tosh bribed his way into the election",
+        "Tosh lacked the required skill for the role"
+      ],
+      "answer": "Tosh was the son of an ex-convict"
+    },
+    {
+      "examType": "JAMB",
+      "question": "Why was Tosh's father, Chief Ogba, detained for 36 months?",
+      "options": [
+        "He was an ex-convict for theft",
+        "He failed to pay a school debt",
+        "He was accused of fraud but acquitted later",
+        "He faced trial for alleged misappropriation"
+      ],
+      "answer": "He faced trial for alleged misappropriation"
+    },
+    {
+      "examType": "JAMB",
+      "question": "Which of the following waterfalls is the highest in West Africa, according to the novel?",
+      "options": [
+        "Gurara Falls",
+        "Erin Ijesha Waterfalls",
+        "Ikogosi Warm Springs",
+        "Owu Waterfalls"
+      ],
+      "answer": "Owu Waterfalls"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What is the primary reason Mr Bepo organises excursions for the students at Stardom?",
+      "options": [
+        "To give them a good grasp of their country before they all go abroad.",
+        "To promote Stardom as a school that values excursions",
+        "To prepare students for geography exams.",
+        "To encourage tourism in Nigeria"
+      ],
+      "answer": "To give them a good grasp of their country before they all go abroad."
+    },
+    {
+      "examType": "JAMB",
+      "question": "Which of the following festivals have the students attended? \n\ni. Calabar Carnival\n\nii. Osun Oshogbo Festival\n\niii. Argungu Festival\n\niv. Abuja Carnival",
+      "options": [
+        "i, ii, iii only",
+        "i and iv only",
+        "ii and iii only",
+        "i, ii, iii, iv"
+      ],
+      "answer": "i, ii, iii, iv"
+    },
+    {
+      "examType": "JAMB",
+      "question": "How did Mr Bepo inspire students after they visited areas like Mushin and Ajegunle during their excursions?",
+      "options": [
+        "By promising to relocate them to better areas",
+        "By sharing stories of successful individuals who rose from slums",
+        "By discouraging them from visiting such areas again",
+        "By giving them motivational books about success"
+      ],
+      "answer": "By sharing stories of successful individuals who rose from slums"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What was the source of the name \"Badagry\", according to the novel?",
+      "options": [
+        "It was named after the Badagry River",
+        "It was derived from (agbadarigi)",
+        "It originated from a European explorer's name",
+        "It was named after a nearby slave market"
+      ],
+      "answer": "It was derived from (agbadarigi)"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What does Mr Bepo mean by the term \"new slavery\"?",
+      "options": [
+        "Africans willingly move abroad for better opportunities",
+        "The continuation of slave trade in some regions",
+        "The exploitation of Africans by modern companies",
+        "Africans selling themselves into physical labour"
+      ],
+      "answer": "Africans willingly move abroad for better opportunities"
+    },
+    {
+      "examType": "JAMB",
+      "question": "Why was Mr Bepo moved during his visit to the Black Heritage Museum?",
+      "options": [
+        "He felt nostalgic about Nigeria's history",
+        "He was impressed by the museum's architecture",
+        "He empathised with the suffering of slaves in the past",
+        "He remembered his ancestors were involved in slavery"
+      ],
+      "answer": "He empathised with the suffering of slaves in the past"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What is the meaning of the term \"japa\" as used in the novel?",
+      "options": [
+        "The struggle for financial independence",
+        "To travel abroad in search of better opportunities",
+        "To resist colonial influences inn modern times",
+        "To work as a slave in a foreign country"
+      ],
+      "answer": "To travel abroad in search of better opportunities"
+    },
+    {
+      "examType": "JAMB",
+      "question": "Why was Mr Bepo initially reluctant to renew his passport?",
+      "options": [
+        "He had lost his passport",
+        "He was too busy with his teaching duties",
+        "He had heard about the hassles applicants were facing",
+        "He did not plan to travel abroad anytime soon"
+      ],
+      "answer": "He had heard about the hassles applicants were facing"
+    },
+    {
+      "examType": "JAMB",
+      "question": "How much was the official fee for a 10-year passport renewal (64 pages)?",
+      "options": ["N250,000", "N100,000", "N1,000,000", "N70,000"],
+      "answer": "N70,000"
+    },
+    {
+      "examType": "JAMB",
+      "question": "Why did Bepo choose Ibadan for his passport renewal?",
+      "options": [
+        "It was closer to his location",
+        "He was advised that the process would be easier there",
+        "He had a friend who worked in immigration there",
+        "The fees were lower in Ibadan"
+      ],
+      "answer": "He was advised that the process would be easier there"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What can be inferred about Tai's role in the passport renewal process?",
+      "options": [
+        "He is a middleman exploiting applicants",
+        "He was a legitimate immigration officer",
+        "He was an honest businessman offering his services",
+        "He was unaware of the actual renewal process"
+      ],
+      "answer": "He is a middleman exploiting applicants"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What does the phrase \"in cahoots\" most likely mean in the context of Tai and the immigration staff?",
+      "options": [
+        "In conflict with",
+        "Secretly collaborating with",
+        "Officially associated with",
+        "Unknowingly assisting"
+      ],
+      "answer": "Secretly collaborating with"
+    },
+    {
+      "examType": "JAMB",
+      "question": "Why does Mr Bepo delay his flight to the UK?",
+      "options": [
+        "The airline cancels his flight",
+        "He is required to attend a farewell celebration",
+        "He needs to finalise his resignation paperwork",
+        "He has a last-minute meeting with the MD"
+      ],
+      "answer": "He is required to attend a farewell celebration"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What Yoruba adage does Mr Bepo recall after the debate at the farewell celebration?",
+      "options": [
+        "A wise man never leaves his work unfinished",
+        "The work of a teacher outlives their time",
+        "Success is not final; failure is not fatal",
+        "Even if the master carver retires, his carvings remain"
+      ],
+      "answer": "Even if the master carver retires, his carvings remain"
+    },
+    {
+      "examType": "JAMB",
+      "question": "Why does Mr Bepo yell \"Noooo!\" during the drama club performance at the farewell celebration?",
+      "options": [
+        "He was disappointed with the dance",
+        "He is overwhelmed by memories of the Heritage Slave Museum",
+        "He feels the performance is disrespectful",
+        "He disagrees with the students' portrayal of history"
+      ],
+      "answer": "He is overwhelmed by memories of the Heritage Slave Museum"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What was the farewell gift presented to Mr Bepo?",
+      "options": [
+        "A framed picture of the staff and students",
+        "A plaque commemorating his years of service",
+        "A cheque for $10,000",
+        "A plane ticket to his new destination"
+      ],
+      "answer": "A framed picture of the staff and students"
+    },
+    {
+      "examType": "JAMB",
+      "question": "At what time is Mr Bepo's flight to the UK scheduled to depart?",
+      "options": ["5:00pm", "10:00 pm", "1:00 pm", "8:00 pm"],
+      "answer": "10:00 pm"
+    },
+    {
+      "examType": "JAMB",
+      "question": "Who offers to drive Mr Bepo to the airport?",
+      "options": [
+        "Mrs Grace Apeh",
+        "Mr Oyelana",
+        "Mr Ogunwale",
+        "The Stardom accountant"
+      ],
+      "answer": "Mr Oyelana"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What did Mr Bepo's wife insist he should pack for his trip to the UK?",
+      "options": [
+        "Locust beans, egusi, ground crayfish and dry snail",
+        "New clothes and electronics",
+        "Fruits and water",
+        "His passport and essential documents"
+      ],
+      "answer": "Locust beans, egusi, ground crayfish and dry snail"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What is the primary setting of The Lekki Headmaster?",
+      "options": [
+        "Beesway Group of School",
+        "Stardom Schools",
+        "The Black Heritage Museum, Badagry",
+        "Mushin, Lagos"
+      ],
+      "answer": "Stardom Schools"
+    },
+    {
+      "examType": "JAMB",
+      "question": "Who is the protagonist of the novel?",
+      "options": [
+        "Mr Alabi",
+        "Mrs Grace Apeh",
+        "Mrs Ibidun Gloss",
+        "Mr Adewale Adebepo"
+      ],
+      "answer": "Mr Adewale Adebepo"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What is Mr Bepo's profession?",
+      "options": ["A doctor", "A principal", "A businessman", "A historian"],
+      "answer": "A principal"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What is the main challenge that Mr Bepo faces in the novel?",
+      "options": [
+        "Convincing parents to enrol their children",
+        "Managing the school's finances",
+        "Balancing his career with pressure to migrate",
+        "Starting his own school"
+      ],
+      "answer": "Balancing his career with pressure to migrate"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What theme is predominantly explored in the novel?",
+      "options": [
+        "Betrayal",
+        "Political corruption",
+        "Love and relationships",
+        "Migration and identity"
+      ],
+      "answer": "Migration and identity"
+    },
+    {
+      "examType": "JAMB",
+      "question": "Which teacher is known for the use of witty remarks in the novel?",
+      "options": [
+        "Mrs Ibidun Gloss",
+        "Mrs Grace Apeh",
+        "Mr Audu",
+        "Mr Amos"
+      ],
+      "answer": "Mrs Ibidun Gloss"
+    },
+    {
+      "examType": "JAMB",
+      "question": "Which two students have a rivalry that dates back to JSS 3?",
+      "options": [
+        "Banky and Tosh",
+        "Seri and Kemi",
+        "Ogba and Banky",
+        "Ogba and Tosh"
+      ],
+      "answer": "Banky and Tosh"
+    },
+    {
+      "examType": "JAMB",
+      "question": "The novel explores the effects of migration under which term?",
+      "options": [
+        "Brain Drain",
+        "Japa Syndrome",
+        "Wanderlust",
+        "Exodus"
+      ],
+      "answer": "Japa Syndrome"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What led to the conflict during the prefect election speech?",
+      "options": [
+        "Banky insulted Tosh's father",
+        "Banky attempted to bribe the judges",
+        "Tosh's mom accused the school of favouritism",
+        "Bepo intervened in the voting process"
+      ],
+      "answer": "Banky insulted Tosh's father"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What significant historical location did the students visit in Badagry?",
+      "options": [
+        "First Storey Building",
+        "Slave Market",
+        "Point of No Return",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What tourist attractions in Bauchi did the students explore?",
+      "options": [
+        "Ikogosi Warm Springs",
+        "Erin Ijesha Waterfalls",
+        "Arinta Waterfalls",
+        "Yakari Games Reserve"
+      ],
+      "answer": "Yakari Games Reserve"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What was the major challenge that Bepo faced during his NIN validation?",
+      "options": [
+        "Corruption among officials",
+        "Long queues",
+        "Poor networks",
+        "None of the above"
+      ],
+      "answer": "Poor networks"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What performances during the send-off caused Bepo to become deeply emotional?",
+      "options": [
+        "The Bata dance",
+        "The Atilogwu dance",
+        "The Canoe dance",
+        "The Koroso dance"
+      ],
+      "answer": "The Canoe dance"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What year was the Ikogosi Warm Sprigs discovered?",
+      "options": ["1745", "1820", "1852", "1901"],
+      "answer": "1852"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What lesson does the novel teach about migration?",
+      "options": [
+        "Migration should always be the last option",
+        "Migration brings mixed blessings and challenges",
+        "Migration guarantees success",
+        "Migration is a betrayal of one's roots"
+      ],
+      "answer": "Migration brings mixed blessings and challenges"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What was Bepo's relationship with Mrs Ibidun Gloss?",
+      "options": [
+        "She was his supervisor",
+        "She was his rival",
+        "She deeply respected and appreciated his contributions",
+        "She criticised his decisions frequently"
+      ],
+      "answer": "She deeply respected and appreciated his contributions"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What caused Mr Bepo's emotional breakdown during the school assembly?",
+      "options": [
+        "A student's rude behaviour",
+        "Financial troubles at the school",
+        "His upcoming relocation to the UK",
+        "A conflict with the MD"
+      ],
+      "answer": "His upcoming relocation to the UK"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What is the boarding fee per session at Stardom Schools?",
+      "options": ["₦150,000", "₦165,000", "₦250,000", "₦200,000"],
+      "answer": "₦165,000"
+    },
+    {
+      "examType": "JAMB",
+      "question": "Why was the boarding fee at Stardom Schools reduced?",
+      "options": [
+        "To attract more parents",
+        "To improve facilities",
+        "To meet government regulations",
+        "To reduce student lateness"
+      ],
+      "answer": "To reduce student lateness"
+    },
+    {
+      "examType": "JAMB",
+      "question": "The theme central to the novel is",
+      "options": [
+        "The corruption in the Nigerian education system",
+        "The struggles of students in private schools",
+        "The decline of traditional Nigerian values",
+        "The challenges of migration and identity"
+      ],
+      "answer": "The challenges of migration and identity"
+    },
+    {
+      "examType": "JAMB",
+      "question": "How does The Lekki Headmaster portray the issue of \"Japa\"?",
+      "options": [
+        "As a necessary step for career growth",
+        "As a personal and moral dilemma",
+        "As a privilege for the wealthy",
+        "As an easy decision for most Nigerians"
+      ],
+      "answer": "As a personal and moral dilemma"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What is the central physical setting of the novel?",
+      "options": [
+        "Beesway Group of School",
+        "Black Heritage Museum, Badagry",
+        "Stardom Schools, Lagos",
+        "Murtala Muhammed Airport, Lagos"
+      ],
+      "answer": "Stardom Schools, Lagos"
+    },
+    {
+      "examType": "JAMB",
+      "question": "Which setting in the novel serves as a point of psychological conflict for Bepo?",
+      "options": [
+        "The school assembly hall",
+        "Black Heritage Museum, Badagry",
+        "The Vice Principal's office",
+        "His home in Ikeja"
+      ],
+      "answer": "Black Heritage Museum, Badagry"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What narrative technique is commonly used in The Lekki Headmaster?",
+      "options": ["Flashback", "Myth", "Foreshadowing", "First-person narration"],
+      "answer": "Flashback"
+    },
+    {
+      "examType": "JAMB",
+      "question": "What was Mr Bepo's long-term professional goal before considering migration?",
+      "options": [
+        "Becoming the MD of Stardom Schools",
+        "Starting his own school",
+        "Writing a book on educational reform",
+        "Retiring early and moving to his hometown"
+      ],
+      "answer": "Starting his own school"
+    }
+  ],
+
+    "Physics": [
+      {
+        "examType": "JAMB",
+        "question": "Which of the following is a scalar quantity?",
+        "options": ["Velocity", "Acceleration", "Force", "Mass"],
+        "answer": "Mass",
+        "explanation": "Scalar quantities have magnitude only (e.g., mass). Vectors have magnitude and direction (e.g., velocity, acceleration, force)."
+      },
+      {
+        "examType": "JAMB",
+        "question": "The unit of electrical resistance is:",
+        "options": ["Volt", "Ampere", "Ohm", "Watt"],
+        "answer": "Ohm",
+        "explanation": "Resistance is measured in ohms (Ω). Volt is for voltage, ampere for current, and watt for power."
+      },
+      {
+        "examType": "JAMB",
+        "question": "What is the principle behind the operation of a lever?",
+        "options": ["Conservation of energy", "Conservation of momentum", "Mechanical advantage", "Archimedes' principle"],
+        "answer": "Mechanical advantage",
+        "explanation": "Levers multiply input force (effort) to overcome larger loads, demonstrating mechanical advantage."
+      },
+      {
+        "examType": "JAMB",
+        "question": "The SI unit of power is:",
+        "options": ["Joule", "Watt", "Newton", "Pascal"],
+        "answer": "Watt",
+        "explanation": "Power (rate of energy transfer) is measured in watts (W). Joule is for energy, newton for force, pascal for pressure."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which of the following describes the motion of an object in free fall?",
+        "options": ["Uniform motion", "Accelerated motion", "Circular motion", "Oscillatory motion"],
+        "answer": "Accelerated motion",
+        "explanation": "Free-falling objects accelerate at ~9.8 m/s² due to gravity (neglecting air resistance)."
+      },
+      {
+        "examType": "JAMB",
+        "question": "The phenomenon of light bending as it passes from one medium to another is called:",
+        "options": ["Reflection", "Refraction", "Diffraction", "Dispersion"],
+        "answer": "Refraction",
+        "explanation": "Refraction occurs when light changes speed between media (e.g., air to water), bending its path."
+      },
+      {
+        "examType": "JAMB",
+        "question": "The law of conservation of momentum states that:",
+        "options": [
+          "Energy cannot be created or destroyed",
+          "The total momentum before an event equals the total momentum after the event",
+          "Forces are equal and opposite",
+          "Work done is equal to energy transferred"
+        ],
+        "answer": "The total momentum before an event equals the total momentum after the event",
+        "explanation": "In a closed system, momentum is conserved unless acted upon by an external force."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which of the following is not a form of energy?",
+        "options": ["Kinetic energy", "Potential energy", "Thermal energy", "Time"],
+        "answer": "Time",
+        "explanation": "Time is a dimension, not energy. Kinetic, potential, and thermal energy are energy forms."
+      },
+      {
+        "examType": "JAMB",
+        "question": "The frequency of a wave is defined as:",
+        "options": [
+          "The distance between two successive crests",
+          "The number of waves passing a point per unit time",
+          "The speed of the wave divided by its wavelength",
+          "The amplitude of the wave"
+        ],
+        "answer": "The number of waves passing a point per unit time",
+        "explanation": "Frequency (Hz) = waves/second. Wavelength is crest-to-crest distance; amplitude is wave height."
+      },
+      {
+        "examType": "JAMB",
+        "question": "In a vacuum, all electromagnetic waves travel at:",
+        "options": ["Different speeds", "The speed of light", "The speed of sound", "Zero speed"],
+        "answer": "The speed of light",
+        "explanation": "Electromagnetic waves (e.g., light, radio) travel at ~3×10⁸ m/s in a vacuum."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which of the following has the highest frequency?",
+        "options": ["Radio waves", "Infrared rays", "Ultraviolet rays", "Visible light"],
+        "answer": "Ultraviolet rays",
+        "explanation": "UV rays have higher frequency than visible light, infrared, and radio waves in the EM spectrum."
+      },
+      {
+        "examType": "JAMB",
+        "question": "The force that opposes the motion of an object through a fluid is called:",
+        "options": ["Gravity", "Friction", "Drag", "Tension"],
+        "answer": "Drag",
+        "explanation": "Drag (fluid friction) acts opposite to motion in fluids (e.g., air, water)."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which of the following statements about sound waves is true?",
+        "options": [
+          "They can travel through a vacuum",
+          "They are longitudinal waves",
+          "They travel faster than light",
+          "They are electromagnetic waves"
+        ],
+        "answer": "They are longitudinal waves",
+        "explanation": "Sound waves are longitudinal (particles vibrate parallel to wave direction) and need a medium (no vacuum)."
+      },
+      {
+        "examType": "JAMB",
+        "question": "The center of mass of an object is:",
+        "options": [
+          "Always at its geometric center",
+          "The point where all mass can be considered to be concentrated",
+          "The point where gravitational force acts",
+          "Always at the lowest point of the object"
+        ],
+        "answer": "The point where all mass can be considered to be concentrated",
+        "explanation": "Center of mass simplifies calculations by treating distributed mass as a single point."
+      },
+      {
+        "examType": "JAMB",
+        "question": "When light passes through a prism, it is separated into different colors due to:",
+        "options": ["Reflection", "Refraction", "Diffraction", "Interference"],
+        "answer": "Refraction",
+        "explanation": "Prisms refract light, bending wavelengths differently (dispersion) to create a spectrum."
+      },
+      {
+        "examType": "JAMB",
+        "question": "The work done on an object is defined as:",
+        "options": [
+          "The force applied multiplied by the distance moved in the direction of the force",
+          "The energy transferred to the object",
+          "The change in kinetic energy",
+          "The power used to move the object"
+        ],
+        "answer": "The force applied multiplied by the distance moved in the direction of the force",
+        "explanation": "Work (W) = Force (F) × Distance (d) × cos(θ), where θ is the angle between F and d."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which type of lens is thicker at the edges than in the middle?",
+        "options": ["Convex lens", "Concave lens", "Cylindrical lens", "Bifocal lens"],
+        "answer": "Concave lens",
+        "explanation": "Concave lenses diverge light rays and are thinner at the center."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which of the following is a condition for equilibrium?",
+        "options": [
+          "The net force must be zero",
+          "The net torque must be non-zero",
+          "The mass must be constant",
+          "The velocity must be constant"
+        ],
+        "answer": "The net force must be zero",
+        "explanation": "Equilibrium requires ΣF = 0 (no linear acceleration) and Στ = 0 (no rotational acceleration)."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Ohm's Law states that:",
+        "options": [
+          "Voltage equals current times resistance",
+          "Current equals voltage divided by resistance",
+          "Resistance equals voltage divided by current",
+          "All of the above"
+        ],
+        "answer": "All of the above",
+        "explanation": "V = IR, I = V/R, and R = V/I are all valid forms of Ohm’s Law."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which of the following devices converts electrical energy into mechanical energy?",
+        "options": ["Transformer", "Generator", "Motor", "Resistor"],
+        "answer": "Motor",
+        "explanation": "Motors use electromagnetic forces to produce motion (mechanical energy)."
+      },
+      {
+        "examType": "JAMB",
+        "question": "An object moving in a circular path at constant speed has:",
+        "options": ["Constant velocity", "Changing velocity", "No acceleration", "Zero net force"],
+        "answer": "Changing velocity",
+        "explanation": "Direction changes continuously in circular motion, so velocity (a vector) changes, causing centripetal acceleration."
+      },
+      {
+        "examType": "JAMB",
+        "question": "The image formed by a concave mirror is always:",
+        "options": [
+          "Real and inverted for all distances",
+          "Virtual and upright for all distances",
+          "Real and inverted when the object is beyond the focal point",
+          "Always at infinity"
+        ],
+        "answer": "Real and inverted when the object is beyond the focal point",
+        "explanation": "Concave mirrors form real/inverted images for objects beyond the focal point; virtual/upright if inside."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which of the following does not affect the rate of conduction of heat?",
+        "options": ["Temperature difference", "Thickness of material", "Color of material", "Surface area"],
+        "answer": "Color of material",
+        "explanation": "Heat conduction depends on material properties (e.g., thermal conductivity), not color (which affects radiation)."
+      },
+      {
+        "examType": "JAMB",
+        "question": "In thermodynamics, the first law states that:",
+        "options": [
+          "Heat cannot be created or destroyed, only transformed",
+          "Energy can be created and destroyed",
+          "Work done is equal to heat added",
+          "Entropy always increases"
+        ],
+        "answer": "Heat cannot be created or destroyed, only transformed",
+        "explanation": "First Law: ΔU = Q - W (change in internal energy = heat added - work done by system)."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which particle has a positive charge?",
+        "options": ["Electron", "Neutron", "Proton", "Ion"],
+        "answer": "Proton",
+        "explanation": "Protons (+) and electrons (-) are charged; neutrons are neutral. Ions may be + or -."
+      },
+      {
+        "examType": "JAMB",
+        "question": "When two waves meet, they can interfere constructively or destructively depending on their:",
+        "options": ["Speed", "Frequency", "Phase relationship", "Amplitude"],
+        "answer": "Phase relationship",
+        "explanation": "Constructive interference occurs when waves are in phase (crests align); destructive when out of phase."
+      },
+      {
+        "examType": "JAMB",
+        "question": "The acceleration due to gravity on Earth is approximately:",
+        "options": ["9.8 m/s²", "9.8 km/s²", "10 m/s²", "8.0 m/s²"],
+        "answer": "9.8 m/s²",
+        "explanation": "Earth’s gravitational acceleration (g) averages 9.81 m/s², often rounded to 9.8 m/s²."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which of the following statements about electric fields is true?",
+        "options": [
+          "They exist only in conductors",
+          "They are stronger further from charges",
+          "They exert forces on other charges",
+          "They do not affect neutral objects"
+        ],
+        "answer": "They exert forces on other charges",
+        "explanation": "Electric fields (E) exert force (F = qE) on charges. They exist around all charges, not just conductors."
+      },
+      {
+        "examType": "JAMB",
+        "question": "In simple harmonic motion, the restoring force is proportional to:",
+        "options": ["Displacement from equilibrium position", "Velocity", "Mass", "Time"],
+        "answer": "Displacement from equilibrium position",
+        "explanation": "Restoring force (F) = -kx (Hooke’s Law), where x is displacement and k is the spring constant."
+      },
+      {
+        "examType": "JAMB",
+        "question": "The principle behind hydraulic systems is based on:",
+        "options": ["Pascal's law", "Archimedes' principle", "Bernoulli's principle", "Newton's law"],
+        "answer": "Pascal's law",
+        "explanation": "Pascal’s Law states pressure applied to a confined fluid is transmitted equally in all directions."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which of the following best describes inertia?",
+        "options": [
+          "Resistance to change in motion",
+          "Force acting on an object",
+          "Change in velocity over time",
+          "Energy stored in an object"
+        ],
+        "answer": "Resistance to change in motion",
+        "explanation": "Inertia (Newton’s 1st Law) is an object’s tendency to maintain its state of motion."
+      },
+      {
+        "examType": "JAMB",
+        "question": "The measurement of how much matter is contained in an object is known as:",
+        "options": ["Weight", "Volume", "Mass", "Density"],
+        "answer": "Mass",
+        "explanation": "Mass measures matter content (kg); weight is the gravitational force on mass (W = mg)."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Light behaves as both a wave and a particle; this concept is known as:",
+        "options": [
+          "Dual nature of light",
+          "Electromagnetic theory",
+          "Quantum mechanics",
+          "Wave-particle duality"
+        ],
+        "answer": "Wave-particle duality",
+        "explanation": "Light exhibits wave-like (interference) and particle-like (photons) properties."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which of the following types of radiation has the highest penetrating power?",
+        "options": ["Alpha radiation", "Beta radiation", "Gamma radiation", "Ultraviolet radiation"],
+        "answer": "Gamma radiation",
+        "explanation": "Gamma rays penetrate deeply (e.g., through lead); alpha is stopped by paper, beta by aluminum."
+      },
+      {
+        "examType": "JAMB",
+        "question": "An object in uniform circular motion experiences:",
+        "options": [
+          "No acceleration",
+          "Constant speed but changing direction",
+          "Constant velocity",
+          "Increasing speed"
+        ],
+        "answer": "Constant speed but changing direction",
+        "explanation": "Direction changes continuously, causing centripetal acceleration (a = v²/r)."
+      },
+      {
+        "examType": "JAMB",
+        "question": "The Doppler effect refers to:",
+        "options": [
+          "Change in frequency due to relative motion between source and observer",
+          "Change in wavelength due to temperature",
+          "Reflection of sound waves",
+          "Absorption of sound by materials"
+        ],
+        "answer": "Change in frequency due to relative motion between source and observer",
+        "explanation": "Doppler effect explains pitch changes (e.g., sirens) as sources move toward/away from observers."
+      },
+      {
+        "examType": "JAMB",
+        "question": "An increase in temperature generally results in:",
+        "options": [
+          "Decrease in kinetic energy",
+          "Increase in kinetic energy",
+          "No change in kinetic energy",
+          "Change in potential energy only"
+        ],
+        "answer": "Increase in kinetic energy",
+        "explanation": "Higher temperature → faster particle motion → higher kinetic energy."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which law states that for every action, there is an equal and opposite reaction?",
+        "options": [
+          "Newton's first law",
+          "Newton's second law",
+          "Newton's third law",
+          "Law of conservation of momentum"
+        ],
+        "answer": "Newton's third law",
+        "explanation": "Action-reaction pairs (e.g., rocket propulsion) are described by Newton’s 3rd Law."
+      },
+      {
+        "examType": "JAMB",
+        "question": "The phenomenon whereby a material returns to its original shape after being deformed is called:",
+        "options": ["Plasticity", "Elasticity", "Rigidity", "Viscosity"],
+        "answer": "Elasticity",
+        "explanation": "Elastic materials (e.g., rubber) regain shape; plastic deformation is permanent."
+      },
+      {
+        "examType": "JAMB",
+        "question": "The critical angle for total internal reflection depends on:",
+        "options": ["Wavelength only", "Refractive index only", "Angle of incidence only", "All of the above"],
+        "answer": "Refractive index only",
+        "explanation": "Critical angle (θ_c) = sin⁻¹(n₂/n₁), where n₁ > n₂ (refractive indices)."
+      },
+      {
+        "examType": "JAMB",
+        "question": "In a parallel circuit, the total current is:",
+        "options": [
+          "Equal to the sum of individual currents",
+          "Equal to the voltage across each component",
+          "Constant throughout all components",
+          "Zero if one branch is broken"
+        ],
+        "answer": "Equal to the sum of individual currents",
+        "explanation": "Parallel circuits: Voltage is constant across branches; currents add (I_total = I₁ + I₂ + ...)."
+      },
+      {
+        "examType": "JAMB",
+        "question": "What type of wave does not require a medium to travel?",
+        "options": ["Sound wave", "Water wave", "Light wave", "Seismic wave"],
+        "answer": "Light wave",
+        "explanation": "EM waves (light) travel through vacuum; mechanical waves (sound, seismic) need a medium."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which instrument measures atmospheric pressure?",
+        "options": ["Thermometer", "Barometer", "Anemometer", "Hygrometer"],
+        "answer": "Barometer",
+        "explanation": "Barometers measure air pressure; anemometers (wind speed), hygrometers (humidity)."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which type of nuclear decay emits particles with a positive charge?",
+        "options": ["Alpha decay", "Beta decay", "Gamma decay", "Neutron decay"],
+        "answer": "Alpha decay",
+        "explanation": "Alpha particles (He²⁺) are positively charged; beta decay emits e⁻ (β⁻) or e⁺ (β⁺)."
+      },
+      {
+        "examType": "JAMB",
+        "question": "In which medium does sound travel fastest?",
+        "options": ["Air", "Water", "Steel", "Vacuum"],
+        "answer": "Steel",
+        "explanation": "Sound travels fastest in solids (steel) due to tightly packed particles, slowest in gases (air)."
+      },
+      {
+        "examType": "JAMB",
+        "question": "According to Charles's Law, at constant pressure, volume is directly proportional to:",
+        "options": ["Temperature", "Mass", "Density", "Pressure"],
+        "answer": "Temperature",
+        "explanation": "Charles’s Law: V ∝ T (Kelvin) for a fixed mass of gas at constant pressure."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which statement about electric current is true?",
+        "options": [
+          "It flows from negative to positive terminal",
+          "It flows from positive to negative terminal",
+          "It does not involve movement of charges",
+          "It can exist without a circuit"
+        ],
+        "answer": "It flows from positive to negative terminal",
+        "explanation": "Conventional current flows + → - (opposite to electron flow)."
+      },
+      {
+        "examType": "JAMB",
+        "question": "In terms of thermodynamics, entropy can be defined as:",
+        "options": [
+          "Measure of disorder or randomness in a system",
+          "Measure of energy transfer during work done",
+          "Measure of heat content in a substance",
+          "Measure of temperature change"
+        ],
+        "answer": "Measure of disorder or randomness in a system",
+        "explanation": "Entropy (S) quantifies disorder (2nd Law: ΔS ≥ 0 for isolated systems)."
+      },
+      {
+        "examType": "JAMB",
+        "question": "When light strikes a surface and bounces back, this process is known as:",
+        "options": ["Refraction", "Reflection", "Diffraction", "Dispersion"],
+        "answer": "Reflection",
+        "explanation": "Reflection follows the law θ_incident = θ_reflected."
+      },
+      {
+        "examType": "JAMB",
+        "question": "What happens to the pressure exerted by a gas if its volume decreases while temperature remains constant?",
+        "options": ["Pressure decreases", "Pressure increases", "Pressure remains constant", "Pressure becomes zero"],
+        "answer": "Pressure increases",
+        "explanation": "Boyle’s Law: P ∝ 1/V at constant T. Smaller volume → higher pressure."
+      }
+    ],
+    "Chemistry": [
+  {
+    "examType": "JAMB",
+    "question": "Which of the following is a strong acid?",
+    "options": ["HCl", "CH3COOH", "H2CO3", "H2S"],
+    "answer": "HCl",
+    "explanation": "HCl (hydrochloric acid) is a strong acid that completely dissociates in water."
+  },
+  {
+    "examType": "JAMB",
+    "question": "The pH of a neutral solution at 25°C is:",
+    "options": ["0", "7", "14", "1"],
+    "answer": "7",
+    "explanation": "Neutral solutions have a pH of 7 at 25°C."
+  },
+  {
+    "examType": "JAMB",
+    "question": "What is the molar mass of water (H2O)?",
+    "options": ["18 g/mol", "16 g/mol", "20 g/mol", "22 g/mol"],
+    "answer": "18 g/mol",
+    "explanation": "Water (H2O) has a molar mass of 2(1) + 16 = 18 g/mol."
+  },
+  {
+    "examType": "JAMB",
+    "question": "Which of the following elements is a noble gas?",
+    "options": ["Nitrogen", "Argon", "Oxygen", "Hydrogen"],
+    "answer": "Argon",
+    "explanation": "Argon is one of the noble gases in Group 18 of the periodic table."
+  },
+  {
+    "examType": "JAMB",
+    "question": "The process of converting a solid directly into a gas is called:",
+    "options": ["Sublimation", "Evaporation", "Condensation", "Deposition"],
+    "answer": "Sublimation",
+    "explanation": "Sublimation is the direct change from solid to gas without becoming liquid."
+  },
+  {
+    "examType": "JAMB",
+    "question": "The chemical formula for table salt is:",
+    "options": ["NaCl", "KCl", "MgCl2", "CaCl2"],
+    "answer": "NaCl",
+    "explanation": "Table salt is chemically known as sodium chloride (NaCl)."
+  },
+  {
+    "examType": "JAMB",
+    "question": "What type of bond is formed between two nonmetals?",
+    "options": ["Ionic bond", "Covalent bond", "Metallic bond", "Hydrogen bond"],
+    "answer": "Covalent bond",
+    "explanation": "Covalent bonds are formed between two nonmetal atoms sharing electrons."
+  },
+  {
+    "examType": "JAMB",
+    "question": "The main component of natural gas is:",
+    "options": ["Ethanol", "Methane", "Propane", "Butane"],
+    "answer": "Methane",
+    "explanation": "Methane (CH4) is the principal component of natural gas."
+  },
+  {
+    "examType": "JAMB",
+    "question": "Which of the following is an example of a homogeneous mixture?",
+    "options": ["Salad", "Air", "Sand and salt mixture", "Oil and water"],
+    "answer": "Air",
+    "explanation": "Air is a homogeneous mixture of gases with uniform composition."
+  },
+  {
+    "examType": "JAMB",
+    "question": "The law of conservation of mass states that:",
+    "options": ["Mass can be created or destroyed", "Mass cannot be created or destroyed", "Mass is only created", "Mass is only destroyed"],
+    "answer": "Mass cannot be created or destroyed",
+    "explanation": "This law states that mass remains constant in a closed system."
+  },
+  {
+    "examType": "JAMB",
+    "question": "Which of the following has the highest electronegativity?",
+    "options": ["Sodium", "Chlorine", "Magnesium", "Calcium"],
+    "answer": "Chlorine",
+    "explanation": "Chlorine has the highest electronegativity among these elements."
+  },
+  {
+    "examType": "JAMB",
+    "question": "The process of a liquid turning into a gas is known as:",
+    "options": ["Freezing", "Melting", "Evaporation", "Condensation"],
+    "answer": "Evaporation",
+    "explanation": "Evaporation is the process where a liquid turns into gas."
+  },
+  {
+    "examType": "JAMB",
+    "question": "Which of the following compounds is an alkane?",
+    "options": ["C2H4", "C3H8", "C2H2", "C4H10O"],
+    "answer": "C3H8",
+    "explanation": "C3H8 (propane) is an alkane, which consists only of single bonds between carbon atoms."
+  },
+  {
+    "examType": "JAMB",
+    "question": "The atomic number of an element is determined by the number of:",
+    "options": ["Neutrons", "Protons", "Electrons", "Nuclei"],
+    "answer": "Protons",
+    "explanation": "The atomic number of an element is equal to the number of protons in its nucleus."
+  },
+  {
+    "examType": "JAMB",
+    "question": "Which gas is produced during photosynthesis?",
+    "options": ["Carbon dioxide", "Oxygen", "Nitrogen", "Hydrogen"],
+    "answer": "Oxygen",
+    "explanation": "During photosynthesis, plants produce oxygen as a by-product."
+  },
+  {
+    "examType": "JAMB",
+    "question": "An example of a saturated hydrocarbon is:",
+    "options": ["Ethene", "Ethyne", "Ethane", "Benzene"],
+    "answer": "Ethane",
+    "explanation": "Ethane (C2H6) is a saturated hydrocarbon, meaning it has only single bonds between carbon atoms."
+  },
+  {
+    "examType": "JAMB",
+    "question": "The term 'isotope' refers to atoms with:",
+    "options": ["Same atomic number, different mass number", "Different atomic number, same mass number", "Same mass number, different charge", "Different mass and atomic numbers"],
+    "answer": "Same atomic number, different mass number",
+    "explanation": "Isotopes are atoms of the same element with the same number of protons but different numbers of neutrons."
+  },
+  {
+    "examType": "JAMB",
+    "question": "What type of reaction occurs when an acid reacts with a base?",
+    "options": ["Synthesis", "Decomposition", "Neutralization", "Combustion"],
+    "answer": "Neutralization",
+    "explanation": "Neutralization reactions occur when an acid reacts with a base to form water and salt."
+  },
+  {
+    "examType": "JAMB",
+    "question": "The main use of sulfuric acid in industry is as:",
+    "options": ["A cleaning agent", "An electrolyte", "A dehydrating agent", "A fuel"],
+    "answer": "A dehydrating agent",
+    "explanation": "Sulfuric acid is widely used as a dehydrating agent in various industrial processes."
+  },
+  {
+    "examType": "JAMB",
+    "question": "Which of the following has the highest boiling point?",
+    "options": ["Methane", "Ethanol", "Propane", "Butane"],
+    "answer": "Ethanol",
+    "explanation": "Ethanol has a higher boiling point compared to methane, propane, and butane."
+  },
+  {
+    "examType": "JAMB",
+    "question": "The primary source of energy for photosynthesis is:",
+    "options": ["Chemical energy", "Heat energy", "Light energy", "Electrical energy"],
+    "answer": "Light energy",
+    "explanation": "Light energy, primarily from the sun, is the main energy source for photosynthesis in plants."
+  },
+  {
+    "examType": "JAMB",
+    "question": "The process by which a solid dissolves in a liquid is called:",
+    "options": ["Filtration", "Dissolution", "Precipitation", "Crystallization"],
+    "answer": "Dissolution",
+    "explanation": "Dissolution is the process in which a solid dissolves in a liquid to form a solution."
+  },
+  {
+    "examType": "JAMB",
+    "question": "Which of the following ions has a charge of +1?",
+    "options": ["Ca²⁺", "Na⁺", "Cl⁻", "Mg²⁺"],
+    "answer": "Na⁺",
+    "explanation": "The Na⁺ ion has a charge of +1, which is a result of it losing one electron."
+  },
+  {
+    "examType": "JAMB",
+    "question": "The term 'molarity' refers to:",
+    "options": ["Moles per liter of solution", "Grams per liter of solution", "Volume per mole of solution", "Mass per mole of solute"],
+    "answer": "Moles per liter of solution",
+    "explanation": "Molarity is the measure of the concentration of a solute in a solution, expressed in moles per liter."
+  },
+  {
+    "examType": "JAMB",
+    "question": "The chemical formula for ammonia is:",
+    "options": ["NH3", "NH4", "N2H4", "N3H"],
+    "answer": "NH3",
+    "explanation": "Ammonia has the chemical formula NH3, consisting of one nitrogen and three hydrogen atoms."
+  },
+  {
+    "examType": "JAMB",
+    "question": "Which element is most abundant in the Earth's crust?",
+    "options": ["Iron", "Oxygen", "Silicon", "Aluminum"],
+    "answer": "Oxygen",
+    "explanation": "Oxygen is the most abundant element in the Earth's crust, making up about 46% by weight."
+  },
+  {
+    "examType": "JAMB",
+    "question": "The reaction between an acid and metal typically produces:",
+    "options": ["Salt and water only", "Salt and hydrogen gas", "Hydrogen gas only", "Water only"],
+    "answer": "Salt and hydrogen gas",
+    "explanation": "When an acid reacts with a metal, it typically produces salt and hydrogen gas."
+  },
+  {
+    "examType": "JAMB",
+    "question": "Which of the following compounds contains a carbon-carbon double bond?",
+    "options": ["Ethane", "Ethylene", "Propane", "Butane"],
+    "answer": "Ethylene",
+    "explanation": "Ethylene (C2H4) contains a carbon-carbon double bond."
+  },
+  {
+    "examType": "JAMB",
+    "question": "The process of separating components of a mixture based on their boiling points is known as:",
+    "options": ["Filtration", "Distillation", "Crystallization", "Chromatography"],
+    "answer": "Distillation",
+    "explanation": "Distillation is used to separate components of a mixture based on their different boiling points."
+  },
+  {
+    "examType": "JAMB",
+    "question": "What is the primary function of a catalyst in a chemical reaction?",
+    "options": ["To increase the temperature", "To increase the rate of reaction without being consumed", "To change the products", "To decrease the rate of reaction"],
+    "answer": "To increase the rate of reaction without being consumed",
+    "explanation": "A catalyst increases the rate of a chemical reaction without being consumed in the process."
+  },
+  {
+    "examType": "JAMB",
+    "question": "Which of the following is not a property of metals?",
+    "options": ["Conductivity", "Malleability", "Brittle nature", "Luster"],
+    "answer": "Brittle nature",
+    "explanation": "Metals are typically malleable and ductile, not brittle."
+  },
+  {
+    "examType": "JAMB",
+    "question": "The main component of vinegar is:",
+    "options": ["Acetic acid", "Citric acid", "Lactic acid", "Hydrochloric acid"],
+    "answer": "Acetic acid",
+    "explanation": "Vinegar is primarily composed of acetic acid."
+  },
+  {
+    "examType": "JAMB",
+    "question": "Which gas is commonly used in balloons?",
+    "options": ["Oxygen", "Helium", "Carbon dioxide", "Nitrogen"],
+    "answer": "Helium",
+    "explanation": "Helium is commonly used in balloons because it is lighter than air and non-flammable."
+  },
+  {
+    "examType": "JAMB",
+    "question": "What type of reaction involves the transfer of electrons?",
+    "options": ["Synthesis", "Redox reaction", "Decomposition", "Precipitation"],
+    "answer": "Redox reaction",
+    "explanation": "Redox reactions involve the transfer of electrons between reactants."
+  },
+  {
+    "examType": "JAMB",
+    "question": "Which of the following is an example of an endothermic reaction?",
+    "options": ["Combustion", "Photosynthesis", "Respiration", "Neutralization"],
+    "answer": "Photosynthesis",
+    "explanation": "Photosynthesis is an endothermic reaction as it absorbs energy from light."
+  },
+  {
+    "examType": "JAMB",
+    "question": "The chemical symbol for gold is:",
+    "options": ["Au", "Ag", "Pb", "Fe"],
+    "answer": "Au",
+    "explanation": "The chemical symbol for gold is Au, derived from its Latin name 'aurum.'"
+  },
+  {
+    "examType": "JAMB",
+    "question": "Which type of radiation has the highest energy?",
+    "options": ["Alpha radiation", "Beta radiation", "Gamma radiation", "X-ray radiation"],
+    "answer": "Gamma radiation",
+    "explanation": "Gamma radiation has the highest energy and shortest wavelength of all types of radiation."
+  },
+  {
+    "examType": "JAMB",
+    "question": "The term 'concentration' in chemistry refers to:",
+    "options": ["The amount of solute in a given volume of solution", "The total mass of the solution", "The temperature of the solution", "The color intensity"],
+    "answer": "The amount of solute in a given volume of solution",
+    "explanation": "Concentration refers to how much solute is present in a given volume of solution."
+  },
+  {
+    "examType": "JAMB",
+    "question": "What is the primary product when a hydrocarbon undergoes complete combustion?",
+    "options": ["Carbon monoxide", "Water and carbon dioxide", "Carbon and hydrogen gas", "Methanol"],
+    "answer": "Water and carbon dioxide",
+    "explanation": "Complete combustion of a hydrocarbon produces water and carbon dioxide."
+  },
+  {
+    "examType": "JAMB",
+    "question": "Which of the following describes an exothermic reaction?",
+    "options": ["Absorbs heat from surroundings", "Releases heat to surroundings", "Has no heat change", "Requires energy input to proceed"],
+    "answer": "Releases heat to surroundings",
+    "explanation": "Exothermic reactions release energy, often in the form of heat."
+  },
+  {
+    "examType": "JAMB",
+    "question": "Which element has the atomic number 6?",
+    "options": ["Oxygen", "Carbon", "Nitrogen", "Sulfur"],
+    "answer": "Carbon",
+    "explanation": "Carbon has the atomic number 6, indicating it has 6 protons."
+  },
+  {
+    "examType": "JAMB",
+    "question": "Which type of bond involves the sharing of electron pairs?",
+    "options": ["Ionic bond", "Covalent bond", "Metallic bond", "Hydrogen bond"],
+    "answer": "Covalent bond",
+    "explanation": "A covalent bond is formed when two atoms share electrons."
+  },
+  {
+    "examType": "JAMB",
+    "question": "In which state of matter do particles have the least kinetic energy?",
+    "options": ["Solid", "Liquid", "Gas", "Plasma"],
+    "answer": "Solid",
+    "explanation": "In solids, particles have the least kinetic energy and are closely packed."
+  },
+  {
+    "examType": "JAMB",
+    "question": "What is the main product when limestone (calcium carbonate, CaCO3), decomposes upon heating?",
+    "options": ["Calcium oxide and carbon dioxide", "Calcium hydroxide and carbon dioxide", "Calcium and oxygen", "Calcium oxide and carbon monoxide"],
+    "answer": "Calcium oxide and carbon dioxide",
+    "explanation": "When calcium carbonate is heated, it decomposes to form calcium oxide and carbon dioxide."
+  }
+]
+     
+  }
+  
+  
+
+
