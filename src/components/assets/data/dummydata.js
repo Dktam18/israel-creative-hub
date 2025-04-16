@@ -81,6 +81,18 @@ export const BlogData = [
     category: "JAMB",
     image: "https://i.postimg.cc/0QJJkKn4/Screenshot-2025-04-10-194452.png",
     to: "../waec-examiner-site",
-  }
- 
+  },
+ {
+  id: 4,
+  cover: "https://i.postimg.cc/zX3m08Rv/Chat-GPT-Image-Apr-16-2025-01-26-25-AM.png",
+  title: "JAMB Releases 2025 Mock UTME Results: How to Check Your Score via SMS",
+  author: "Israel Mrakpor",
+  authorImage: "https://i.postimg.cc/PqkFV6Sv/download-1-343.jpg",
+  date: "2025-04-16",
+  category: "JAMB",
+  image: "https://i.postimg.cc/zX3m08Rv/Chat-GPT-Image-Apr-16-2025-01-26-25-AM.png",
+  to: "../mockresult",
+
+
+ }
 ]

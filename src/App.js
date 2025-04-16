@@ -17,6 +17,7 @@ import { Jambmock } from "./components/common/JambMock"
 import {ShareButtons} from "./components/common/Sharebuttons"
 import { Waeconline } from "./components/common/Weac-examiner-site"
 import { Contact } from "./pages/Contact"
+import { Jambmock } from "./components/common/JambMock"
 // import { AddQuestions } from "./AddQuestions";
 
 
@@ -80,6 +81,14 @@ export default function App() {
             element={
               <Layout>
                 <Blog />
+              </Layout>
+            }
+          />
+          <Route
+            path='/jamb-mock-result-check'
+            element={
+              <Layout>
+                <Jambmock />
               </Layout>
             }
           />
