@@ -91,7 +91,7 @@ export const BlogData = [
   date: "2025-04-16",
   category: "JAMB",
   image: "https://i.postimg.cc/zX3m08Rv/Chat-GPT-Image-Apr-16-2025-01-26-25-AM.png",
-  to: "../mockresult",
+  to: "/jamb-mock-result-check",
 
 
  }
