@@ -1,0 +1,10 @@
+---
+deployment:
+  tasks:
+    - export NODE_ENV=production
+    - source /opt/cpanel/ea-nodejs20/bin/enable
+    - cd $DEPLOYMENT_SOURCE
+    - npm install
+    - npm run build
+    - rm -rf $DEPLOYMENT_TARGET/*
+    - cp -a $DEPLOYMENT_SOURCE/build/. $DEPLOYMENT_TARGET/
