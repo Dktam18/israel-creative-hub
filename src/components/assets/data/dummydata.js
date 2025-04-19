@@ -105,5 +105,16 @@ export const BlogData = [
   category: "JAMB",
   image: "https://i.postimg.cc/zvqTzH7J/FB-IMG-1738191745137.jpg",
   to: "/jamb-resheduled-date",
+ },
+ {
+  id: 6,
+  cover: "https://i.postimg.cc/XvQTn948/Pass-waec-without-studying.jpg",
+  title: "WAEC withdraws recognition of 574 schools ahead of 2025 WASSCE",
+  author: "Israel Mrakpor",
+  authorImage: "https://i.postimg.cc/PqkFV6Sv/download-1-343.jpg",
+  date: "2025-04-19",
+  category: "WAEC",
+  image: "https://i.postimg.cc/XvQTn948/Pass-waec-without-studying.jpg",
+  to: "/waec-news",
  }
 ]

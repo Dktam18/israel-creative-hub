@@ -19,6 +19,7 @@ import { Waeconline } from "./components/common/Weac-examiner-site"
 import { Contact } from "./pages/Contact"
 import { Mockresult } from "./components/common/Mockresult"
 import { JambReschedule } from "./components/common/JambReshedule"
+import { WaecNews } from "./components/common/WaecNews"
 // import { AddQuestions } from "./AddQuestions";
 
 
@@ -173,6 +174,14 @@ export default function App() {
         element={
           <Layout>
           <Contact/>
+          </Layout>
+        }
+        />
+        <Route
+        path="/waec-news"
+        element={
+          <Layout>
+          <WaecNews/>
           </Layout>
         }
         />
