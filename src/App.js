@@ -20,6 +20,7 @@ import { Contact } from "./pages/Contact"
 import { Mockresult } from "./components/common/Mockresult"
 import { JambReschedule } from "./components/common/JambReshedule"
 import { WaecNews } from "./components/common/WaecNews"
+import { NursingAdmissionUpdate } from "./components/common/2025-Nursing-Admission-update"
 // import { AddQuestions } from "./AddQuestions";
 
 
@@ -174,7 +175,7 @@ export default function App() {
         element={
           <Layout>
           <Contact/>
-          </Layout>
+          </Layout> 
         }
         />
         <Route
@@ -185,7 +186,14 @@ export default function App() {
           </Layout>
         }
         />
-          
+        <Route
+        path="/nmcn-approves-nursing-as-valid-entry-for-nursing-programme-admissions"
+        element={
+          <Layout>
+          <NursingAdmissionUpdate/>
+          </Layout>
+        }
+          />
         </Routes>
 
        

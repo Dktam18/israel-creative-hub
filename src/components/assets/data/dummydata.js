@@ -116,5 +116,16 @@ export const BlogData = [
   category: "WAEC",
   image: "https://i.postimg.cc/XvQTn948/Pass-waec-without-studying.jpg",
   to: "/waec-news",
+ },
+ {
+ id: 7,
+  cover: "https://i.postimg.cc/5twHGrwY/image.png",
+  title: "NMCN Approves SAISSCE as Valid Entry for Nursing Programme Admissions",
+  auther: "Israel Mrakpor",
+  authorImage: "https://i.postimg.cc/PqkFV6Sv/download-1-343.jpg",
+  date: "2025-04-19",
+  category: "Nursing",
+  image: "https://i.postimg.cc/5twHGrwY/image.png",
+  to: "/nmcn-approves-nursing-as-valid-entry-for-nursing-programme-admissions",
  }
 ]
