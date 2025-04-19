@@ -94,5 +94,16 @@ export const BlogData = [
   to: "/jamb-mock-result-check",
 
 
+ },
+ {
+ id: 5,
+  cover: "https://i.postimg.cc/zvqTzH7J/FB-IMG-1738191745137.jpg",
+  title: "JAMB Announces New Date for 2025 UTME Commencement",
+  author: "Israel Mrakpor",
+  authorImage: "https://i.postimg.cc/PqkFV6Sv/download-1-343.jpg",
+  date: "2025-04-19",
+  category: "JAMB",
+  image: "https://i.postimg.cc/zvqTzH7J/FB-IMG-1738191745137.jpg",
+  to: "/jamb-resheduled-date",
  }
 ]

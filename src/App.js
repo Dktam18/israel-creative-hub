@@ -18,6 +18,7 @@ import {ShareButtons} from "./components/common/Sharebuttons"
 import { Waeconline } from "./components/common/Weac-examiner-site"
 import { Contact } from "./pages/Contact"
 import { Mockresult } from "./components/common/Mockresult"
+import { JambReschedule } from "./components/common/JambReshedule"
 // import { AddQuestions } from "./AddQuestions";
 
 
@@ -89,6 +90,14 @@ export default function App() {
             element={
               <Layout>
                 <Mockresult />
+              </Layout>
+            }
+          />
+          <Route
+            path='/jamb-resheduled-date'
+            element={
+              <Layout>
+                <JambReschedule />
               </Layout>
             }
           />
