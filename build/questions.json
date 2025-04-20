@@ -376,23 +376,1210 @@
       "explanation": "‘Obscure’ means unclear or difficult to understand."
     }
   ],
-  "Biology": [
-    {
-      "examType": "JAMB",
-      "question": "Which organelle is responsible for cellular respiration?",
-      "options": ["Nucleus", "Mitochondrion", "Chloroplast", "Ribosome"],
-      "answer": "Mitochondrion",
-      "explanation": "Mitochondria are known as the powerhouse of the cell."
-    },
-    {
-      "examType": "NECO",
-      "question": "Which of these is not a function of the liver?",
-      "options": ["Bile secretion", "Detoxification", "Urea formation", "Pumping blood"],
-      "answer": "Pumping blood",
-      "explanation": "Pumping blood is a function of the heart, not the liver."
-    }
-  ],
-  "Government": [
+  
+    "Biology": [
+      {
+        "examType": "JAMB",
+        "question": "Which part of the plant is responsible for photosynthesis?",
+        "options": [
+          "Root",
+          "Stem",
+          "Leaf",
+          "Flower"
+        ],
+        "answer": "Leaf",
+        "explanation": "Leaves contain chlorophyll which captures light energy for photosynthesis."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which blood cells are responsible for fighting infections?",
+        "options": [
+          "Red blood cells",
+          "Platelets",
+          "White blood cells",
+          "Plasma"
+        ],
+        "answer": "White blood cells",
+        "explanation": "White blood cells help defend the body against infectious diseases and foreign invaders."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which macromolecule is the main source of energy for cells?",
+        "options": [
+          "Proteins",
+          "Lipids",
+          "Carbohydrates",
+          "Nucleic acids"
+        ],
+        "answer": "Carbohydrates",
+        "explanation": "Carbohydrates are broken down into glucose, which is the main energy source for cells."
+      },
+      {
+        "examType": "JAMB",
+        "question": "What is the functional unit of the kidney?",
+        "options": [
+          "Neuron",
+          "Nephron",
+          "Alveolus",
+          "Glomerulus"
+        ],
+        "answer": "Nephron",
+        "explanation": "The nephron is the basic structural and functional unit of the kidney."
+      },
+      {
+        "examType": "JAMB",
+        "question": "What type of reproduction involves a single parent?",
+        "options": [
+          "Sexual reproduction",
+          "Binary fission",
+          "Fertilization",
+          "Pollination"
+        ],
+        "answer": "Binary fission",
+        "explanation": "Binary fission is an asexual reproduction method used by unicellular organisms."
+      },
+      {
+        "examType": "JAMB",
+        "question": "What is the powerhouse of the cell?",
+        "options": [
+          "Nucleus",
+          "Ribosome",
+          "Mitochondrion",
+          "Lysosome"
+        ],
+        "answer": "Mitochondrion",
+        "explanation": "Mitochondria produce energy for cellular processes."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which gas do green plants absorb during photosynthesis?",
+        "options": [
+          "Oxygen",
+          "Nitrogen",
+          "Carbon dioxide",
+          "Hydrogen"
+        ],
+        "answer": "Carbon dioxide",
+        "explanation": "Carbon dioxide is used during photosynthesis to produce glucose."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which human organ regulates blood sugar levels?",
+        "options": [
+          "Heart",
+          "Liver",
+          "Pancreas",
+          "Stomach"
+        ],
+        "answer": "Pancreas",
+        "explanation": "The pancreas secretes insulin and glucagon to regulate blood sugar."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which process converts glucose into energy in cells?",
+        "options": [
+          "Digestion",
+          "Respiration",
+          "Photosynthesis",
+          "Fermentation"
+        ],
+        "answer": "Respiration",
+        "explanation": "Cellular respiration converts glucose into ATP, the energy currency."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which structure controls the activities of a cell?",
+        "options": [
+          "Nucleus",
+          "Mitochondrion",
+          "Ribosome",
+          "Cytoplasm"
+        ],
+        "answer": "Nucleus",
+        "explanation": "The nucleus contains DNA and directs cellular activities."
+      },
+      {
+        "examType": "JAMB",
+        "question": "What is the powerhouse of the cell?",
+        "options": [
+          "Nucleus",
+          "Ribosome",
+          "Mitochondrion",
+          "Lysosome"
+        ],
+        "answer": "Mitochondrion",
+        "explanation": "Mitochondria produce energy for cellular processes."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which gas do green plants absorb during photosynthesis?",
+        "options": [
+          "Oxygen",
+          "Nitrogen",
+          "Carbon dioxide",
+          "Hydrogen"
+        ],
+        "answer": "Carbon dioxide",
+        "explanation": "Carbon dioxide is used during photosynthesis to produce glucose."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which human organ regulates blood sugar levels?",
+        "options": [
+          "Heart",
+          "Liver",
+          "Pancreas",
+          "Stomach"
+        ],
+        "answer": "Pancreas",
+        "explanation": "The pancreas secretes insulin and glucagon to regulate blood sugar."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which process converts glucose into energy in cells?",
+        "options": [
+          "Digestion",
+          "Respiration",
+          "Photosynthesis",
+          "Fermentation"
+        ],
+        "answer": "Respiration",
+        "explanation": "Cellular respiration converts glucose into ATP, the energy currency."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which structure controls the activities of a cell?",
+        "options": [
+          "Nucleus",
+          "Mitochondrion",
+          "Ribosome",
+          "Cytoplasm"
+        ],
+        "answer": "Nucleus",
+        "explanation": "The nucleus contains DNA and directs cellular activities."
+      },
+      {
+        "examType": "JAMB",
+        "question": "What is the powerhouse of the cell?",
+        "options": [
+          "Nucleus",
+          "Ribosome",
+          "Mitochondrion",
+          "Lysosome"
+        ],
+        "answer": "Mitochondrion",
+        "explanation": "Mitochondria produce energy for cellular processes."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which gas do green plants absorb during photosynthesis?",
+        "options": [
+          "Oxygen",
+          "Nitrogen",
+          "Carbon dioxide",
+          "Hydrogen"
+        ],
+        "answer": "Carbon dioxide",
+        "explanation": "Carbon dioxide is used during photosynthesis to produce glucose."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which human organ regulates blood sugar levels?",
+        "options": [
+          "Heart",
+          "Liver",
+          "Pancreas",
+          "Stomach"
+        ],
+        "answer": "Pancreas",
+        "explanation": "The pancreas secretes insulin and glucagon to regulate blood sugar."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which process converts glucose into energy in cells?",
+        "options": [
+          "Digestion",
+          "Respiration",
+          "Photosynthesis",
+          "Fermentation"
+        ],
+        "answer": "Respiration",
+        "explanation": "Cellular respiration converts glucose into ATP, the energy currency."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which structure controls the activities of a cell?",
+        "options": [
+          "Nucleus",
+          "Mitochondrion",
+          "Ribosome",
+          "Cytoplasm"
+        ],
+        "answer": "Nucleus",
+        "explanation": "The nucleus contains DNA and directs cellular activities."
+      },
+      {
+        "examType": "JAMB",
+        "question": "What is the powerhouse of the cell?",
+        "options": [
+          "Nucleus",
+          "Ribosome",
+          "Mitochondrion",
+          "Lysosome"
+        ],
+        "answer": "Mitochondrion",
+        "explanation": "Mitochondria produce energy for cellular processes."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which gas do green plants absorb during photosynthesis?",
+        "options": [
+          "Oxygen",
+          "Nitrogen",
+          "Carbon dioxide",
+          "Hydrogen"
+        ],
+        "answer": "Carbon dioxide",
+        "explanation": "Carbon dioxide is used during photosynthesis to produce glucose."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which human organ regulates blood sugar levels?",
+        "options": [
+          "Heart",
+          "Liver",
+          "Pancreas",
+          "Stomach"
+        ],
+        "answer": "Pancreas",
+        "explanation": "The pancreas secretes insulin and glucagon to regulate blood sugar."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which process converts glucose into energy in cells?",
+        "options": [
+          "Digestion",
+          "Respiration",
+          "Photosynthesis",
+          "Fermentation"
+        ],
+        "answer": "Respiration",
+        "explanation": "Cellular respiration converts glucose into ATP, the energy currency."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which structure controls the activities of a cell?",
+        "options": [
+          "Nucleus",
+          "Mitochondrion",
+          "Ribosome",
+          "Cytoplasm"
+        ],
+        "answer": "Nucleus",
+        "explanation": "The nucleus contains DNA and directs cellular activities."
+      },
+      {
+        "examType": "JAMB",
+        "question": "What is the powerhouse of the cell?",
+        "options": [
+          "Nucleus",
+          "Ribosome",
+          "Mitochondrion",
+          "Lysosome"
+        ],
+        "answer": "Mitochondrion",
+        "explanation": "Mitochondria produce energy for cellular processes."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which gas do green plants absorb during photosynthesis?",
+        "options": [
+          "Oxygen",
+          "Nitrogen",
+          "Carbon dioxide",
+          "Hydrogen"
+        ],
+        "answer": "Carbon dioxide",
+        "explanation": "Carbon dioxide is used during photosynthesis to produce glucose."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which human organ regulates blood sugar levels?",
+        "options": [
+          "Heart",
+          "Liver",
+          "Pancreas",
+          "Stomach"
+        ],
+        "answer": "Pancreas",
+        "explanation": "The pancreas secretes insulin and glucagon to regulate blood sugar."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which process converts glucose into energy in cells?",
+        "options": [
+          "Digestion",
+          "Respiration",
+          "Photosynthesis",
+          "Fermentation"
+        ],
+        "answer": "Respiration",
+        "explanation": "Cellular respiration converts glucose into ATP, the energy currency."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which structure controls the activities of a cell?",
+        "options": [
+          "Nucleus",
+          "Mitochondrion",
+          "Ribosome",
+          "Cytoplasm"
+        ],
+        "answer": "Nucleus",
+        "explanation": "The nucleus contains DNA and directs cellular activities."
+      },
+      {
+        "examType": "JAMB",
+        "question": "What is the powerhouse of the cell?",
+        "options": [
+          "Nucleus",
+          "Ribosome",
+          "Mitochondrion",
+          "Lysosome"
+        ],
+        "answer": "Mitochondrion",
+        "explanation": "Mitochondria produce energy for cellular processes."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which gas do green plants absorb during photosynthesis?",
+        "options": [
+          "Oxygen",
+          "Nitrogen",
+          "Carbon dioxide",
+          "Hydrogen"
+        ],
+        "answer": "Carbon dioxide",
+        "explanation": "Carbon dioxide is used during photosynthesis to produce glucose."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which human organ regulates blood sugar levels?",
+        "options": [
+          "Heart",
+          "Liver",
+          "Pancreas",
+          "Stomach"
+        ],
+        "answer": "Pancreas",
+        "explanation": "The pancreas secretes insulin and glucagon to regulate blood sugar."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which process converts glucose into energy in cells?",
+        "options": [
+          "Digestion",
+          "Respiration",
+          "Photosynthesis",
+          "Fermentation"
+        ],
+        "answer": "Respiration",
+        "explanation": "Cellular respiration converts glucose into ATP, the energy currency."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which structure controls the activities of a cell?",
+        "options": [
+          "Nucleus",
+          "Mitochondrion",
+          "Ribosome",
+          "Cytoplasm"
+        ],
+        "answer": "Nucleus",
+        "explanation": "The nucleus contains DNA and directs cellular activities."
+      },
+      {
+        "examType": "JAMB",
+        "question": "What is the powerhouse of the cell?",
+        "options": [
+          "Nucleus",
+          "Ribosome",
+          "Mitochondrion",
+          "Lysosome"
+        ],
+        "answer": "Mitochondrion",
+        "explanation": "Mitochondria produce energy for cellular processes."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which gas do green plants absorb during photosynthesis?",
+        "options": [
+          "Oxygen",
+          "Nitrogen",
+          "Carbon dioxide",
+          "Hydrogen"
+        ],
+        "answer": "Carbon dioxide",
+        "explanation": "Carbon dioxide is used during photosynthesis to produce glucose."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which human organ regulates blood sugar levels?",
+        "options": [
+          "Heart",
+          "Liver",
+          "Pancreas",
+          "Stomach"
+        ],
+        "answer": "Pancreas",
+        "explanation": "The pancreas secretes insulin and glucagon to regulate blood sugar."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which process converts glucose into energy in cells?",
+        "options": [
+          "Digestion",
+          "Respiration",
+          "Photosynthesis",
+          "Fermentation"
+        ],
+        "answer": "Respiration",
+        "explanation": "Cellular respiration converts glucose into ATP, the energy currency."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which structure controls the activities of a cell?",
+        "options": [
+          "Nucleus",
+          "Mitochondrion",
+          "Ribosome",
+          "Cytoplasm"
+        ],
+        "answer": "Nucleus",
+        "explanation": "The nucleus contains DNA and directs cellular activities."
+      },
+      {
+        "examType": "JAMB",
+        "question": "What is the powerhouse of the cell?",
+        "options": [
+          "Nucleus",
+          "Ribosome",
+          "Mitochondrion",
+          "Lysosome"
+        ],
+        "answer": "Mitochondrion",
+        "explanation": "Mitochondria produce energy for cellular processes."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which gas do green plants absorb during photosynthesis?",
+        "options": [
+          "Oxygen",
+          "Nitrogen",
+          "Carbon dioxide",
+          "Hydrogen"
+        ],
+        "answer": "Carbon dioxide",
+        "explanation": "Carbon dioxide is used during photosynthesis to produce glucose."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which human organ regulates blood sugar levels?",
+        "options": [
+          "Heart",
+          "Liver",
+          "Pancreas",
+          "Stomach"
+        ],
+        "answer": "Pancreas",
+        "explanation": "The pancreas secretes insulin and glucagon to regulate blood sugar."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which process converts glucose into energy in cells?",
+        "options": [
+          "Digestion",
+          "Respiration",
+          "Photosynthesis",
+          "Fermentation"
+        ],
+        "answer": "Respiration",
+        "explanation": "Cellular respiration converts glucose into ATP, the energy currency."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which structure controls the activities of a cell?",
+        "options": [
+          "Nucleus",
+          "Mitochondrion",
+          "Ribosome",
+          "Cytoplasm"
+        ],
+        "answer": "Nucleus",
+        "explanation": "The nucleus contains DNA and directs cellular activities."
+      },
+      {
+        "examType": "JAMB",
+        "question": "What is the powerhouse of the cell?",
+        "options": [
+          "Nucleus",
+          "Ribosome",
+          "Mitochondrion",
+          "Lysosome"
+        ],
+        "answer": "Mitochondrion",
+        "explanation": "Mitochondria produce energy for cellular processes."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which gas do green plants absorb during photosynthesis?",
+        "options": [
+          "Oxygen",
+          "Nitrogen",
+          "Carbon dioxide",
+          "Hydrogen"
+        ],
+        "answer": "Carbon dioxide",
+        "explanation": "Carbon dioxide is used during photosynthesis to produce glucose."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which human organ regulates blood sugar levels?",
+        "options": [
+          "Heart",
+          "Liver",
+          "Pancreas",
+          "Stomach"
+        ],
+        "answer": "Pancreas",
+        "explanation": "The pancreas secretes insulin and glucagon to regulate blood sugar."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which process converts glucose into energy in cells?",
+        "options": [
+          "Digestion",
+          "Respiration",
+          "Photosynthesis",
+          "Fermentation"
+        ],
+        "answer": "Respiration",
+        "explanation": "Cellular respiration converts glucose into ATP, the energy currency."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which structure controls the activities of a cell?",
+        "options": [
+          "Nucleus",
+          "Mitochondrion",
+          "Ribosome",
+          "Cytoplasm"
+        ],
+        "answer": "Nucleus",
+        "explanation": "The nucleus contains DNA and directs cellular activities."
+      },
+      {
+        "examType": "JAMB",
+        "question": "What is the powerhouse of the cell?",
+        "options": [
+          "Nucleus",
+          "Ribosome",
+          "Mitochondrion",
+          "Lysosome"
+        ],
+        "answer": "Mitochondrion",
+        "explanation": "Mitochondria produce energy for cellular processes."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which gas do green plants absorb during photosynthesis?",
+        "options": [
+          "Oxygen",
+          "Nitrogen",
+          "Carbon dioxide",
+          "Hydrogen"
+        ],
+        "answer": "Carbon dioxide",
+        "explanation": "Carbon dioxide is used during photosynthesis to produce glucose."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which human organ regulates blood sugar levels?",
+        "options": [
+          "Heart",
+          "Liver",
+          "Pancreas",
+          "Stomach"
+        ],
+        "answer": "Pancreas",
+        "explanation": "The pancreas secretes insulin and glucagon to regulate blood sugar."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which process converts glucose into energy in cells?",
+        "options": [
+          "Digestion",
+          "Respiration",
+          "Photosynthesis",
+          "Fermentation"
+        ],
+        "answer": "Respiration",
+        "explanation": "Cellular respiration converts glucose into ATP, the energy currency."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which structure controls the activities of a cell?",
+        "options": [
+          "Nucleus",
+          "Mitochondrion",
+          "Ribosome",
+          "Cytoplasm"
+        ],
+        "answer": "Nucleus",
+        "explanation": "The nucleus contains DNA and directs cellular activities."
+      },
+      {
+        "examType": "JAMB",
+        "question": "What is the powerhouse of the cell?",
+        "options": [
+          "Nucleus",
+          "Ribosome",
+          "Mitochondrion",
+          "Lysosome"
+        ],
+        "answer": "Mitochondrion",
+        "explanation": "Mitochondria produce energy for cellular processes."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which gas do green plants absorb during photosynthesis?",
+        "options": [
+          "Oxygen",
+          "Nitrogen",
+          "Carbon dioxide",
+          "Hydrogen"
+        ],
+        "answer": "Carbon dioxide",
+        "explanation": "Carbon dioxide is used during photosynthesis to produce glucose."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which human organ regulates blood sugar levels?",
+        "options": [
+          "Heart",
+          "Liver",
+          "Pancreas",
+          "Stomach"
+        ],
+        "answer": "Pancreas",
+        "explanation": "The pancreas secretes insulin and glucagon to regulate blood sugar."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which process converts glucose into energy in cells?",
+        "options": [
+          "Digestion",
+          "Respiration",
+          "Photosynthesis",
+          "Fermentation"
+        ],
+        "answer": "Respiration",
+        "explanation": "Cellular respiration converts glucose into ATP, the energy currency."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which structure controls the activities of a cell?",
+        "options": [
+          "Nucleus",
+          "Mitochondrion",
+          "Ribosome",
+          "Cytoplasm"
+        ],
+        "answer": "Nucleus",
+        "explanation": "The nucleus contains DNA and directs cellular activities."
+      },
+      {
+        "examType": "JAMB",
+        "question": "What is the powerhouse of the cell?",
+        "options": [
+          "Nucleus",
+          "Ribosome",
+          "Mitochondrion",
+          "Lysosome"
+        ],
+        "answer": "Mitochondrion",
+        "explanation": "Mitochondria produce energy for cellular processes."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which gas do green plants absorb during photosynthesis?",
+        "options": [
+          "Oxygen",
+          "Nitrogen",
+          "Carbon dioxide",
+          "Hydrogen"
+        ],
+        "answer": "Carbon dioxide",
+        "explanation": "Carbon dioxide is used during photosynthesis to produce glucose."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which human organ regulates blood sugar levels?",
+        "options": [
+          "Heart",
+          "Liver",
+          "Pancreas",
+          "Stomach"
+        ],
+        "answer": "Pancreas",
+        "explanation": "The pancreas secretes insulin and glucagon to regulate blood sugar."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which process converts glucose into energy in cells?",
+        "options": [
+          "Digestion",
+          "Respiration",
+          "Photosynthesis",
+          "Fermentation"
+        ],
+        "answer": "Respiration",
+        "explanation": "Cellular respiration converts glucose into ATP, the energy currency."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which structure controls the activities of a cell?",
+        "options": [
+          "Nucleus",
+          "Mitochondrion",
+          "Ribosome",
+          "Cytoplasm"
+        ],
+        "answer": "Nucleus",
+        "explanation": "The nucleus contains DNA and directs cellular activities."
+      },
+      {
+        "examType": "JAMB",
+        "question": "What is the powerhouse of the cell?",
+        "options": [
+          "Nucleus",
+          "Ribosome",
+          "Mitochondrion",
+          "Lysosome"
+        ],
+        "answer": "Mitochondrion",
+        "explanation": "Mitochondria produce energy for cellular processes."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which gas do green plants absorb during photosynthesis?",
+        "options": [
+          "Oxygen",
+          "Nitrogen",
+          "Carbon dioxide",
+          "Hydrogen"
+        ],
+        "answer": "Carbon dioxide",
+        "explanation": "Carbon dioxide is used during photosynthesis to produce glucose."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which human organ regulates blood sugar levels?",
+        "options": [
+          "Heart",
+          "Liver",
+          "Pancreas",
+          "Stomach"
+        ],
+        "answer": "Pancreas",
+        "explanation": "The pancreas secretes insulin and glucagon to regulate blood sugar."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which process converts glucose into energy in cells?",
+        "options": [
+          "Digestion",
+          "Respiration",
+          "Photosynthesis",
+          "Fermentation"
+        ],
+        "answer": "Respiration",
+        "explanation": "Cellular respiration converts glucose into ATP, the energy currency."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which structure controls the activities of a cell?",
+        "options": [
+          "Nucleus",
+          "Mitochondrion",
+          "Ribosome",
+          "Cytoplasm"
+        ],
+        "answer": "Nucleus",
+        "explanation": "The nucleus contains DNA and directs cellular activities."
+      },
+      {
+        "examType": "JAMB",
+        "question": "What is the powerhouse of the cell?",
+        "options": [
+          "Nucleus",
+          "Ribosome",
+          "Mitochondrion",
+          "Lysosome"
+        ],
+        "answer": "Mitochondrion",
+        "explanation": "Mitochondria produce energy for cellular processes."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which gas do green plants absorb during photosynthesis?",
+        "options": [
+          "Oxygen",
+          "Nitrogen",
+          "Carbon dioxide",
+          "Hydrogen"
+        ],
+        "answer": "Carbon dioxide",
+        "explanation": "Carbon dioxide is used during photosynthesis to produce glucose."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which human organ regulates blood sugar levels?",
+        "options": [
+          "Heart",
+          "Liver",
+          "Pancreas",
+          "Stomach"
+        ],
+        "answer": "Pancreas",
+        "explanation": "The pancreas secretes insulin and glucagon to regulate blood sugar."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which process converts glucose into energy in cells?",
+        "options": [
+          "Digestion",
+          "Respiration",
+          "Photosynthesis",
+          "Fermentation"
+        ],
+        "answer": "Respiration",
+        "explanation": "Cellular respiration converts glucose into ATP, the energy currency."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which structure controls the activities of a cell?",
+        "options": [
+          "Nucleus",
+          "Mitochondrion",
+          "Ribosome",
+          "Cytoplasm"
+        ],
+        "answer": "Nucleus",
+        "explanation": "The nucleus contains DNA and directs cellular activities."
+      },
+      {
+        "examType": "JAMB",
+        "question": "What is the powerhouse of the cell?",
+        "options": [
+          "Nucleus",
+          "Ribosome",
+          "Mitochondrion",
+          "Lysosome"
+        ],
+        "answer": "Mitochondrion",
+        "explanation": "Mitochondria produce energy for cellular processes."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which gas do green plants absorb during photosynthesis?",
+        "options": [
+          "Oxygen",
+          "Nitrogen",
+          "Carbon dioxide",
+          "Hydrogen"
+        ],
+        "answer": "Carbon dioxide",
+        "explanation": "Carbon dioxide is used during photosynthesis to produce glucose."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which human organ regulates blood sugar levels?",
+        "options": [
+          "Heart",
+          "Liver",
+          "Pancreas",
+          "Stomach"
+        ],
+        "answer": "Pancreas",
+        "explanation": "The pancreas secretes insulin and glucagon to regulate blood sugar."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which process converts glucose into energy in cells?",
+        "options": [
+          "Digestion",
+          "Respiration",
+          "Photosynthesis",
+          "Fermentation"
+        ],
+        "answer": "Respiration",
+        "explanation": "Cellular respiration converts glucose into ATP, the energy currency."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which structure controls the activities of a cell?",
+        "options": [
+          "Nucleus",
+          "Mitochondrion",
+          "Ribosome",
+          "Cytoplasm"
+        ],
+        "answer": "Nucleus",
+        "explanation": "The nucleus contains DNA and directs cellular activities."
+      },
+      {
+        "examType": "JAMB",
+        "question": "What is the powerhouse of the cell?",
+        "options": [
+          "Nucleus",
+          "Ribosome",
+          "Mitochondrion",
+          "Lysosome"
+        ],
+        "answer": "Mitochondrion",
+        "explanation": "Mitochondria produce energy for cellular processes."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which gas do green plants absorb during photosynthesis?",
+        "options": [
+          "Oxygen",
+          "Nitrogen",
+          "Carbon dioxide",
+          "Hydrogen"
+        ],
+        "answer": "Carbon dioxide",
+        "explanation": "Carbon dioxide is used during photosynthesis to produce glucose."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which human organ regulates blood sugar levels?",
+        "options": [
+          "Heart",
+          "Liver",
+          "Pancreas",
+          "Stomach"
+        ],
+        "answer": "Pancreas",
+        "explanation": "The pancreas secretes insulin and glucagon to regulate blood sugar."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which process converts glucose into energy in cells?",
+        "options": [
+          "Digestion",
+          "Respiration",
+          "Photosynthesis",
+          "Fermentation"
+        ],
+        "answer": "Respiration",
+        "explanation": "Cellular respiration converts glucose into ATP, the energy currency."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which structure controls the activities of a cell?",
+        "options": [
+          "Nucleus",
+          "Mitochondrion",
+          "Ribosome",
+          "Cytoplasm"
+        ],
+        "answer": "Nucleus",
+        "explanation": "The nucleus contains DNA and directs cellular activities."
+      },
+      {
+        "examType": "JAMB",
+        "question": "What is the powerhouse of the cell?",
+        "options": [
+          "Nucleus",
+          "Ribosome",
+          "Mitochondrion",
+          "Lysosome"
+        ],
+        "answer": "Mitochondrion",
+        "explanation": "Mitochondria produce energy for cellular processes."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which gas do green plants absorb during photosynthesis?",
+        "options": [
+          "Oxygen",
+          "Nitrogen",
+          "Carbon dioxide",
+          "Hydrogen"
+        ],
+        "answer": "Carbon dioxide",
+        "explanation": "Carbon dioxide is used during photosynthesis to produce glucose."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which human organ regulates blood sugar levels?",
+        "options": [
+          "Heart",
+          "Liver",
+          "Pancreas",
+          "Stomach"
+        ],
+        "answer": "Pancreas",
+        "explanation": "The pancreas secretes insulin and glucagon to regulate blood sugar."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which process converts glucose into energy in cells?",
+        "options": [
+          "Digestion",
+          "Respiration",
+          "Photosynthesis",
+          "Fermentation"
+        ],
+        "answer": "Respiration",
+        "explanation": "Cellular respiration converts glucose into ATP, the energy currency."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which structure controls the activities of a cell?",
+        "options": [
+          "Nucleus",
+          "Mitochondrion",
+          "Ribosome",
+          "Cytoplasm"
+        ],
+        "answer": "Nucleus",
+        "explanation": "The nucleus contains DNA and directs cellular activities."
+      },
+      {
+        "examType": "JAMB",
+        "question": "What is the powerhouse of the cell?",
+        "options": [
+          "Nucleus",
+          "Ribosome",
+          "Mitochondrion",
+          "Lysosome"
+        ],
+        "answer": "Mitochondrion",
+        "explanation": "Mitochondria produce energy for cellular processes."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which gas do green plants absorb during photosynthesis?",
+        "options": [
+          "Oxygen",
+          "Nitrogen",
+          "Carbon dioxide",
+          "Hydrogen"
+        ],
+        "answer": "Carbon dioxide",
+        "explanation": "Carbon dioxide is used during photosynthesis to produce glucose."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which human organ regulates blood sugar levels?",
+        "options": [
+          "Heart",
+          "Liver",
+          "Pancreas",
+          "Stomach"
+        ],
+        "answer": "Pancreas",
+        "explanation": "The pancreas secretes insulin and glucagon to regulate blood sugar."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which process converts glucose into energy in cells?",
+        "options": [
+          "Digestion",
+          "Respiration",
+          "Photosynthesis",
+          "Fermentation"
+        ],
+        "answer": "Respiration",
+        "explanation": "Cellular respiration converts glucose into ATP, the energy currency."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which structure controls the activities of a cell?",
+        "options": [
+          "Nucleus",
+          "Mitochondrion",
+          "Ribosome",
+          "Cytoplasm"
+        ],
+        "answer": "Nucleus",
+        "explanation": "The nucleus contains DNA and directs cellular activities."
+      },
+      {
+        "examType": "JAMB",
+        "question": "What is the powerhouse of the cell?",
+        "options": [
+          "Nucleus",
+          "Ribosome",
+          "Mitochondrion",
+          "Lysosome"
+        ],
+        "answer": "Mitochondrion",
+        "explanation": "Mitochondria produce energy for cellular processes."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which gas do green plants absorb during photosynthesis?",
+        "options": [
+          "Oxygen",
+          "Nitrogen",
+          "Carbon dioxide",
+          "Hydrogen"
+        ],
+        "answer": "Carbon dioxide",
+        "explanation": "Carbon dioxide is used during photosynthesis to produce glucose."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which human organ regulates blood sugar levels?",
+        "options": [
+          "Heart",
+          "Liver",
+          "Pancreas",
+          "Stomach"
+        ],
+        "answer": "Pancreas",
+        "explanation": "The pancreas secretes insulin and glucagon to regulate blood sugar."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which process converts glucose into energy in cells?",
+        "options": [
+          "Digestion",
+          "Respiration",
+          "Photosynthesis",
+          "Fermentation"
+        ],
+        "answer": "Respiration",
+        "explanation": "Cellular respiration converts glucose into ATP, the energy currency."
+      },
+      {
+        "examType": "JAMB",
+        "question": "Which structure controls the activities of a cell?",
+        "options": [
+          "Nucleus",
+          "Mitochondrion",
+          "Ribosome",
+          "Cytoplasm"
+        ],
+        "answer": "Nucleus",
+        "explanation": "The nucleus contains DNA and directs cellular activities."
+      }
+    ],
+    "Government": [
     {
       "examType": "JAMB",
       "question": "The primary function of government is to:",

@@ -1,4 +1,3 @@
-
 import React from "react";
 import heroImg from "../components/assets/images/hero.png";
 // import heroImgback from "../components/assets/images/hero-shape-purple.png";
@@ -13,9 +12,8 @@ import { About } from "./About";
 import { Courses } from "./Courses";
 import { Instructor } from "./Instructor";
 import { Blog } from "./Blog";
-import Flag from 'react-flagkit';
+import Flag from "react-flagkit";
 // export default () => <Flag country="NG" />;
-
 
 export const Home = () => {
   return (
@@ -31,16 +29,31 @@ export const Home = () => {
     </>
   );
 };
+
 export const HomeContent = () => {
   return (
     <>
+      {/* === Easter Marquee === */}
+      <div className="bg-yellow-100 py-2">
+        <marquee
+          behavior="scroll"
+          direction="left"
+          scrollamount="6"
+          className="text-red-600 font-semibold"
+        >
+          🐣 Happy Easter to all our wonderful users of Israel Creative Hub! 🎉
+          Wishing you success in your exams and everything you do!
+        </marquee>
+      </div>
 
-    <style>
-      
-    </style>
-    <head>
-    <script defer src="https://cloud.umami.is/script.js" data-website-id="1a12b620-2baf-4935-8e21-defc1f7f8ce7"></script>
-    </head>
+      <head>
+        <script
+          defer
+          src="https://cloud.umami.is/script.js"
+          data-website-id="1a12b620-2baf-4935-8e21-defc1f7f8ce7"
+        ></script>
+      </head>
+
       <section className="bg-secondary py-10 h-[92vh] md:h-full">
         <div className="container">
           <div className="flex items-center justify-center md:flex-col">
@@ -49,16 +62,16 @@ export const HomeContent = () => {
                 Welcome to <br /> Israel Creative <br /> Hub
               </h1>
               <h2 className="text-lg mt-3">
-              NO. 1 EDUCATIONAL FORUM IN NIGERIA<Flag country="NG" />
+                NO. 1 EDUCATIONAL FORUM IN NIGERIA <Flag country="NG" />
               </h2>
               <span className="text-[20px]">
-               <b>Best platform for WAEC, JAMB and NECO students</b>
+                <b>Best platform for WAEC, JAMB and NECO students</b>
               </span>
 
               <div className="relative text-gray-600 focus-within:text-gray-400 mt-5">
                 <input
                   type="search"
-                  className="py-3 text-sm  bg-white rounded-md pl-10 focus:outline-none "
+                  className="py-3 text-sm bg-white rounded-md pl-10 focus:outline-none"
                   placeholder="Search..."
                   autoComplete="on"
                 />
@@ -72,13 +85,13 @@ export const HomeContent = () => {
                 </span>
               </div>
               <span className="text-[14px]">
-                With us, your 9'As in WAEC and JAMB and 300+ JAMB score is guaranteed
+                With us, your 9'As in WAEC and JAMB and 300+ JAMB score is
+                guaranteed
               </span>
             </div>
             <div className="right w-1/2 md:w-full relative">
               <div className="images relative heroImgblack">
-               
-                <div className="heroImg h-[90vh] w-full hero-responsive ">
+                <div className="heroImg h-[90vh] w-full hero-responsive">
                   <img
                     src={heroImg}
                     alt=""
@@ -86,9 +99,7 @@ export const HomeContent = () => {
                   />
                 </div>
               </div>
-              <div className="content">
-               
-              </div>
+              <div className="content"></div>
             </div>
           </div>
         </div>
