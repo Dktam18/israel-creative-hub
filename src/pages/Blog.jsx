@@ -35,7 +35,7 @@ export const Blog = () => {
                     <span className="text-[12px] bg-backbg p-1 px-3 text-white rounded-[5px]">
                       {item.category}
                     </span>
-                    <h3 className="text-black my-4 font-medium h-10">{item.title}</h3>
+                    <h3 className="text-black my-4 font-medium h-13">{item.title}</h3>
                     <div className="user flex items-center justify-between">
                       <div className="flex items-center">
                         <img

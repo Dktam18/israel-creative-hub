@@ -12,7 +12,7 @@ export const Header = () => {
   const [messages, setMessages] = useState([
     { text: "Welcome to Israel Creative Hub!", link: "#" },
     { text: "You can now practice for the 'LEKKI HEADMASTER'.", link: "/practice" },
-    { text: "New questions have been added to the CBT. Check them out!", link: "/practice" },
+    {text: "Get all UTME questions after the exams. Join our whatsapp channel now!", link: "https://whatsapp.com/channel/0029VajOfp62UPBOfXpold3b"},
   ])
   const [hasUnread, setHasUnread] = useState(true)
 

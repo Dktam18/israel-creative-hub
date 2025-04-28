@@ -121,11 +121,22 @@ export const BlogData = [
  id: 7,
   cover: "https://i.postimg.cc/5twHGrwY/image.png",
   title: "NMCN Approves SAISSCE as Valid Entry for Nursing Programme Admissions",
-  auther: "Israel Mrakpor",
+  author: "Israel Mrakpor",
   authorImage: "https://i.postimg.cc/PqkFV6Sv/download-1-343.jpg",
   date: "2025-04-19",
   category: "Nursing",
   image: "https://i.postimg.cc/5twHGrwY/image.png",
   to: "/nmcn-approves-nursing-as-valid-entry-for-nursing-programme-admissions",
- }
+ },
+{
+  id: 8,
+  cover: "https://i.postimg.cc/CxSyQygx/Chat-GPT-Image-Apr-24-2025-11-47-27-PM.png",
+  title: "JAMB 2025 UTME: Strict Warning on Prohibited Items – What Candidates Must Know",
+  author: "Israel Mrakpor",
+  authorImage: "https://i.postimg.cc/PqkFV6Sv/download-1-343.jpg",
+  date: "2025-04-24",
+  category: "JAMB",
+  image: "https://i.postimg.cc/CxSyQygx/Chat-GPT-Image-Apr-24-2025-11-47-27-PM.png",
+  to: "/jamb-prohibited-items",
+}
 ]

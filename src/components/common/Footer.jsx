@@ -78,10 +78,10 @@ export const Footer = () => {
             <NavLink to="../About" className=" text-[14px] block mb-2">
               About us
             </NavLink>
-            <NavLink to="./" className=" text-[14px] block mb-2">
+            <NavLink to="../contact" className=" text-[14px] block mb-2">
               Contact
             </NavLink>
-            <NavLink to="#" className=" text-[14px] block mb-2">
+            <NavLink to="../reviews" className=" text-[14px] block mb-2">
               Reviews
             </NavLink>
             <NavLink to="../Instructor" className=" text-[14px] block mb-2">

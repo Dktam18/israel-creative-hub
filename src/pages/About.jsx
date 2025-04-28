@@ -1,7 +1,5 @@
 import React from "react";
 import aboutImg from "../components/assets/images/about.jpg";
-// import aboutImgBanner from "../components/assets/images/about-banner.jpg"
-// import imgs from "../components/assets/images/join1.png"
 import {
   FaBookReader,
   FaBrain,
@@ -24,7 +22,21 @@ export const About = () => {
               help.
             </span>
           </div>
-          <div className="grid grid-cols-4 gap-5 mt-5 md:grid-cols-2">
+          
+          {/* Responsive YouTube Video - Added exactly where you want it */}
+          <div className="flex justify-center my-8">
+            <div className="w-full max-w-2xl aspect-w-16 aspect-h-12">
+              <iframe 
+                className="w-full h-64 sm:h-80 md:h-96 rounded-lg"
+                src="https://www.youtube.com/embed/LxG1MWO3y7Q?si=JCDpy5YnkGLV4DZh" 
+                title="YouTube video player" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowFullScreen>
+              </iframe>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-4 gap-5 mt-30 md:grid-cols-1">
             <AboutCard
               color="bg-[#2D69F0]"
               icon={<FaBookReader size={50} />}
@@ -51,16 +63,16 @@ export const About = () => {
             />
           </div>
         </div>
-
       </section>
       <AboutContent />
     </>
   );
 };
+
 export const AboutCard = (props) => {
   return (
     <div
-      className={`box shadow-md p-5 py-8 rounded-md text-white ${props.color} cursor-pointer transition ease-in-out delay-150 hover:-translate-y-4 duration-300 `}
+      className={`box shadow-md p-6 py-8 rounded-md text-white ${props.color} cursor-pointer transition ease-in-out delay-150 hover:-translate-y-4 duration-300 `}
     >
       <div className="icon">{props.icon}</div>
       <div className="text mt-5">
@@ -77,9 +89,7 @@ export const AboutContent = () => {
       <div className="container flex md:flex-col">
         <div className="left w-1/3 md:w-full mr-8 md:mr-0 relative">
           <img src={aboutImg} alt="aboutImg" className=" rounded-xl" />
-          {/* <img src={aboutImgBanner} alt='aboutImg' className='rounded-xl absolute -bottom-14 -left-24 h-56 md:left-80' /> */}
           <div className="img-group ml-24 mt-3">
-            {/* <img src={imgs} alt='' /> */}
             <span className="text-[14px]">
               Join over <label className="text-black text-sm">4,000+</label>{" "}
               students
@@ -92,10 +102,9 @@ export const AboutContent = () => {
               Ace your exams with Israel Creative Hub
             </h1>
             <span className="text-sm mt-2 block leading-6">
-              {" "}
               We are dedicated to helping thousands of students become
               top-scorers in various exams. We are able to achieve this as a
-              result of the following:{" "}
+              result of the following:
             </span>
             <ul className="my-5">
               <li className="text-sm flex items-center gap-5">

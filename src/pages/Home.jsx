@@ -33,7 +33,7 @@ export const Home = () => {
 export const HomeContent = () => {
   return (
     <>
-      {/* === Easter Marquee === */}
+      {/* === Easter Marquee ===
       <div className="bg-yellow-100 py-2">
         <marquee
           behavior="scroll"
@@ -44,7 +44,7 @@ export const HomeContent = () => {
           🐣 Happy Easter to all our wonderful users of Israel Creative Hub! 🎉
           Wishing you success in your exams and everything you do!
         </marquee>
-      </div>
+      </div> */}
 
       <head>
         <script
