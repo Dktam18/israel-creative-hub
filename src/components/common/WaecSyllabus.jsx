@@ -1,32 +1,108 @@
 import React, { useState, useEffect } from "react";
 import { FaFilePdf, FaSpinner, FaTimes, FaWhatsapp } from "react-icons/fa";
 
-const waecSubjects = [
-  { name: "Use of English", download: "Use-of-English.pdf" },
-  { name: "Mathematics", download: "Mathematics.pdf" },
-  { name: "Physics", download: "Physics.pdf" },
-  { name: "Chemistry", download: "Chemistry.pdf" },
-  { name: "Biology", download: "Biology.pdf" },
-  { name: "Agricultural Science", download: "Agriculture.pdf" },
-  { name: "Arabic", download: "Arabic.pdf" },
-  { name: "Christian Religious Studies", download: "Christian-Religious-Studies.pdf" },
-  { name: "Commerce", download: "Commerce.pdf" },
-  { name: "Art", download: "Art.pdf" },
-  { name: "Computer Studies", download: "Computer-Studies.pdf" },
-  { name: "Economics", download: "Economics.pdf" },
-  { name: "French", download: "French.pdf" },
-  { name: "Geography", download: "Geography.pdf" },
-  { name: "Government", download: "Government.pdf" },
-  { name: "Hausa", download: "Hausa.pdf" },
-  { name: "History", download: "History.pdf" },
-  { name: "Home Economics", download: "Home-Economics.pdf" },
-  { name: "Igbo", download: "Igbo.pdf" },
-  { name: "Islamic Studies", download: "Islamic-Studies.pdf" },
-  { name: "Literature in English", download: "JAMB-Literature-in-English-Syllabus.pdf" },
-  { name: "Music", download: "Music.pdf" },
-  { name: "Physical and Health Education", download: "Physical-Health-Education.pdf" },
-  { name: "Principles of Accounts", download: "Principles-of-Accounts.pdf" },
-  { name: "Yoruba", download: "Youruba.pdf" }
+const WaecSubjects = [
+  { name: "Agricultural Science", download: "AGRICULTURAL-SCIENCE.pdf" },
+  { name: "Animal Husbandry Alt A", download: "ANIMAL-HUSBANDRY-ALT-A.pdf" },
+  { name: "Animal Husbandry Alt B", download: "ANIMAL-HUSBANDRY-ALT-B.pdf" },
+  { name: "Applied Electricity or Basic Electricity", download: "APPLIED-ELECTRICITY-OR-BASIC-ELECTRICITY.pdf" },
+  { name: "Auto Body repairs and spray painting", download: "APPLIED-ELECTRICITY-OR-BASIC-ELECTRICITY.pdf" },
+  { name: "Auto Electrical Work", download: "AUTO-ELECTRICAL-WORK-1.pdf" },
+  { name: "Auto Mechanical Work", download: "AUTO-MECHANICAL-WORK-1.pdf" },
+  { name: "Auto Mechanics", download: "AUTO-MECHANICS-1.PDF" },
+  { name: "Auto Parts Mechandising", download: "AUTO-PARTS-MERCHANDISING.pdf" },
+  { name: "Basketry", download: "BASKETRY-1.pdf" },
+  { name: "BIOLOGY", download: "BIOLOGY-1.pdf" },
+  { name: "Blocklaying Bricklaying and Concreting", download: "BIOLOGY-1.pdf" },
+  { name: "Book Keeping", download: "BOOK-KEEPING-1.pdf" },
+  { name: "Building Construction", download: "BUILDING-CONSTRUCTION-1.pdf" },
+  { name: "Business Management", download: "BUSINESS-MANAGEMENT-1.pdf" },
+  { name: "Capentry and Joinery", download: "CAPENTRY-AND-JOINERY.pdf" },
+  { name: "Catering Craft Practice", download: "CATERING-CRAFT-PRACTICE-1.pdf" },
+  { name: "Ceramics", download: "CERAMICS-1.pdf" },
+  { name: "Chemistry", download: "CHEMISTRY.pdf" },
+  { name: "Christian Religious Studies", download: "CHRISTIAN-RELIGIOUS-STUDIES-NEW.pdf" },
+  { name: "Civic Education", download: "CIVIC-EDUCATION-1.pdf" },
+  { name: "Clerical Office Duties", download: "CLERICAL-OFFICE-DUTIES.pdf" }, 
+  { name: "Clothing and Textiles", download: "CLOTHING-AND-TEXTILES-1.pdf" }, 
+  { name: "Commerce", download: "COMMERCE-1.pdf" }, 
+  { name: "Computer Studies", download: "COMPUTER-STUDIES-1.pdf" }, 
+  { name: "Cosmetology", download: "COSMETOLOGY-1.pdf"}, 
+  { name: "Crop Husbanry and Horticulture", download: "CROP-HUSBANDRY-AND-HORTICULTURE.pdf"}, 
+  { name: "Data Processing", download: "DATA-PROCESSING-1.pdf"}, 
+  { name: "Dyeing Bleaching", download: "DYEING-BLEACHING.pdf"}, 
+  { name: "Economics", download: "ECONOMICS-1.pdf"},  
+  { name: "Edo", download: "EDO.pdf"},  
+  { name: "Efik", download: "EFIK.pdf"},  
+ 
+  { name: "Electrical Installation and Maintenance Work", download: "ELECTRICAL-INSTALLATION-AND-MAINTENANCE-WORK.pdf"}, 
+  { name: "Electronics or Basic Electronics", download: "ELECTRONICS-OR-BASIC-ELECTRONICS.pdf"}, 
+  { name: "English Language", download: "ENGLISH-LANGUAGE-1.pdf"}, 
+  { name: "Financial Accounting", download: "FINANCIAL-ACCOUNTING-1.pdf"}, 
+  { name: "Financial Accounts", download: "FINANCIAL-ACCOUNTS.pdf"}, 
+  { name: "Fisheries Alt A", download: "FISHERIES-ALT-A.pdf"}, 
+  { name: "Fisheries Alt B", download: "FISHERIES-ALT-B.pdf"}, 
+  { name: "Food and Nutrition", download: "FOOD-AND-NUTRITION.pdf"}, 
+  { name: "French", download: "FRENCH-1.pdf"}, 
+  { name: "Further Mathematics or Mathematics Elective", download: "FURTHER-MATHEMATICS-OR-MATHEMATICS-ELECTIVE.pdf"}, 
+  { name: "Garment Making", download: "GARMENT-MAKING-1.pdf"}, 
+  { name: "General Agriculture", download: "GENERAL-AGRICULTURE-1.pdf"}, 
+  { name: "General Mathematics or Core", download: "GENERAL-MATHEMATICS-OR-CORE.pdf"}, 
+  { name: "Geography", download: "GEOGRAPHY-1.pdf"}, 
+  { name: "Ghanaian Languages", download: "GHANAIAN-LANGUAGES.pdf"}, 
+  { name: "Government", download: "GOVERNMENT-1.pdf"}, 
+  { name: "Graphic Design", download: "GRAPHIC-DESIGN-1.pdf"}, 
+  { name: "GSM Phones Maintenance and Repairs", download: "GSM-PHONES-MAINTENANCE-AND-REPAIRS-1.pdf"}, 
+  { name: "Hausa", download: "HAUSA-1.pdf"}, 
+  { name: "Health Education or Health Science", download: "HEALTH-EDUCATION-OR-HEALTH-SCIENCE.pdf"}, 
+  { name: "History", download: "HISTORY-1.pdf"}, 
+  { name: "Home Management", download: "HOME-MANAGEMENT-1.pdf"}, 
+  { name: "Ibibio", download: "IBIBIO-1.pdf"}, 
+  { name: "Igbo", download: "IGBO-1.pdf"}, 
+  { name: "Information and Communication Technology (Core)", download: "INFORMATION-AND-COMMUNICATION-TECHNOLOGY-CORE"}, 
+  { name: "Information and Communication Technology (Elective)", download: "INFORMATION-AND-COMMUNICATION-TECHNOLOGY-ELECTIVE"}, 
+  { name: "Insurance", download: "INSURANCE-1.pdf"}, 
+  { name: "Integrated Science", download: "INSURANCE.pdf"}, 
+  { name: "Islamic Religious Studies", download: "ISLAMIC-RELIGIOUS-STUDIES.pdf"}, 
+  { name: "Jewellery", download: "JEWELLERY-1.pdf"}, 
+  { name: "Leather Goods", download: "LEATHER-GOODS.pdf"}, 
+  { name: "Leather Work", download: "LEATHERWORK.pdf"}, 
+  { name: "Literature in English (2021 -2025)", download: "LITERATURE-IN-ENGLISH-2021-2025.pdf"}, 
+  { name: "Marketing", download: "MARKETING-1.pdf"}, 
+  { name: "MetalWork", download: "METALWORK.pdf"}, 
+  { name: "Mining", download: "MINING-1.pdf"}, 
+  { name: "Music", download: "MUSIC-SYLLABUS.pdf"}, 
+  { name: "Music (NEW)", download: "MUSICNEW.pdf"}, // No PDF available
+  { name: "Office Practice", download: "OFFICE-PRACTICE-1.pdf"}, // No PDF available
+  { name: "Painting and Decorating", download:"PAINTING-AND-DECORATING.pdf" },
+  { name: "Photography", download:"PHOTOGRAPHY-1.pdf" },
+  { name: "Physical Education", download:"PHYSICAL-EDUCATION-1.pdf" },
+  { name: "Physics", download: "PHYSICS-1.pdf"}, 
+  { name: "Picture Making", download: "PICTURE-MAKING-1.pdf"}, 
+  { name: "Plumbing and Pipe fitting", download: "PLUMBING-AND-PIPE-FITTING-1.pdf"}, 
+  { name: "Principles of Cost Accounting", download: "PRINCIPLES-OF-COST-ACCOUNTING-1.pdf"}, 
+  { name: "Printing Craft Practice", download: "PRINTING-CRAFT-PRACTICE-1.pdf"}, 
+  { name: "Radio Television and Electronics Works", download: "RADIOTELEVISION-AND-ELECTRONICS-WORKS.pdf"}, 
+  { name: "Refrigeration and Air Conditioning", download: "REFRIGERATION-AND-AIR-CONDITIONING.pdf"}, 
+  { name: "Salesmanship", download: "SALESMANSHIP-1.pdf"},   
+  { name: "Sculpture", download: "SCULPTURE-1.pdf"},   
+  { name: "Shorthand", download: "SHORTHAND.pdf"},   
+  { name: "Social Studies (New)", download: "SOCIAL-STUDIES-NEW.pdf"},   
+  { name: "Store Keeping", download: "STORE-KEEPING-1.pdf"},   
+  { name: "Store Management", download: "STORE-MANAGEMENT-1.pdf"},   
+  { name: "Technical Drawing", download: "TECHINICAL-DRAWING-1.pdf"},   
+  { name: "Textiles", download: "TEXTILES-1.pdf"},   
+  { name: "Tourism", download: "TOURISM-1.pdf"},   
+  { name: "Typewriting 1", download: "TYPEWRITING-1.pdf"},   
+  { name: "Typewriting 2", download: "TYPEWRITING-2.pdf"},   
+  { name: "Uphostery", download: "UPHOSTERY-1.pdf"},   
+  { name: "Visual Art", download: "VISUAL-ART-1.pdf"},   
+  { name: "Welding and Fabrication Engineering Craft Practice", download: "WELDING-AND-FABRICATION-ENGINEERING-CRAFT-PRACTICE.pdf"},   
+  { name: "west African Traditional Religion", download: "WEST-AFRICAN-TRADITIONAL-RELIGION.pdf"},   
+  { name: "WoodWork", download: "WOODWORK-1.pdf"},   
+  { name: "WoodWork GH", download: "WOODWORK-GH.pdf"},   
+  { name: "WoodWork TO I.E.D", download: "WOODWORK-TO-I.E.D.pdf"},   
+  { name: "Yoruba", download: "Yoruba.pdf"},   
 ];
 
 export const WaecSyllabus = () => {
@@ -44,7 +120,7 @@ export const WaecSyllabus = () => {
 
   // Preload PDFs on component mount
   useEffect(() => {
-    jambSubjects.forEach((subject) => {
+    WaecSubjects.forEach((subject) => {
       if (subject.download) {
         const link = document.createElement("link");
         link.rel = "preload";
@@ -123,16 +199,19 @@ export const WaecSyllabus = () => {
         <div className="w-3/5 md:w-4/5 m-auto shadow-md rounded-lg">
           <img
             className="w-full rounded-t-lg"
-            src="https://i.postimg.cc/WzGTFVp5/0284e7ad2e09fb18284d84d426ff40a9e0e.jpg"
-            alt="JAMB Syllabus"
+            src="https://i.postimg.cc/CLdjdnyS/Whats-App-Image-2025-04-29-at-11-32-49-45690517.jpg"
+            alt="WAEC syllabus"
           />
           <div className="text p-5">
             <h3 className="text-black font-semibold">
-              Download JAMB syllabus for all subjects on Israel Creative Hub!
+              Download WAEC syllabus for all subjects on Israel Creative Hub!
             </h3> <br />
-            <h5 className="text-black">WHAT IS THE JAMB SYLLABUS?</h5>
+            <h5 className="text-black font-bold">WHAT IS THE WAEC SYLLABUS?</h5>
             <p className="text-[15px] leading-5 my-3">
-              The JAMB syllabus is an official document from the Joint Admissions and Matriculation Board that outlines the topics and subtopics students must study for each subject in the UTME (Unified Tertiary Matriculation Examination). It includes recommended textbooks, objectives for each topic, and what students are expected to know.
+             The WAEC syllabus is a comprehensive guide that outlines the topics and content that students are expected to study in preparation for the WAEC examination. It serves as a roadmap for both teachers and students, ensuring that all necessary subjects are covered in the curriculum. 
+             <br /><br />
+             The syllabus is designed to help students understand the key concepts and skills they need to master in order to succeed in their exams. It includes detailed information on the structure of the examination, the types of questions that may be asked, and the recommended textbooks and resources for each subject. By following the WAEC syllabus, students can effectively prepare for their exams and improve their chances of achieving good results.
+            
             </p>
           </div>
         </div>
@@ -142,7 +221,7 @@ export const WaecSyllabus = () => {
         <div className="max-w-5xl mx-auto px-4">
           <h2 className="text-3xl font-bold mb-6 text-center">📘 JAMB Syllabus</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-1 gap-6">
-            {jambSubjects.map((subject, index) => (
+            {WaecSubjects.map((subject, index) => (
               <div
                 key={index}
                 className="bg-white shadow rounded-lg p-4 flex flex-col justify-between"

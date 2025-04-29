@@ -138,5 +138,16 @@ export const BlogData = [
   category: "JAMB",
   image: "https://i.postimg.cc/CxSyQygx/Chat-GPT-Image-Apr-24-2025-11-47-27-PM.png",
   to: "/jamb-prohibited-items",
+},
+{
+  id: 9,
+  cover: "https://i.postimg.cc/CLdjdnyS/Whats-App-Image-2025-04-29-at-11-32-49-45690517.jpg",
+  title: "Download 2025 WAEC syllabus for free on our 'Israel Creative Hub'",
+  author: "Israel Mrakpor",
+  authorImage: "https://i.postimg.cc/PqkFV6Sv/download-1-343.jpg",
+  date: "2025-04-29",
+  category: "WAEC",
+  image: "https://i.postimg.cc/CLdjdnyS/Whats-App-Image-2025-04-29-at-11-32-49-45690517.jpg",
+  to: "/waec-syllabus",
 }
 ]

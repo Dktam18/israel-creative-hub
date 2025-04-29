@@ -23,6 +23,7 @@ import { WaecNews } from "./components/common/WaecNews"
 import { NursingAdmissionUpdate } from "./components/common/2025-Nursing-Admission-update"
 import { JambProhibitedItemsBlog } from "./components/common/Prohibited-jamb-items"
 import {Reviews} from "./components/common/Reviews"
+import { WaecSyllabus } from "./components/common/WaecSyllabus"
 // import { AddQuestions } from "./AddQuestions";
 
 
@@ -210,6 +211,14 @@ export default function App() {
           element={
             <Layout>
             <Reviews/>
+            </Layout>
+          }
+          />
+          <Route
+          path="/waec-syllabus"
+          element={
+            <Layout>
+            <WaecSyllabus/>
             </Layout>
           }
           />
