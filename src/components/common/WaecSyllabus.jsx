@@ -20,7 +20,7 @@ const WaecSubjects = [
   { name: "Capentry and Joinery", download: "CAPENTRY-AND-JOINERY.pdf" },
   { name: "Catering Craft Practice", download: "CATERING-CRAFT-PRACTICE-1.pdf" },
   { name: "Ceramics", download: "CERAMICS-1.pdf" },
-  { name: "Chemistry", download: "CHEMISTRY.pdf" },
+  { name: "Chemistry", download: "CHEMISTRY1.pdf" },
   { name: "Christian Religious Studies", download: "CHRISTIAN-RELIGIOUS-STUDIES-NEW.pdf" },
   { name: "Civic Education", download: "CIVIC-EDUCATION-1.pdf" },
   { name: "Clerical Office Duties", download: "CLERICAL-OFFICE-DUTIES.pdf" }, 
@@ -42,7 +42,7 @@ const WaecSubjects = [
   { name: "Financial Accounts", download: "FINANCIAL-ACCOUNTS.pdf"}, 
   { name: "Fisheries Alt A", download: "FISHERIES-ALT-A.pdf"}, 
   { name: "Fisheries Alt B", download: "FISHERIES-ALT-B.pdf"}, 
-  { name: "Food and Nutrition", download: "FOOD-AND-NUTRITION.pdf"}, 
+  { name: "Food and Nutrition", download: "FOODS-AND-NUTRITION.pdf"}, 
   { name: "French", download: "FRENCH-1.pdf"}, 
   { name: "Further Mathematics or Mathematics Elective", download: "FURTHER-MATHEMATICS-OR-MATHEMATICS-ELECTIVE.pdf"}, 
   { name: "Garment Making", download: "GARMENT-MAKING-1.pdf"}, 
@@ -179,7 +179,7 @@ export const WaecSyllabus = () => {
             <div className="text-center">
               <FaWhatsapp className="text-green-500 text-5xl mx-auto mb-4" />
               <h3 className="text-xl font-bold mb-2">Join Our WhatsApp Channel!</h3>
-              <p className="mb-4">Get instant updates on JAMB news, tips, and more by joining our educational community.</p>
+              <p className="mb-4">Get instant updates on JAMB, WAEC and all educational news, tips, and more by joining our educational community.</p>
               
               <a
                 href="https://whatsapp.com/channel/0029VajOfp62UPBOfXpold3b/1556" // Replace with your WhatsApp group invite link
@@ -219,7 +219,7 @@ export const WaecSyllabus = () => {
 
       <section className="py-12">
         <div className="max-w-5xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-6 text-center">📘 JAMB Syllabus</h2>
+          <h2 className="text-3xl font-bold mb-6 text-center">📘 WAEC Syllabus</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-1 gap-6">
             {WaecSubjects.map((subject, index) => (
               <div
