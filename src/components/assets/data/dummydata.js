@@ -149,5 +149,16 @@ export const BlogData = [
   category: "WAEC",
   image: "https://i.postimg.cc/CLdjdnyS/Whats-App-Image-2025-04-29-at-11-32-49-45690517.jpg",
   to: "/waec-syllabus",
+},
+{
+  id: 10,
+  cover: "https://i.postimg.cc/5t95DPSC/Chat-GPT-Image-May-5-2025-10-42-40-AM.png",
+  title: "JAMB 2025: Full result breakdown of the UTME exam",
+  author: "Israel Mrakpor",
+  authorImage: "https://i.postimg.cc/PqkFV6Sv/download-1-343.jpg",
+  date: "2025-05-05",
+  category: "JAMB",
+  image: "https://i.postimg.cc/5t95DPSC/Chat-GPT-Image-May-5-2025-10-42-40-AM.png",
+  to: "/jamb-2025-full-result-breakdown",
 }
 ]

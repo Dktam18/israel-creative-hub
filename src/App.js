@@ -24,6 +24,7 @@ import { NursingAdmissionUpdate } from "./components/common/2025-Nursing-Admissi
 import { JambProhibitedItemsBlog } from "./components/common/Prohibited-jamb-items"
 import {Reviews} from "./components/common/Reviews"
 import { WaecSyllabus } from "./components/common/WaecSyllabus"
+import { UTME2025StatsBlog } from "./components/common/UTME2025StatsBlog"
 // import { AddQuestions } from "./AddQuestions";
 
 
@@ -219,6 +220,14 @@ export default function App() {
           element={
             <Layout>
             <WaecSyllabus/>
+            </Layout>
+          }
+          />
+          <Route
+          path="/jamb-2025-full-result-breakdown"
+          element={
+            <Layout>
+            <UTME2025StatsBlog/>
             </Layout>
           }
           />
